@@ -1,2 +1,1 @@
 #!/bin/bash
-gcc main.c ; echo 'printf ()' >> main.c
