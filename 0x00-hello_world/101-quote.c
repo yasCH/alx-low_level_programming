@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-char *new = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-write(STDERR_FILENO,new,59);
+char *error = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+write(STDERR_FILENO, error, 59);
 return (1);
 }
