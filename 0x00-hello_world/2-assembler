@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S $CFILE -o main.s
+gcc -S $CFILE echo 'gcc -S $CFILE' > main.s
