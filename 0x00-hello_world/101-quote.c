@@ -8,8 +8,7 @@
  */
 int main(void)
 {
-char *message = "and that piece of art is useful\" - Dora";
-char *messages = " Korpar, 2015-10-19\n";
-write(STDERR_FILENO,message,messages, 59);
+char *new = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+write(STDERR_FILENO,new,59);
 return (1);
 }
