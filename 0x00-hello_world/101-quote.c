@@ -8,6 +8,6 @@
  
 int main(void)
 {
-fprintf(stderr,"%d \"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n",x);
+fprintf(stderr,"%d \"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
 return (1);
 }
