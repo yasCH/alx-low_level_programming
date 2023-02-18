@@ -19,7 +19,7 @@ if (n > 5)
 {
 printf("Last digit of %i is %i  and is grater than 5\n",n,n);
 }
-else if (n = 0)
+else if (n == 0)
 {
 printf("Last digit of %i is %i  and is 0\n",n,n);
 }
