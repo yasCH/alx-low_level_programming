@@ -1,2 +1,2 @@
 #!/bin/bash
-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
+ltrace puts "Programming is like building a multilingual puzzle" /n
