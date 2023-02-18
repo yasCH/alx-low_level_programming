@@ -3,13 +3,13 @@
 #include <stdio.h>
 
 /**
-**main - Entry point 
+**main - Entry point
 *
 * Description: 'print whether the number  n is positive or negative.'
 *
 * Return: Always 0 (success)
 */
-int main(void) 
+int main(void)
 {
 int n;
 
