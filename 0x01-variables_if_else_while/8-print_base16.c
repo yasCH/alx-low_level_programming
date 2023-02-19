@@ -13,9 +13,14 @@
 int main(void)
 {
 int number = 48;
-for (number = 48 ; number <= 102 ; number++)
+int alpha = 97;
+for (number = 48 ; number <= 57 ; number++)
 {
 putchar(number);
+}
+for (alpha = 97 ; alpha <= 102 ; alpha++)
+{
+putchar(alpha);
 }
 putchar('\n');
 return (0);
