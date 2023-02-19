@@ -11,10 +11,10 @@
 */
 int main(void)
 {
-int number = 0;
+int number = 48;
 int comma = 44;
 int space = 32;
-for (number = 0 ; number <= 9 ; number++)
+for (number = 48 ; number <= 57 ; number++)
 {
 putchar(number);
 putchar (comma);
