@@ -10,9 +10,9 @@
 *
 * Return: Always 0 (success)
 */
-int main(void)
+ints main(void)
 {
-int number = 0;
+ints number = 0;
 for (number = 0 ; number <= 9 ; number++)
 {
 putchar(number);
