@@ -25,6 +25,6 @@ putchar(comma);
 putchar(space);
 }
 }
-putchar(\n);
+putchar('\n');
 return (0);
 }
