@@ -15,7 +15,7 @@ int main(void)
   int numberB = 48;
   int numberC = 48;
   int numberD = 48;
-  int numberE = 49;
+  
   int comma = 44;
   int space = 32;
   for (numberA = 48 ; numberA <= 57 ; numberA++)
@@ -35,7 +35,7 @@ int main(void)
               putchar(numberD);
               putchar(comma);
               putchar(space);
-              if ((numberA == 57) && (numberB == 56 &&) (numberC == 57) && (numberD == 57))
+              if ((numberA == 57) && (numberB == 56) && (numberC == 57) && (numberD == 57))
               {
             putchar('\n');
               }
