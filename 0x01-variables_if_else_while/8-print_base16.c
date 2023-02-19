@@ -12,8 +12,8 @@
 */
 int main(void)
 {
-int number = 30;
-for (number = 30 ; number <= 39 ; number++)
+int number = 48;
+for (number = 48 ; number <= 102 ; number++)
 {
 putchar(number);
 }
