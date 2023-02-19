@@ -20,11 +20,11 @@ for (number = 48 ; number <= 57 ; number++)
 {
 for (numbernd = number + 1 ; numbernd <= 57 ; numbernd++)
 {
-if (number == numbernd)
-for (numbertrd = numbernd + 1 ; numbertrd <= 57 ; numbertrd++)
+if (number == numbernd == numbertrd)
 {
 continue;
 }
+for (numbertrd = numbernd + 1 ; numbertrd <= 57 ; numbertrd++)
 putchar(number);
 putchar(numbernd);
 putchar(numbertrd);
