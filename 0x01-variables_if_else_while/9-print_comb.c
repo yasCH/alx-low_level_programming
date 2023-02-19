@@ -18,7 +18,7 @@ for (number = 48 ; number <= 58 ; number++)
 {
 if (number > 57)
 {
-putchar(\n);
+putchar('\n');
 break;
 }
 putchar(number);
