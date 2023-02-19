@@ -19,11 +19,22 @@ for (number = 48 ; number <= 57 ; number++)
 {
 for (numbernd = number + 1 ; numbernd <= 57 ; numbernd++)
 {
+if (number == numbernd)
+{
+continue;
+}
 putchar(number);
+putchar(numbernd);
 putchar(space);
+for (number = 48 ; number <= 57 ; number++)
+{
+for (numbernd = number + 1 ; numbernd <= 57 ; numbernd++)
+{
+putchar(number);
 putchar(numbernd);
 putchar(comma);
 putchar(space);
+}
 }
 }
 return (0);
