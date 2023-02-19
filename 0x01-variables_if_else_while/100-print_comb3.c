@@ -17,7 +17,7 @@ int comma = 44;
 int space = 32;
 for (number = 48 ; number <= 57 ; number++)
 {
-for (numbernd = number++ ; numbernd <= 57 ; numbernd++)
+for (numbernd = number+1 ; numbernd <= 57 ; numbernd++)
 {
 if (number == numbernd)
 {
