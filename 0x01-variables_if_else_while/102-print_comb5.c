@@ -23,7 +23,7 @@ int main(void)
     { 
       for (numberC = 48 ; numberC <= 57 ; numberC++)
         {
-          for (numberD = numberB+ 1 ; numberD <= 57 ; number D+1 )
+          for (numberD = numberB+ 1 ; numberD <= 57 ; numberD + 1)
           {
             if (numberA+numberB != numberC+numberD)
             {
