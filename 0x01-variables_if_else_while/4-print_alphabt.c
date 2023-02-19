@@ -6,7 +6,7 @@
 **main - Entry point
 *
 * Description: 'print the alphabet in lowercase exept q & e,
-* followed by a new line 
+* followed by a new line
 *
 * Return: Always 0 (success)
 */
