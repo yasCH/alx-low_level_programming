@@ -19,6 +19,10 @@ for (number = 48 ; number <= 57 ; number++)
 {
 for (numbernd = 49 ; numbernd <= 57 ; numbernd++)
 {
+if (number == numbernd)
+{
+continue;
+}
 putchar(number);
 putchar(numbernd);
 if (number == 57 && numbernd == 57)
