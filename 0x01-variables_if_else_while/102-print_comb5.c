@@ -21,14 +21,11 @@ int main(void)
   for (numberA = 48 ; numberA <= 57 ; numberA++)
   {
     for (numberB = 48 ; numberB <= 57 ; numberB++)
-    { 
-      numberE = numberB + 1;
+    {
       for (numberC = 48 ; numberC <= 57 ; numberC++)
         {
-        
-          for (numberD = numberE ; numberD <= 57 ; numberD++)
+          for (numberD = 48 ; numberD <= 57 ; numberD++)
           { 
-            
             if (numberA+numberB != numberC+numberD)
             {
               putchar(numberA);
