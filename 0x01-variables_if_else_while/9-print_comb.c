@@ -20,5 +20,6 @@ putchar(number);
 putchar (comma);
 putchar (space);
 }
+putchar(number);
 return (0);
 }
