@@ -17,6 +17,11 @@ int comma = 44;
 int space = 32;
 for (number = 48 ; number <= 57 ; number++)
 {
+if (number == 57)
+{
+putchar('\n');
+break;
+}
 for (numbernd = 49 ; numbernd <= 57 ; numbernd++)
 {
 putchar(number);
