@@ -22,7 +22,7 @@ int main(void)
   {
     for (numberB = 48 ; numberB <= 57 ; numberB++)
     { 
-      numberE = numberB + 1
+      numberE = numberB + 1;
       for (numberC = 48 ; numberC <= 57 ; numberC++)
         {
         
@@ -30,7 +30,7 @@ int main(void)
           { 
             if (numberD <= 57)
               {
-              numberD = 48
+              numberD = 48;
               }
             if (numberA+numberB != numberC+numberD)
             {
