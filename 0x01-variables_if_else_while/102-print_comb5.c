@@ -26,23 +26,26 @@ int main(void)
         {
           for (numberD = 48 ; numberD <= 57 ; numberD++)
           { 
-            if (numberA+numberB != numberC+numberD)
-            {
-              putchar(numberA);
-              putchar(numberB);
-              putchar(space);
-              putchar(numberC);
-              putchar(numberD);
-              putchar(comma);
-              putchar(space);
-              if ((numberA == 57) && (numberB == 56) && (numberC == 57) && (numberD == 57))
+          
+            if ((numberA == 57) && (numberB == 56) && (numberC == 57) && (numberD == 57))
               {
             putchar('\n');
+            braeak;
               }
-             }
-          } 
-       }
+              if (numberA+numberB != numberC+numberD)
+              {
+                putchar(numberA);
+                putchar(numberB);
+                putchar(space);
+                putchar(numberC);
+                putchar(numberD);
+                putchar(comma);
+                putchar(space);
+
+               }
+            } 
+         }
+      }
     }
+    return (0);
   }
-  return (0);
-}
