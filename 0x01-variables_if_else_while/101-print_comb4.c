@@ -20,7 +20,7 @@ for (number = 48 ; number <= 57 ; number++)
 {
 for (numbernd = number + 1 ; numbernd <= 57 ; numbernd++)
 {
-if (number == numbernd == numbertrd)
+if (number == numbernd && numbernd == numbertrd)
 {
 continue;
 }
