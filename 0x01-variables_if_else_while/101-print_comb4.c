@@ -11,7 +11,7 @@
 */
 int main(void)
 {
-int numbertrd =49
+int numbertrd = 49;
 int numbernd = 48;
 int number = 47;
 int comma = 44;
