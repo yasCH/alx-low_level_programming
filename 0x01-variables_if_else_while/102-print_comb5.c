@@ -35,7 +35,7 @@ int main(void)
               putchar(numberD);
               putchar(comma);
               putchar(space);
-              if (numberA == 57 & numberB == 56 & numberC == 57 & numberD == 57)
+              if ((numberA == 57) && (numberB == 56 &&) (numberC == 57) && (numberD == 57))
               {
             putchar('\n');
               }
