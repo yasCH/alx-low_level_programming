@@ -17,7 +17,7 @@ int comma = 44;
 int space = 32;
 for (number = 48 ; number <= 57 ; number++)
 {
-for (numbernd = 49 ; numbernd <= 57 ; numbernd++)
+for (numbernd = number++ ; numbernd <= 57 ; numbernd++)
 {
 if (number == numbernd)
 {
@@ -25,7 +25,7 @@ continue;
 }
 putchar(number);
 putchar(numbernd);
-if (number == 57 && numbernd == 56)
+if (number == 57 && numbernd == 57)
 {
 putchar('\n');
 break;
