@@ -25,7 +25,7 @@ int main(void)
         {
           for (numberD = 48 ; numberD <= 57 ; numberD++)
           {
-          if (mumberA+numberB != numberC+numberD)
+          if (numberA+numberB != numberC+numberD)
            {
             putchar(numberA);
             putchar(numberB);
