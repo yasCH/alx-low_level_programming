@@ -20,11 +20,16 @@ for (number = 48 ; number <= 57 ; number++)
 {
 for (numbernd = number + 1 ; numbernd <= 57 ; numbernd++)
 {
-if (number == numbernd && numbernd == numbertrd)
+if (number == numbernd)
 {
 continue;
 }
 for (numbertrd = numbernd + 1 ; numbertrd <= 57 ; numbertrd++)
+{
+if (numbernd == numbertrd)
+{
+continue;
+}
 putchar(number);
 putchar(numbernd);
 putchar(numbertrd);
@@ -35,6 +40,7 @@ break;
 }
 putchar(comma);
 putchar(space);
+}
 }
 }
 return (0);
