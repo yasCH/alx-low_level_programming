@@ -15,7 +15,7 @@ int main(void)
   int numberB = 48;
   int numberC = 48;
   int numberD = 48;
-  int numberE = 48;
+  int numberE = 49;
   int comma = 44;
   int space = 32;
   for (numberA = 48 ; numberA <= 57 ; numberA++)
@@ -24,7 +24,7 @@ int main(void)
     {
       for (numberC = 48 ; numberC <= 57 ; numberC++)
         {
-          for (numberD = 48 ; numberD <= 57 ; numberD++)
+          for (numberD = 48 ; numberD <= 57 ; numberE++)
           { 
             if (numberA+numberB != numberC+numberD)
             {
