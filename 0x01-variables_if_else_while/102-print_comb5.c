@@ -30,7 +30,7 @@ int main(void)
             if ((numberA == 57) && (numberB == 56) && (numberC == 57) && (numberD == 57))
               {
             putchar('\n');
-            braeak;
+            break;
               }
               if (numberA+numberB != numberC+numberD)
               {
