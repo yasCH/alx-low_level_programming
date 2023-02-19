@@ -27,11 +27,7 @@ int main(void)
           for (numberD = 48 ; numberD <= 57 ; numberD++)
           { 
           
-            if ((numberA == 57) && (numberB == 56) && (numberC == 57) && (numberD == 57))
-              {
-            putchar('\n');
-            break;
-              }
+            
               if (numberA+numberB != numberC+numberD)
               {
                 putchar(numberA);
@@ -39,6 +35,11 @@ int main(void)
                 putchar(space);
                 putchar(numberC);
                 putchar(numberD);
+                if ((numberA == 57) && (numberB == 56) && (numberC == 57) && (numberD == 57))
+                  {
+                putchar('\n');
+                break;
+                  }
                 putchar(comma);
                 putchar(space);
 
