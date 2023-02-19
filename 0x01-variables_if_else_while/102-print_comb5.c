@@ -28,7 +28,7 @@ int main(void)
           { 
           
             
-              if (numberA+numberB < numberC+numberD)
+              if ((numberA*10)+numberB < (numberC*10)+numberD)
               {
                 putchar(numberA);
                 putchar(numberB);
