@@ -21,11 +21,15 @@ int main(void)
   {
     for (numberB = 48 ; numberB <= 57 ; numberB++)
     {
-      putchar(space);
       for (numberC = 48 ; numberC <= 57 ; numberC++)
         {
           for (numberD = 48 ; numberD <= 57 ; numberD++)
           {
+            putchar(numberA);
+            putchar(numberB);
+            putchar(space);
+            putchar(numberC);
+            putchar(numberD);
             putchar(comma);
             putchar(space);
           }
