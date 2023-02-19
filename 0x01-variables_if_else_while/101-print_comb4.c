@@ -27,6 +27,7 @@ continue;
 }
 putchar(number);
 putchar(numbernd);
+putchar(numbertrd);
 if (number == 55 && numbernd == 56 && numbertrd == 57)
 {
 putchar('\n');
