@@ -25,15 +25,16 @@ int main(void)
         {
           for (numberD = 48 ; numberD <= 57 ; numberD++)
           {
-          if (numberA+numberB != numberC+numberD)
-           {
-            putchar(numberA);
-            putchar(numberB);
-            putchar(space);
-            putchar(numberC);
-            putchar(numberD);
-            putchar(comma);
-            putchar(space);
+            if (numberA+numberB != numberC+numberD)
+            {
+              putchar(numberA);
+              putchar(numberB);
+              putchar(space);
+              putchar(numberC);
+              putchar(numberD);
+              putchar(comma);
+              putchar(space);
+            }
           }
        }
     }
