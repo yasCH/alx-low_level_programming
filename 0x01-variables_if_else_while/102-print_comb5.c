@@ -25,10 +25,8 @@ for (numberB = 48 ; numberB <= 57 ; numberB++)
 for (numberC = 48 ; numberC <= 57 ; numberC++)
 {
 for (numberD = 48 ; numberD <= 57 ; numberD++)
-{ 
-
-
-if ((numberA*10)+numberB < (numberC*10)+numberD)
+{
+if ((numberA * 10) + numberB < (numberC * 10) + numberD)
 {
 putchar(numberA);
 putchar(numberB);
@@ -39,14 +37,13 @@ if ((numberA == 57) && (numberB == 56) && (numberC == 57) && (numberD == 57))
 {
 putchar('\n');
 }
-else 
+else
 {
 putchar(comma);
 putchar(space);
 }
-
 }
-} 
+}
 }
 }
 }
