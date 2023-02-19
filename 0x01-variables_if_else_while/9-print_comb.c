@@ -16,12 +16,12 @@ int comma = 44;
 int space = 32;
 for (number = 48 ; number <= 57 ; number++)
 {
-if (number > 57)
+putchar(number);
+if (number == 57)
 {
 putchar('\n');
 break;
 }
-putchar(number);
 putchar (comma);
 putchar (space);
 }
