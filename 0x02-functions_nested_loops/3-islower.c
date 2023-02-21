@@ -17,5 +17,6 @@ if (caracter >= 'a' && caracter <= 'z' )
 {
 return (1);
 }
+if (caracter <= 'a' && caracter >= 'z' )
 return (0);
 }
