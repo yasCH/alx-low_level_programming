@@ -12,8 +12,8 @@
 */
 int _islower()
 {
-int caracter = 0;
-if (caracter >= 65 && caracter <= 122)
+char caracter = a;
+if (caracter >= a && caracter <= z)
 {
 return (1);
 }
