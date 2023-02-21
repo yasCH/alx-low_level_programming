@@ -4,7 +4,7 @@
 #include <unistd.h>
 
 /**
-**islower - Prototype practicing
+**_islower - Prototype practicing
 *
 * Description:Write a function that checks for lowercase character.
 *
@@ -12,7 +12,7 @@
 */
 int _islower(int caracter)
 {
-if (caracter >= 97 && caracter <= 122 )
+if (caracter >= 97 && caracter <= 122)
 {
 return (1);
 }
