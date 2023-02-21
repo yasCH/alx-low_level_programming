@@ -15,13 +15,13 @@
 */
 int main(void)
 {
-  void print_alphabet();
+   print_alphabet();
    getchar();
    return 0;
 }
-void print_alphabet(void)
+void print_alphabet()
 {
-   printf("void print_alphabet called");
+   printf("print_alphabet called");
 }
 char alpha = 'a';
 for (alpha = 'a' ; alpha <= 'z' ; alpha++)
