@@ -17,4 +17,8 @@ if ((caracter >= 97) && (caracter >= 122))
 {
 return (0);
 }
+else
+{
+return (0);
+}
 }
