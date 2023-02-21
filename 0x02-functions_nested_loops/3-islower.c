@@ -8,14 +8,16 @@
 *
 * Description:Write a function that checks for lowercase character.
 *
-* Return: (0)
+* Return: (1) success  - Return: (0) fail
 */
-int _islower()
+int _islower(int caracter)
 {
-int caracter = 97;
 while (caracter >= 97 && caracter <= 122 )
 {
 return (1);
 }
+else
+{
 return (0);
+}
 }
