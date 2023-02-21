@@ -12,7 +12,7 @@
 */
 int _islower(int caracter)
 {
-while (caracter >= 97 && caracter <= 122 )
+if (caracter >= 97 && caracter <= 122 )
 {
 return (1);
 }
