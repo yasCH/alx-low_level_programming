@@ -11,8 +11,18 @@
 *
 * Return: Always 0 (success)
 */
+void print_alphabet(void); //prototype
 
 int main(void)
 {
-void print_alphabet(void);
+print_alphabet();
+}
+void print_alphabet()
+{
+char alpha = 'a';
+for (alpha = 'a' ; alpha <= 'z' ; alpha++)
+{
+putchar(alpha);
+}
+putchar('\n');
 }
