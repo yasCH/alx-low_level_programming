@@ -12,11 +12,4 @@
 * Return: Always 0 (success)
 */
 
-void print_alphabet();{
-char alpha = 'a';
-for (alpha = 'a' ; alpha <= 'z' ; alpha++)
-{
-putchar(alpha);
-}
-putchar('\n');
-}
+void print_alphabet();
