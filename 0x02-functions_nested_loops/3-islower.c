@@ -15,7 +15,7 @@ int _islower()
 int caracter = 0;
 if ((caracter >= 97) && (caracter <= 122))
 {
-return (0);
+return (1);
 }
 else
 {
