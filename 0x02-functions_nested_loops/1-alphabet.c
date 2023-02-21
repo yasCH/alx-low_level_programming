@@ -18,7 +18,6 @@
 */
 int main(void)
 {
-print_alphabet(); 
 char alpha = 'a';
 for (alpha = 'a' ; alpha <= 'z' ; alpha++)
 {
