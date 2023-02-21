@@ -11,12 +11,8 @@
 *
 * Return: Always 0 (success)
 */
-void print_alphabet(void); //prototype
+void print_alphabet(void); 
 
-int main(void)
-{
-print_alphabet();
-}
 void print_alphabet()
 {
 char alpha = 'a';
