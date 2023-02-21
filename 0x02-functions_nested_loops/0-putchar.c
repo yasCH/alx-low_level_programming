@@ -13,6 +13,8 @@
 */
 int main(void)
 {
-fwrite("_putchar");
+char myString = '_putchar';
+write("myString");
+putchar(\n');
 return (0);
 }
