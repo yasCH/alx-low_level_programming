@@ -2,9 +2,6 @@
 #include <time.h>
 #include <stdio.h>
 #include <unistd.h>
-#include "main.c"
-
-
 
 /**
 **main - Entry point
@@ -16,11 +13,13 @@
 */
 int main(void)
 {
-char alpha = 'a';
-for (alpha = 'a' ; alpha <= 'z' ; alpha++)
-{
-putchar(alpha);
+void print_alphabet(void) {
+    char letter = 'a';
+    while (letter <= 'z') {
+        _putchar(letter);
+        letter++;
+    }
+    _putchar('\n');
 }
-putchar('\n');
 return (0);
 }
