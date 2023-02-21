@@ -4,12 +4,12 @@
 #include <unistd.h>
 
 /**
-**print_alphabet
+**print_alphabet - Prototype practicing
 *
 * Description:Write a function that prints the alphabet, in lowercase,
 * followed by a new line.
 *
-* Return: Always 0 (success)
+* Return: (void)
 */
 void print_alphabet(void)
 {
