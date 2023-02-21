@@ -16,14 +16,11 @@
 */
 int main(void)
 {
+print_alphabet(); 
 char alpha = 'a';
 for (alpha = 'a' ; alpha <= 'z' ; alpha++)
 {
 putchar(alpha);
-}
-void print_alphabet(void); 
-{
-write(1,"called",11);
 }
 putchar('\n');
 return (0);
