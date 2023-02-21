@@ -12,13 +12,7 @@
 * Return: Always 0 (success)
 */
 
-void print_alphabet(void);
 int main(void)
 {
-char alpha = 'a';
-for (alpha = 'a' ; alpha <= 'z' ; alpha++)
-{
-putchar(alpha);
-}
-putchar('\n');
+void print_alphabet(void);
 }
