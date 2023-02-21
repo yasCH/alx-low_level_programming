@@ -12,7 +12,7 @@
 */
 int _islower()
 {
-char caracter = 'a';
+char caracter = '';
 if (caracter >= 'a' && caracter <= 'z')
 {
 return (1);
