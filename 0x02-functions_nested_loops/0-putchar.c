@@ -15,7 +15,7 @@
 int main(void)
 {
 char myString [] = "_putchar";
-write("myString");
+write(myString);
 putchar('\n');
 return (0);
 }
