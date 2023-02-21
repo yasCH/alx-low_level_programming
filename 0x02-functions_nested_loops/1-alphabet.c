@@ -15,14 +15,6 @@
 */
 int main(void)
 {
-   print_alphabet();
-   getchar();
-   return 0;
-}
-void print_alphabet()
-{
-   printf("print_alphabet called");
-}
 char alpha = 'a';
 for (alpha = 'a' ; alpha <= 'z' ; alpha++)
 {
