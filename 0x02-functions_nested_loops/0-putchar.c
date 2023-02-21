@@ -14,7 +14,7 @@
 */
 int main(void)
 {
-write(1, "_putchar\n",11);
+write(1, "_putchar",11);
 putchar('\n');
 return (0);
 }
