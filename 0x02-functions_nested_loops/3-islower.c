@@ -10,7 +10,7 @@
 *
 * Return: (0)
 */
-int _islower()
+int _islower(caracter)
 {
 int caracter = 97;
 if ((caracter >= 97) && (caracter >= 122))
