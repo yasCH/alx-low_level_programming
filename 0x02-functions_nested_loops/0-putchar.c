@@ -13,8 +13,8 @@
 */
 int main(void)
 {
-char myString = '_putchar';
+char myString [] = "_putchar";
 write("myString");
-putchar(\n');
+putchar('\n');
 return (0);
 }
