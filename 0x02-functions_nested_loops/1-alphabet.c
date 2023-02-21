@@ -19,7 +19,7 @@ int main(void)
    getchar();
    return 0;
 }
-void void print_alphabet()
+void print_alphabet(void)
 {
    printf("void print_alphabet called");
 }
