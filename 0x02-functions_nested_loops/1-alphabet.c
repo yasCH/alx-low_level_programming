@@ -2,8 +2,6 @@
 #include <time.h>
 #include <stdio.h>
 #include <unistd.h>
-#include <errno.h>
-#include "main.h"
 #include "main.c"
 
 
