@@ -13,12 +13,9 @@
 int _islower()
 {
 char caracter = 'a';
-if (caracter <= 'z' && caracter >= 'a' )
+if (caracter >= 'a' && caracter <= 'z' )
 {
 return (1);
 }
-if else (caracter <= 'a' && caracter >= 'z' )
-{
 return (0);
-}
 }
