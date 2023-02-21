@@ -17,7 +17,7 @@ if (caracter <= 'z' && caracter >= 'a' )
 {
 return (1);
 }
-else if (caracter <= 'a' && caracter >= 'z' )
+if else (caracter <= 'a' && caracter >= 'z' )
 {
 return (0);
 }
