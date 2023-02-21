@@ -14,8 +14,7 @@
 */
 int main(void)
 {
-char myString [] = "_putchar";
-write(myString);
+write("_putchar");
 putchar('\n');
 return (0);
 }
