@@ -8,7 +8,8 @@
 *
 * Description:Write a function that checks for lowercase character.
 *
-* int character
+*
+* character: Number to pass to _islower function
 *
 * Return: Always 1 (Success)
 */
