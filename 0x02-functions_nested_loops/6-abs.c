@@ -20,7 +20,8 @@ int _abs(int)
   int value;
   if (value < 0)
   {
-  printf("%d",(value*(-1)));
+  value = (value(-1));
+  printf("%d",value);
   }
   else
   {
