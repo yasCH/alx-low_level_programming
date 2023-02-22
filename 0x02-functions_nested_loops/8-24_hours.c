@@ -17,35 +17,18 @@
 
 void jack_bauer(void)
 {
-int numberA = 48;
-int numberB = 48;
-int numberC = 48;
-int numberD = 48;
+int numberA = 00;
+int numberB = 00;
 
 int colomn = 58;
-for (numberA = 48 ; numberA <= 50 ; numberA++)
+for (numberA = 00 ; numberA <= 23 ; numberA++)
 {
-if (numberA = 50)
+for (numberB = 00 ; numberB <= 59 ; numberB++)
 {
-for (numberB = 48 ; numberB <= 51 ; numberB++)
-}
-else
-{
-for (numberB = 48 ; numberB <= 57 ; numberB++)
-}
-
-for (numberC = 48 ; numberC <= 53 ; numberC++)
-{
-for (numberD = 48 ; numberD <= 57 ; numberD++)
-{
-putchar(numberA);
-putchar(numberB);
-putchar(colomn);
-putchar(numberC);
-putchar(numberD);
+printf("%i:"numberA);
+printf("%i:"numberB);
 putchar('\n');
 }
 }
 }
-}
-}
+
