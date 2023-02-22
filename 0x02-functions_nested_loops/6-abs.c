@@ -18,6 +18,6 @@
 int _abs(int value)
 {
 value = abs(value);
-  _putchar(value);
+  printf(value);
    return (0);
 }
