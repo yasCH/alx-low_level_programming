@@ -8,7 +8,7 @@
 /**
 **times_table - Prototype practicing
 *
-* Description:Write a function that prints the 9 times table, 
+* Description:Write a function that prints the 9 times table,
 * starting with 0.
 *
 * Return: (void)
@@ -21,9 +21,8 @@ for (i = 0; i <= 9; i++)
 {
 for (j = i + 1; j <= 9; j++)
 {
-printf("%i",j);
-printf(", ");
+printf("%i, ",j);
+putchar("\n");
 }
-_putchar("\n");
 }
 }
