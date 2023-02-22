@@ -4,10 +4,16 @@
 #include <unistd.h>
 
 /**
- * Function that checks for lowercase character
- * @c:character to check if it islowercase.
- * Return:0-if lowercase,1-if not.
- */
+**print_alphabet - Prototype practicing
+*
+* Description:Write a function that prints the alphabet, in lowercase,
+* followed by a new line
+*
+* @c:character to check if it islowercase.
+*
+* Return:0-if lowercase,1-if not.
+*/
+
 int _islower(int c)
 {
 if (c >= 97 && c <= 122)
