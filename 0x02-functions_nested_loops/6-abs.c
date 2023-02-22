@@ -15,7 +15,7 @@
 * Return:0
 */
 
-int _abs(int v)
+int _abs(int)
 {
 if (v < 0)
 {
