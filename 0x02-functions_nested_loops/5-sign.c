@@ -10,7 +10,7 @@
 *
 * @n:character to check if it islowercase.
 *
-* Return:1 if n is greater than zero 
+* Return:1 if n is greater than zero
 */
 
 int print_sign(int n)
