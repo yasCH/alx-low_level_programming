@@ -18,6 +18,6 @@
 int _abs(int value)
 {
 value = abs(value);
-  printf("%hu",value);
+  printf("%u",value);
    return (0);
 }
