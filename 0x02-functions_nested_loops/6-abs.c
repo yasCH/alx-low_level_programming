@@ -17,7 +17,6 @@
 
 int _abs(int value)
 {
-  int value;
   if (value < 0)
   {
   value = (value(-1));
