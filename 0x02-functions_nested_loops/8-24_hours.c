@@ -15,7 +15,7 @@
 * Return:a
 */
 
-jack_bauer(void)
+void jack_bauer(void)
 {
 int numberA = 48;
 int numberB = 48;
