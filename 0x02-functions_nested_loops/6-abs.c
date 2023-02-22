@@ -19,6 +19,6 @@
 int _abs(int value)
 {
 value = abs(value);
-printf("%d",value);
+printf("%u",(unsigned)value);
    return (0);
 }
