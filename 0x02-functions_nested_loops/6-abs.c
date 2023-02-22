@@ -19,10 +19,11 @@ int _abs(int v)
 {
 if (v < 0)
 {
-_putchar(v(-1));
+_putchar((v)*(-1));
 }
 else
 {
 _putchar(v);
 }
+return (0);
 }
