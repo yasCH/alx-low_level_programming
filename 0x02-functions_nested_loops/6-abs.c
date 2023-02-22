@@ -19,6 +19,5 @@
 int _abs(int a)
 {
 a = abs(a);
-   printf("%hhd", a);
-return (0);
+return (a);
 }
