@@ -25,8 +25,16 @@ int numberD = 48;
 int colomn = 58;
 for (numberA = 48 ; numberA <= 50 ; numberA++)
 {
+if (numberA > 50)
+{
+break;
+}
 for (numberB = 48 ; numberB <= 57 ; numberB++)
 {
+if (numberB > 51)
+{
+break;
+}
 for (numberC = 48 ; numberC <= 53 ; numberC++)
 {
 for (numberD = 48 ; numberD <= 57 ; numberD++)
