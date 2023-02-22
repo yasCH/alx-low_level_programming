@@ -17,14 +17,9 @@
 
 int _abs(int value)
 {
-  if (value < 48)
+ int value;
   {
-  _putchar(value);
-  }
-  else
-  {
-   _putchar(value);
- 
+  _putchar(abs(value));
   }
    return (0);
 }
