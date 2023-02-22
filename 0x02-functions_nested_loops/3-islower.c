@@ -4,7 +4,7 @@
 #include <unistd.h>
 
 /**
-**print_alphabet - Prototype practicing
+**_islower - Prototype practicing
 *
 * Description:Write a function that prints the alphabet, in lowercase,
 * followed by a new line
