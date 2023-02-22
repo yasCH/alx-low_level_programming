@@ -8,9 +8,8 @@
 /**
 **jack_bauer - Prototype practicing
 *
-* Description:Write a function that cprints every minute of the day of Jack Bauer, 
-* starting from 00:00 to 23:59.
-* @a:character to check
+* Description:Write a function that cprints every minute 
+* of the day of Jack Bauer,starting from 00:00 to 23:59.
 *
 * Return:a
 */
