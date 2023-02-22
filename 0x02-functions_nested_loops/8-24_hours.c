@@ -25,12 +25,15 @@ int numberD = 48;
 int colomn = 58;
 for (numberA = 48 ; numberA <= 50 ; numberA++)
 {
-if (numberA > 50 && numberB > 51)
+if (numberA = 50)
 {
-break;
+for (numberB = 48 ; numberB <= 51 ; numberB++)
 }
-for (numberB = 48 ; numberB <= 57 ; numberB++)
+else
 {
+for (numberB = 48 ; numberB <= 57 ; numberB++)
+}
+
 for (numberC = 48 ; numberC <= 53 ; numberC++)
 {
 for (numberD = 48 ; numberD <= 57 ; numberD++)
