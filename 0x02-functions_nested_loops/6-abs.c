@@ -10,7 +10,7 @@
 * Description:Write a function that computes 
 * the absolute value of an integer.
 *
-* @v:character to check if it islowercase.
+* @v:character to check 
 *
 * Return:0
 */
@@ -19,10 +19,10 @@ int _abs(int v)
 {
 if (v < 0)
 {
-_putchar(v*(-1));
+printf("d%\n", v(-1));
 }
 else
 {
-_putchar(v);
+printf("d%\n", v);
 }
 }
