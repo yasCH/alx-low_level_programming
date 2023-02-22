@@ -17,9 +17,9 @@ void times_table(void)
 {
 int i = 0;
 int j = 0;
-for (i = 0, i <= 9, i++)
+for (i = 0; i <= 9; i++)
 {
-for (j = i + 1, j <= 9, j++)
+for (j = i + 1; j <= 9; j++)
 {
 printf("%i",j);
 }
