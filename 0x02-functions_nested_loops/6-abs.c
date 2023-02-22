@@ -8,12 +8,12 @@
 /**
 **_abs - Prototype practicing
 *
-* Description:Write a function that computes 
+* Description:Write a function that computes
 * the absolute value of an integer.
 *
-* @a:character to check 
+* @a:character to check
 *
-* Return:0
+* Return:a
 */
 
 int _abs(int a)
