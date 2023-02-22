@@ -11,14 +11,15 @@
 * Description:Write a function that computes 
 * the absolute value of an integer.
 *
-* @value:character to check 
+* @a:character to check 
 *
 * Return:0
 */
 
-int _abs(int value)
+int _abs(int a)
 {
-value = abs(value);
-printf("%u",(unsigned)value);
+a = abs(a);
+   printf(" %d\n", a);
+   
    return (0);
 }
