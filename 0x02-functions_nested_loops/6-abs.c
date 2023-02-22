@@ -15,14 +15,14 @@
 * Return:0
 */
 
-int _abs(int)
+int _abs(int v)
 {
 if (v < 0)
 {
-printf("d%\n", v(-1));
+_putchar(v(-1));
 }
 else
 {
-printf("d%\n", v);
+_putchar(v);
 }
 }
