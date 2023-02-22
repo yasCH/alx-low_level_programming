@@ -19,7 +19,6 @@ int _abs(int value)
 {
   if (value < 48)
   {
-  value = ((45)value);
   _printchar(value);
   }
   else
