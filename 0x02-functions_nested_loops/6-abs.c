@@ -10,22 +10,22 @@
 * Description:Write a function that computes 
 * the absolute value of an integer.
 *
-* @v:character to check 
+* @value:character to check 
 *
 * Return:0
 */
 
-int _abs(int)
+int _abs(int value)
 {
   int value;
   if (value < 0)
   {
   value = (value(-1));
-  printf("%d",value);
+  _printchar(value);
   }
   else
   {
-  printf("%d", value);
+   _printchar(value);
   return (0);
   }
 }
