@@ -27,7 +27,7 @@ return (0);
 }
 else
 {
-putchar(45)
+putchar(45);
 return (-1);
 }
 }
