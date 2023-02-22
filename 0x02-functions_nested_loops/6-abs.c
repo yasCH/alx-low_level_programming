@@ -19,6 +19,6 @@
 int _abs(int value)
 {
 value = abs(value);
-  printf(value);
+printf("%u\n", (unsigned)((value<0)?-value:value));
    return (0);
 }
