@@ -19,8 +19,6 @@ void jack_bauer(void)
 {
 int numberA = 00;
 int numberB = 00;
-
-int colomn = 58;
 for (numberA = 00 ; numberA <= 23 ; numberA++)
 {
 for (numberB = 00 ; numberB <= 59 ; numberB++)
