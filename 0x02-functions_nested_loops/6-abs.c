@@ -19,11 +19,11 @@ int _abs(int v)
 {
 if (v < 48)
 {
-_putchar((v)*(-1));
+write((v)*(-1));
 }
 else
 {
-_putchar(v);
+write(v);
 }
 return (0);
 }
