@@ -15,15 +15,8 @@
 * Return:0
 */
 
-int _abs(int v)
+int _abs(int)
 {
-if (v < 48)
-{
-printf((v)*(-1));
-}
-else
-{
-printf(v);
-}
+_putcher(abs());
 return (0);
 }
