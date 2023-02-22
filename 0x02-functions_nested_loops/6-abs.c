@@ -17,6 +17,14 @@
 
 int _abs(int)
 {
-_putcher(abs());
-return (0);
+  int value;
+  if (value < 0)
+  {
+  printf("%d",(value*(-1)));
+  }
+  else
+  {
+  printf("%d", value);
+  return (0);
+  }
 }
