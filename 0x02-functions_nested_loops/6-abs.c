@@ -2,6 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 #include <unistd.h>
+#include "main.h"
 
 /**
 **_abs - Prototype practicing
