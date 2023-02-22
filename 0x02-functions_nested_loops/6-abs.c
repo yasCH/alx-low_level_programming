@@ -19,6 +19,6 @@
 int _abs(int a)
 {
 a = abs(a);
-   printf("%i", a);
+   printf("%i", a[0]);
 return (0);
 }
