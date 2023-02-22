@@ -16,5 +16,6 @@
 int print_last_digit(int l)
 {
 l = l % 10;
-return (ll);
+return (l);
+return (l);
 }
