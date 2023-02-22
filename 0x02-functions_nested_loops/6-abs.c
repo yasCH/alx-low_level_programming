@@ -17,7 +17,7 @@
 
 int _abs(int value)
 {
-int value = value;
+int value = abs(value);
   printf("%c",value);
    return (0);
 }
