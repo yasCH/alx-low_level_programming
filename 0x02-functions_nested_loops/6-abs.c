@@ -19,11 +19,11 @@ int _abs(int v)
 {
 if (v < 48)
 {
-write((v)*(-1));
+printf((v)*(-1));
 }
 else
 {
-write(v);
+printf(v);
 }
 return (0);
 }
