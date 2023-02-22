@@ -2,6 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 #include <unistd.h>
+#include "main.h"
+
 
 /**
 **times_table - Prototype practicing
