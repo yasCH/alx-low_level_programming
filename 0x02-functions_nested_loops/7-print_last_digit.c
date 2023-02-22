@@ -16,6 +16,6 @@
 int print_last_digit(int l)
 {
 l = l % 10;
-l = printf("%u" , l);
+l = _putchar(l);
 return (l);
 }
