@@ -24,7 +24,7 @@ for (numberA = 00 ; numberA <= 23 ; numberA++)
 for (numberB = 00 ; numberB <= 59 ; numberB++)
 {
 printf("%i:", numberA);
-printf("%i:", numberB);
+printf("%i", numberB);
 putchar('\n');
 }
 }
