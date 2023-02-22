@@ -13,16 +13,14 @@
 */
 void times_table(void)
 {
-int i = 0 ,j;
-while (i <= 9)
+int i = 0;
+int j = 0;
+for (i = 0, i <= 0, i++)
 {
-j = 0;
-while (j <= 9)
+for (j = i + 1, j <= 0, j++)
 {
-printf(j);
-j++;
+printf("%i",j);
 }
-printf("\n");
-i++;
+_putchar("\n");
 }
 }
