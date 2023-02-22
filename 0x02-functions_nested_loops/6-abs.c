@@ -17,7 +17,7 @@
 
 int _abs(int v)
 {
-if (v < 0)
+if (v < 48)
 {
 _putchar((v)*(-1));
 }
