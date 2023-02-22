@@ -6,8 +6,7 @@
 /**
 **_islower - Prototype practicing
 *
-* Description:Write a function that prints the alphabet, in lowercase,
-* followed by a new line
+* Description:Write a function that checks for lowercase character.
 *
 * @c:character to check if it islowercase.
 *
