@@ -19,7 +19,7 @@
 int _abs(int a)
 {
 a = abs(a);
-   printf(" %d\n", a);
+   printf("%d", a);
    
    return (0);
 }
