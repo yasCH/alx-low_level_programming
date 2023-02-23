@@ -22,7 +22,6 @@ for (n = n; n <= 98; n++)
 if (n < 98)
 {
 printf("%i, ", n);
-n--;
 }
 else
 {
