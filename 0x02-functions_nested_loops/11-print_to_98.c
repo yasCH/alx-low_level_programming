@@ -21,27 +21,27 @@ if (n <= 98)
 {
 for (n = n; n <= 98; n++)
 {
-if (n > 98)
-{
-printf("%i, ", n);
-}
-else
+if (n = 98)
 {
 printf("%i", n);
 }
-}
-}
 else
-{
-for (n = n; n > 98; n--)
-{
-if (n < 98)
 {
 printf("%i, ", n);
 }
+}
+}
 else
 {
+for (n = n; n >= 98; n--)
+{
+if (n = 98)
+{
 printf("%i", n);
+}
+else
+{
+printf("%i, ", n);
 }
 }
 }
