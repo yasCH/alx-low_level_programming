@@ -7,7 +7,7 @@
 /**
 **print_numbers - Prototype practicing
 *
-* Description:Write a function that prints numbers, 
+* Description:Write a function that prints numbers,
 * from 0 to 9, followed by a new line.
 *
 * Return: (void)
