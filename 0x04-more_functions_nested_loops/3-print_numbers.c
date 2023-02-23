@@ -18,7 +18,7 @@ void print_numbers(void)
 char number = '48';
 for (number = '48' ; number <= '57' ; number++)
 {
-putchar(alpha);
+putchar(number);
 }
 putchar('\n');
 }
