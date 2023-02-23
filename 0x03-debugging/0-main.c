@@ -5,6 +5,8 @@
 *
 * Description: 'print whether the number  n is positive or negative.'
 *
+*@i - character to check
+*
 * Return: Always 0 (success)
 */
 
