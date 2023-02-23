@@ -20,4 +20,3 @@ putchar(alpha);
 }
 putchar('\n');
 }
-}
