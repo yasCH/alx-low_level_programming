@@ -6,7 +6,7 @@
 
 
 /**
-**add - Prototype practicing
+**print_to_98 - Prototype practicing
 *
 * Description:Write a function that prints all natural numbers from n to 98,
 * followed by a new line.
