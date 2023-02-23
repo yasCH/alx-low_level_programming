@@ -28,6 +28,6 @@ else
 printf("%i",n);
 }
 }
-printf(/n);
+printf("/n");
 }
 
