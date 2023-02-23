@@ -10,7 +10,6 @@
 *
 * Return: (void)
 */
-
 void print_numbers(void)
 {
 int number = 48;
