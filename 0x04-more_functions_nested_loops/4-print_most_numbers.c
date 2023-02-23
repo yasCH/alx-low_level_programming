@@ -22,6 +22,10 @@ if (number != 2) || (number != 4))
 {
 _putchar(number);
 }
+else 
+{
+continue;
+}
 }
 _putchar('\n');
 }
