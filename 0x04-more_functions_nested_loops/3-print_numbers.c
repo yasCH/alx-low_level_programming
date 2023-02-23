@@ -1,9 +1,4 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
-#include <unistd.h>
 #include "main.h"
-
 
 /**
 **print_numbers - Prototype practicing
@@ -13,10 +8,11 @@
 *
 * Return: (void)
 */
+
 void print_numbers(void)
 {
-char number;
-for (number = '48' ; number <= '57' ; number++)
+int number;
+for (number =  48 ; number <= 57 ; number++)
 {
 _putchar(number);
 _putchar('\n');
