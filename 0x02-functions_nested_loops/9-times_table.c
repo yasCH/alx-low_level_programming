@@ -23,11 +23,11 @@ for (j = 0 ; j <= 9; j++)
 {
 if (j == 9)
 {
-printf("%i.2", i * j);
+printf("%.2i", i * j);
 }
 else
 {
-printf("%i.2, ", i * j);
+printf("%.2i, ", i * j);
 }
 }
 printf("\n");
