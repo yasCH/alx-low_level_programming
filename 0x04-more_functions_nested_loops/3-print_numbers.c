@@ -6,6 +6,8 @@
 * Description:Write a function that prints numbers, 
 * from 0 to 9, followed by a new line.
 *
+* @number
+*
 * Return: (void)
 */
 
