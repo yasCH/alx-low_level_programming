@@ -21,7 +21,14 @@ for (i = 0; i <= 9; i++)
 {
 for (j = 0 ; j <= 9; j++)
 {
-printf("%i, ",i*j);
+if (j == 9)
+{
+printf("%i.2",i*j);
+}
+else
+{
+printf("%i.2, ",i*j);
+}
 }
 printf("\n");
 }
