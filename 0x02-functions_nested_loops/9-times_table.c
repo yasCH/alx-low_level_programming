@@ -25,6 +25,10 @@ if (j == 0)
 {
 printf("%i, ", i * j);
 }
+else if ((i * j) <= 9 && j == 9)
+{
+printf(" %i, ", i * j);
+}
 else if (j == 9)
 {
 printf("%i", i * j);
