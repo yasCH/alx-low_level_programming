@@ -13,10 +13,9 @@
 *
 * Return: (result)
 */
-int add (int a int b)
+int add (int a, int b)
 {
 int a;
 int b;
-int c = a + b;
-return (c);
+return (a + b);
 }
