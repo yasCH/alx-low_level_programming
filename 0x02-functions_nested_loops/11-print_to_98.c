@@ -21,11 +21,11 @@ for(n = n ;n <= 98; n++)
 {
 if(n < 98)
 {
-printf("%i, ",n);
+printf("%i, \n",n);
 }
 else
 {
-printf("%i",n);
+printf("%i"\n,n);
 }
 }
 }
