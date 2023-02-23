@@ -25,5 +25,4 @@ printf("%i, ",i*j);
 }
 printf("\n");
 }
-return (0);
 }
