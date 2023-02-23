@@ -27,8 +27,7 @@ else
 {
 printf("%i",n);
 }
-printf("\n");
-
+_putchar('/n')
 }
 }
 
