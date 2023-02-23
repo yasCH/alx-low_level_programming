@@ -29,5 +29,10 @@ printf("%i", n);
 }
 }
 printf("\n");
+while (n > 98)
+{
+printf("%i, ", n);
+n--;
+}
 }
 
