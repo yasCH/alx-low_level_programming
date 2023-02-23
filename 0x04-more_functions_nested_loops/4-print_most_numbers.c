@@ -18,14 +18,13 @@ void print_most_numbers(void)
 int number = 48;
 for (number = 48; number <= 57; number++)
 {
-if (number != 2) || (number != 4))
-{
-_putchar(number);
-}
-else 
+if (number == 2) || (number == 4))
 {
 continue;
 }
+else 
+{
+_putchar(number);}
 }
 _putchar('\n');
 }
