@@ -28,6 +28,16 @@ else
 printf("%i", n);
 }
 }
+for (n = n; n > 98; n--)
+{
+if (n < 98)
+{
+printf("%i, ", n);
+}
+else
+{
+printf("%i", n);
+}
+}
 printf("\n");
 }
-
