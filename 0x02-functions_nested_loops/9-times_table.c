@@ -21,11 +21,11 @@ for (i = 0; i <= 9; i++)
 {
 for (j = 0 ; j <= 9; j++)
 {
-if (j = 0)
+if (j == 0)
 {
 printf("%i, ", i * j);
 }
-else if (j = 9)
+else if (j == 9)
 {
 printf("%i", i * j);
 }
