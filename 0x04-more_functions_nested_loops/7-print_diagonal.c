@@ -16,17 +16,14 @@
 void print_diagonal(int n)
 {
 int l;
-for (l = 0; l < n; l++)
-{
-putchar(32);
-}
 if (n <= 0)
 {
 putchar('\n');
 }
-else
+for (l = 0; l < n; l++)
 {
+putchar(32);
+}
 putchar(92);
 putchar('\n');
-}
 }
