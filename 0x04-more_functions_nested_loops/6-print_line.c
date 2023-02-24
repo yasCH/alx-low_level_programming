@@ -19,12 +19,12 @@ for (n = 0; n <= s; n++)
 {
 if (n <= 0)
 {
-putchar('\n');
+_putchar('\n');
 }
 else
 {
-putchar(l);
+_putchar(l);
 }
 }
-putchar('\n');
+_putchar('\n');
 }
