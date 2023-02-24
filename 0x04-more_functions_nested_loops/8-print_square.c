@@ -5,16 +5,26 @@
 #include "main.h"
 
 /**
-**Prototype- Prototype practicing
+* print_square - Write a function that prints a square,
+* followed by a new line.
 *
-* Description:
+* @size: to check
 *
-* @n
-*
-* Return:
+* Return: (void)
 */
 
-function
+void print_square(int size)
 {
-
+int i = 0;
+int j = 0;
+while(i < size)
+{
+putchar(35);
+while(j < size)
+{
+putchar(35);
+j++;
+}
+i++;
+}
 }
