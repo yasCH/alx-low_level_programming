@@ -15,17 +15,11 @@
 
 void print_most_numbers(void)
 {
-int number = '0';
-for (number = '0'; number <= '9'; number++)
+for (number = 48; number <= 57; number++)
 {
-if (number != '2' || number != '4')
+if (number != 50 || number != 52)
 {
 _putchar(number);
 }
-else
-{
-continue;
-}
 _putchar('\n');
-}
 }
