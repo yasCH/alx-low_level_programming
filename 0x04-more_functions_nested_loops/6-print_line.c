@@ -5,16 +5,20 @@
 #include "main.h"
 
 /**
-**Prototype- Prototype practicing
-*
-* Description:
+* void print_line(int n)- Write a function that draws a straight line in the terminal.
 *
 * @n
 *
 * Return:
 */
 
-function
+void print_line(int n)
 {
-
+int n;
+char l = 45;
+for (n =1; n > 0; n++)
+{
+putchar(l);
+}
+putchar('\n');
 }
