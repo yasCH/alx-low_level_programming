@@ -15,7 +15,7 @@ void print_line(int n)
 {
 char l = 95;
 int s = n + 1;
-for (n = 0; n < s; n++)
+for (n = 0; n <= s; n++)
 {
 if (n <= 0)
 {
