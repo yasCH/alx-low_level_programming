@@ -20,6 +20,6 @@ for (number = 0; number <= 14; number++)
 {
 printf("%i", number);
 }
-_putchar('\n');
+putchar('\n');
 }
 }
