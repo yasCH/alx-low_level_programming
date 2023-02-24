@@ -11,17 +11,19 @@
 *
 * Return: void
 */
-
 void print_line(int n)
 {
 char l = 45;
-for (n = n; n <= n+1; n++)
+for (n = n; n = n+1; n++)
 {
 if (n <= 0)
 {
 putchar('\n');
 }
+else
+{
 putchar(l);
+}
 }
 putchar('\n');
 }
