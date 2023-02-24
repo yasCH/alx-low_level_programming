@@ -5,7 +5,7 @@
 #include "main.h"
 
 /**
-**more_numbers- Prototype practicing
+* more_numbers- Prototype practicing
 *
 * Description: Write a function that prints 10 times the numbers,
 * from 0 to 14, followed by a new line.
@@ -15,13 +15,13 @@
 
 void more_numbers(void);
 {
-int number = 0;
+int number = '0';
 int times = 1;
 for (times = 1 ; times <= 10 ; times++)
 {
-for (number = 0 ; number <= 14 ; number++)
+for (number = '0' ; number <= '14' ; number++)
 {
-printf("%d",number);
+printf("%i",number);
 }
 putchar('\n');
 }
