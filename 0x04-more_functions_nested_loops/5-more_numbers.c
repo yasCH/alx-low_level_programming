@@ -12,7 +12,6 @@
 *
 * Return:0
 */
-
 void more_numbers(void);
 {
 int number = '0';
@@ -25,5 +24,4 @@ printf("%i",number);
 }
 putchar('\n');
 }
-return(0);
 }
