@@ -18,7 +18,8 @@ for (times = 1; times <= 10; times++)
 {
 for (number = 0; number <= 14; number++)
 {
-printf("%d\n", number);
+printf("%d", number);
 }
+_putchar('\n');
 }
 }
