@@ -19,5 +19,6 @@ for (l = 0; l < n; l++)
 {
 putchar(32);
 }
-putchar('\n);
+putchar(92);
+putchar('\n');
 }
