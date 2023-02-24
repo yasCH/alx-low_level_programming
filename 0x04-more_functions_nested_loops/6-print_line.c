@@ -13,9 +13,9 @@
 void print_line(int n)
 {
 int l;
-for (l = '0'; l < n; l++)
+for (l = 0; l < n; l++)
 {
-putchar(59);
+putchar(95);
 }
 putchar('\n');
 }
