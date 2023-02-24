@@ -13,7 +13,7 @@
 */
 void print_line(int n)
 {
-char l = 45;
+char l = 95;
 for (n = n; n >= n+1; n++)
 {
 if (n <= 0)
