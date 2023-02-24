@@ -14,7 +14,6 @@
 
 void print_line(int n)
 {
-int n;
 char l = 45;
 for (n = n; n <= n+1; n++)
 {
