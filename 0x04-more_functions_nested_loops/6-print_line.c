@@ -1,5 +1,4 @@
 #include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 #include <unistd.h>
 #include "main.h"
@@ -7,14 +6,14 @@
 /**
 * void print_line - Write a function that draws a straight line in the terminal.
 *
-* @n to check
+* @n:character to check
 *
 * Return: void
 */
 void print_line(int n)
 {
 int l = 95;
-for (n = 0; n = n; n++)
+for (n = 0; n >= n+1; n++)
 {
 if (n <= 0)
 {
