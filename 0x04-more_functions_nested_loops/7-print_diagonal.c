@@ -20,7 +20,7 @@ if (n <= 0)
 {
 putchar('\n');
 }
-else
+else if (n > 0)
 {
 for (l = 0; l < n; l++)
 {
