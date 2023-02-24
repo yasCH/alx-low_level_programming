@@ -12,17 +12,10 @@
 */
 void print_line(int n)
 {
-int l = 95;
-for (n = 0; n >= n+1; n++)
+int l;
+for (l = 0; l < n; n++)
 {
-if (n <= 0)
-{
-_putchar('\n');
-}
-else
-{
-_putchar(l);
-}
+_putchar(59);
 }
 _putchar('\n');
 }
