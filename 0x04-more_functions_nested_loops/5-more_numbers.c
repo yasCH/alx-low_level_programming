@@ -1,4 +1,3 @@
-
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
@@ -16,13 +15,13 @@
 
 void more_numbers(void);
 {
-char number = '0';
+int number = 0;
 int times = 1;
 for (times = 1 ; times <= 10 ; times++)
 {
-for (number = '0' ; number <= '14' ; number++)
+for (number = 0 ; number <= 14 ; number++)
 {
-putchar(number);
+printf("%d",number);
 }
 putchar('\n');
 }
