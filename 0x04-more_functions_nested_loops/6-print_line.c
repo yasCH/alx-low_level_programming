@@ -5,19 +5,23 @@
 #include "main.h"
 
 /**
-* void print_line(int n)- Write a function that draws a straight line in the terminal.
+* void print_line - Write a function that draws a straight line in the terminal.
 *
-* @n
+* @n to check
 *
-* Return:
+* Return: void
 */
 
 void print_line(int n)
 {
 int n;
 char l = 45;
-for (n =1; n > 0; n++)
+for (n = n; n > 10; n++)
 {
+if (n <= 0)
+{
+putchar('\n');
+}
 putchar(l);
 }
 putchar('\n');
