@@ -5,16 +5,19 @@
 #include "main.h"
 
 /**
-**Prototype- Prototype practicing
+**print_diagonal- Write a function that draws a diagonal line on the terminal.
 *
-* Description:
+* @n:character to check
 *
-* @n
-*
-* Return:
+* Return: void
 */
 
-function
+void print_diagonal(int n)
 {
-
+int l;
+for (l = 0; l < n; l++)
+{
+putchar(32);
+}
+putchar('\n);
 }
