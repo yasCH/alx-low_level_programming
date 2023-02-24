@@ -10,7 +10,7 @@
 *
 * Return: (void)
 */
-void more_numbers(void);
+void more_numbers(void)
 {
 int times = 1;
 int number = 0;
