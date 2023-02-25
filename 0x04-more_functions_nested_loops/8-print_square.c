@@ -14,6 +14,12 @@
 */
 void print_square(int size)
 {
+if (size <= 0)
+{
+putchar('\n');
+}
+else if (size > 0)
+{
 int i = 0;
 while (i < size)
 {
@@ -25,5 +31,6 @@ j++,
 }
 putchar('\n');
 i++;
+}
 }
 }
