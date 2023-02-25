@@ -12,7 +12,7 @@
 *
 * Return:(0)
 */
-int main (void)
+int main(void)
 {
 int p;
 for (p = 1; p <= 100; p++)
