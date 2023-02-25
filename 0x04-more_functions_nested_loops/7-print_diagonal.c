@@ -22,7 +22,7 @@ putchar('\n');
 }
 else
 {
-for (i = 0; i < n-1; i++)
+for (i = 0; i <= n; i++)
 {
 putchar(32);
 }
