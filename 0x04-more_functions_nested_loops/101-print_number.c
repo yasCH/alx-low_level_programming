@@ -6,9 +6,9 @@
 #include "main.h"
 
 /**
-* void print_number - Prototype practicing
+* print_number - Prototype practicing
 *
-* Description: void print_number(int n);
+* Description: void print_number(int n)
 *
 * @n: to check
 *
