@@ -24,20 +24,17 @@ n = abs(n);
 if (n < 10)
 {
 putchar(n + 48);
-putchar('\n');
 }
 else if (n < 100)
 {
 putchar((n / 10) + 48);
 putchar((n % 10) + 48);
-putchar('\n');
 }
 else if (n < 1000)
 {
 putchar((n / 100) + 48);
 putchar(((n % 100) / 10) + 48);
 putchar(((n % 100) % 10) + 48);
-putchar('\n');
 }
 else if (n < 10000)
 {
@@ -45,6 +42,5 @@ putchar((n / 1000) + 48);
 putchar(((n % 1000) / 100) + 48);
 putchar(((n % 100) / 10) + 48);
 putchar(((n % 100) % 10) + 48);
-putchar('\n');
 }
 }
