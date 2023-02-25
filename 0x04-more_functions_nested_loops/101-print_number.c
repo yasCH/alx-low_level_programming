@@ -22,8 +22,8 @@ _putchar(45);
 }
 n = abs(n);
 if (n < 10)
-_{
-putchar(n + 48);
+{
+_putchar(n + 48);
 }
 else if (n < 100)
 {
