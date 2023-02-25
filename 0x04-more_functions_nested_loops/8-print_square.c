@@ -18,19 +18,4 @@ if (size <= 0)
 {
 putchar('\n');
 }
-else if (size > 0)
-{
-int i = 0;
-while (i < size)
-{
-int j = 0;
-while (j < size)
-{
-putchar(35);
-j++,
-}
-putchar('\n');
-i++;
-}
-}
 }
