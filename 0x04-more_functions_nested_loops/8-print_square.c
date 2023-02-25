@@ -15,16 +15,17 @@
 
 void print_square(int size)
 {
-int i;
-for (int i = 0; i < size; i++) 
+int i = 0;
+int j;
+while (i < size )
 {
-for (int j = 0; j < size; j++) 
+j = 0;
+while (j = 0)
 {
-if (i == size) 
-{
-break;
+putchar('#');
+j++,
 }
-putchar(35);
-}
+putchar('#');
+i++;
 }
 }
