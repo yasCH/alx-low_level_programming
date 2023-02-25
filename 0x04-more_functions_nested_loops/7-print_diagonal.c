@@ -15,18 +15,8 @@
 
 void print_diagonal(int n)
 {
-int l;
 if (n <= 0)
 {
-putchar('\n');
-}
-else if (n > 0)
-{
-for (l = 0; l < n; l++)
-{
-putchar(' ');
-}
-putchar(92);
 putchar('\n');
 }
 }
