@@ -12,14 +12,13 @@
 *
 * Return: (void)
 */
-
 void print_square(int size)
 {
 int i = 0;
-while (i < size )
+while (i < size)
 {
 int j = 0;
-while (j = 0)
+while (j < size)
 {
 putchar('#');
 j++,
