@@ -28,6 +28,10 @@ printf("Fizz ");
 }
 else if (p % 5 == 0)
 {
+if (p == 100)
+{
+printf("Buzz");
+}
 printf("Buzz ");
 }
 else
