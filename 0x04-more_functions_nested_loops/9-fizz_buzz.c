@@ -8,7 +8,8 @@
 /**
 * main - Entry point
 *
-* Description: prints the numbers from 1 to 100, followed by a new line.
+* Description: prints the numbers from 1 to 100, 
+* followed by a new line.
 *
 * Return:(0)
 */
