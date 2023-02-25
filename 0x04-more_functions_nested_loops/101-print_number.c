@@ -14,7 +14,6 @@
 *
 * Return: void
 */
-
 void print_number(int n)
 {
 if (n < 0)
@@ -33,14 +32,14 @@ putchar(n / 10);
 putchar(n % 10);
 putchar('\n');
 }
-else if (n <1000)
+else if (n < 1000)
 {
 putchar(n / 100);
 putchar((n % 100) / 10);
 putchar((n % 100) % 10);
 putchar('\n');
 }
-else if (n <1000)
+else if (n < 1000)
 {
 putchar(n / 1000);
 putchar((n % 1000) / 100);
