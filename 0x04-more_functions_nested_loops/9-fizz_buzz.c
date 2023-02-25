@@ -2,9 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 #include <unistd.h>
+#include "main.h"
+
 
 /**
-* Fizz Buzz
+* main - Entry point
 *
 * Description: prints the numbers from 1 to 100, followed by a new line.
 *
