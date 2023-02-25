@@ -17,7 +17,7 @@ int main (void)
 int p;
 for (p = 1; p <= 100; p++)
 {
-if (p % 3 == 0 && p % 5 == 0)
+if (((p % 3) == 0) && ((p % 5) == 0))
 {
 printf("FizzBuzz ");
 }
