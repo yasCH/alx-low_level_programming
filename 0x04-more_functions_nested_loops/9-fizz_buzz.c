@@ -4,16 +4,14 @@
 #include <unistd.h>
 #include "main.h"
 
-
 /**
 * main - Entry point
 *
-* Description: prints the numbers from 1 to 100, 
+* Description: prints the numbers from 1 to 100,
 * followed by a new line.
 *
 * Return:(0)
 */
-
 int main (void)
 {
 int p;
