@@ -47,5 +47,4 @@ putchar((n % 100) / 10);
 putchar((n % 100) % 10);
 putchar('\n');
 }
-return (0);
 }
