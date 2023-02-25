@@ -32,7 +32,10 @@ if (p == 100)
 {
 printf("Buzz");
 }
+else
+{
 printf("Buzz ");
+}
 }
 else
 {
