@@ -20,7 +20,7 @@ while (i < size)
 int j = 0;
 while (j < size)
 {
-putchar('#');
+putchar(35);
 j++,
 }
 putchar('\n');
