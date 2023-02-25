@@ -4,7 +4,9 @@
 #include <unistd.h>
 
 /**
-* Description: Fizz Buzz
+* Fizz Buzz
+*
+* Description: prints the numbers from 1 to 100, followed by a new line.
 *
 * Return:(0)
 */
@@ -12,7 +14,7 @@
 int main (void)
 {
 int p;
-for (p = 1 ;p <= 100; p++)
+for (p = 1; p <= 100; p++)
 {
 if (p % 3 == 0 &&  p % 5 == 0)
 {
@@ -28,10 +30,9 @@ printf("Buzz ");
 }
 else
 {
-printf("%i, ",p);
+printf("%i ", p);
 }
 }
 putchar('\n');
 return (0);
 }
-
