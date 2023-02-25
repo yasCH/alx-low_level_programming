@@ -15,20 +15,25 @@
 
 void print_diagonal(int n)
 {
-int i;
-int j;
 if (n <= 0)
 {
 putchar('\n');
 }
 else
 {
-for (i = 0; i < n; i++)
+int end = n;
+int i = ' ';
+
+while (i <= end) 
 {
-for (j = i; j < n; j++)
+putchar('\n');
+int j = 1;
+while (j <= i) 
 {
-putchar(92);
+putchar(j);
+j = j + 1;
 }
+i = i + 1;
 }
 putchar('\n');
 }
