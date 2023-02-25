@@ -2,7 +2,6 @@
 #include <time.h>
 #include <stdio.h>
 #include <unistd.h>
-#include "main.h"
 
 /**
 * Description: Fizz Buzz
@@ -23,13 +22,13 @@ else if (p % 3 = 0)
 {
 printf("Fizz ");
 }
-else if (p % 3 = 0)
+else if (p % 5 = 0)
 {
 printf("Buzz ");
 }
 else
 {
-printf('%i ',p);
+printf("%i, ",p);
 }
 }
 putchar('\n');
