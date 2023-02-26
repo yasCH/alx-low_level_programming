@@ -25,11 +25,11 @@ else
 {
 for (i = 0; i < size; i++)
 {
-for (j = 0; j < size-1; j++)
+for (j = 0; j < size - (i + 1); j++)
 {
 _putchar(32);
 }
-for (k = 1; k < size; k++)
+for (k = j; k < size; k++)
 {
 _putchar(35);
 }
