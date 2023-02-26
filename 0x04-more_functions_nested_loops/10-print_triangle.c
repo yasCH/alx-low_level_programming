@@ -26,7 +26,7 @@ for (i = 0; i < size; i++)
 {
 for (j = 0; j < i; j++)
 {
-_putchar(32);
+_putchar(35);
 }
 _putchar(35);
 _putchar('\n');
