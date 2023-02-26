@@ -18,7 +18,7 @@ int i;
 int j;
 if (size <= 0)
 {
-putchar('\n');
+_putchar('\n');
 }
 else
 {
@@ -26,10 +26,10 @@ for (i = 0; i < size; i++)
 {
 for (j = 0; j < i; j++)
 {
-putchar(35);
+_putchar(32);
 }
-putchar(35);
-putchar('\n');
+_putchar(35);
+_putchar('\n');
 }
 }
 }
