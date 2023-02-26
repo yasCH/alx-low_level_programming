@@ -5,16 +5,31 @@
 #include "main.h"
 
 /**
-**Prototype- Prototype practicing
+* print_triangle - Write a function that prints a triangle,
+* followed by a new line.
 *
-* Description:
+* @size: to check
 *
-* @n
-*
-* Return:
+* Return: void
 */
-
-function
+void print_triangle(int size);
 {
-
+int i;
+int j;
+if (size <= 0)
+{
+putchar('\n');
+}
+else
+{
+for (i = 0; i < size; i++)
+{
+for (j = 0; j < i; j++)
+{
+putchar(35);
+}
+putchar(35);
+putchar('\n');
+}
+}
 }
