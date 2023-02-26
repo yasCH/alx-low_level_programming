@@ -22,8 +22,9 @@ _putchar('\n');
 }
 else
 {
-for (i = 1; i < size; i++)
+for (i = 0; i < size; i++)
 {
+_putchar(32);
 for (j = 0; j < size; j++)
 {
 _putchar(35);
