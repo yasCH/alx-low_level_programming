@@ -13,9 +13,7 @@
 */
 void swap_int(int *a, int *b)
 {
-int i[1];
-i[0] = *a;
-i[1] = *b;
+int i[] = {*a,*b};
 *a = i[1];
 *b = i[0];
 }
