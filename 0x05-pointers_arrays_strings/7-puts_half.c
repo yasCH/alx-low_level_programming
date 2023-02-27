@@ -17,15 +17,15 @@ void puts_half(char *str)
 int length = strlen(str);
 int i;
 int j;
-if (length % 2 != 0)
+if (length % 2 == 0)
 {
 j = length / 2;
 }
-else if  (length % 2 == 0)
+else if  (length % 2 != 0)
 {
 j = (length - 1) / 2;
 }
-for (i = j ; i < length ; i++)
+for (i = j ; i <= length - 1 ; i++)
 {
 _putchar(str[i]);
 }
