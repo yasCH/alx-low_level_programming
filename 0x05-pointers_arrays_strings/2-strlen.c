@@ -12,7 +12,8 @@
 */
 int _strlen(char *s)
 {
-printf("%li", sizeof(s));
+int l;
+l = _strlen(s);
+printf("%d\n", l);
 return (0);
 }
-
