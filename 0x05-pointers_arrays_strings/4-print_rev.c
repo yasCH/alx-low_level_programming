@@ -16,13 +16,10 @@ void print_rev(char *s)
 {
 int length = strlen(s);
 int i;
-if ((s[i]) = '\0')
-{
+s[i] = '\0';
 for (i = length - 1; i >= 0; i--)
 {
-printf("%s ", &(s[i]) + 1);
+printf("%s", &(s[i]) + 1);
 }
-printf("%s", s);
 _putchar('\n');
-}
 }
