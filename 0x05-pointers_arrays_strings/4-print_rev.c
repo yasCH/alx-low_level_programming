@@ -21,5 +21,4 @@ for (i = length - 1; i > 0; i--)
 printf("%s", &(s[i]));
 }
 _putchar('\n');
-{
 }
