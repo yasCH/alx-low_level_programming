@@ -14,6 +14,5 @@
 */
 void rev_string(char *s)
 {
-printf("%s\n", s);
 print_rev(s);
 }
