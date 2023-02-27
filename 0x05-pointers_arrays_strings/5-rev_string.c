@@ -14,5 +14,5 @@
 */
 void rev_string(char *s)
 {
-print_rev(s[i]);
+print_rev(s[]);
 }
