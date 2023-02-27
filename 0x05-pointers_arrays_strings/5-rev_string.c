@@ -18,8 +18,6 @@ int i;
 int j = 0;
 for (i = l - 1 ; i >= 0; i--)
 {
-j = s[i];
-s[i] = s[(l - 1) - i];
-s[(l - 1) - i] = j;
+s[(l - 1) - i] >> s[i];
 }
 }
