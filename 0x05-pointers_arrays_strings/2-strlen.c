@@ -12,7 +12,7 @@
 */
 int _strlen(char *s)
 {
-printf("%lu\n", sizeof(s));
+printf("%i", sizeof(s));
 return (0);
 }
 
