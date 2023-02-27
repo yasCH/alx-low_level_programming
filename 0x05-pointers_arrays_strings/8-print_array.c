@@ -18,7 +18,8 @@ void print_array(int *a, int n)
 int i;
 for (i = 0; i < n ; i++)
 {
-printf("%d, ", &a[i]);
+int item = a[i];
+printf("%d, ", item);
 }
 _putchar('\n');
 }
