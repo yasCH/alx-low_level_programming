@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <string.h>
+#include "4-print_rev.c"
 #include "main.h"
 
 /**
@@ -13,6 +14,5 @@
 */
 void rev_string(char *s)
 {
-char *strrev(char *s);
-strrev(s);
+print_rev();
 }
