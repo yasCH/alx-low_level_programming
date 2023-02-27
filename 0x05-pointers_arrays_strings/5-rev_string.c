@@ -17,6 +17,6 @@ int length = strlen(s);
 char i;
 for (i = length - 1 ; i >= 0; i--)
 {
-s = &i;
+s[i - (length - 1)] = s[i];
 }
 }
