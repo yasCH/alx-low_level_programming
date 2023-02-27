@@ -20,4 +20,5 @@ for (i = length - 1 ; i >= 0; i--)
 {
 return;
 }
+print_rev(s);
 }
