@@ -14,5 +14,10 @@
 */
 void rev_string(char *s)
 {
-print_rev();
+int length = strlen(s);
+int i;
+for (i = length - 1 ; i >= 0; i--)
+{
+(s[i]);
+}
 }
