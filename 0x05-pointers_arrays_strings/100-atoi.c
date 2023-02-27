@@ -5,8 +5,7 @@
 #include "main.h"
 
 /**
-* _atoi - Write a function that prints a string, in reverse,
-* followed by a new line.
+* _atoi - Write a function that convert a string to an integer.
 *
 * @s: character to check
 *
