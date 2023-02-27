@@ -15,6 +15,6 @@
 void rev_string(char *s)
 {
 if (*s != '\0')
-reverse((s + 1));
+print_rev((s + 1));
 printf("%c", *s);
 }
