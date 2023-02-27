@@ -18,6 +18,6 @@ int length = strlen(s);
 int i;
 for (i = length - 1 ; i >= 0; i--)
 {
-(s[i]);
+s = (s[i]);
 }
 }
