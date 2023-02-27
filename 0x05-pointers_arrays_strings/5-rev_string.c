@@ -21,5 +21,5 @@ for (i = length - 1 ; i >= 0; i--)
 {
 n[i] = s[i];
 }
-s = &n;
+s = n;
 }
