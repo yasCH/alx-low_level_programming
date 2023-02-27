@@ -15,8 +15,5 @@ int _strlen(char *s)
 {
 int l;
 l = strlen(s);
-s[l] = '\0';
-l = strlen(s);
-printf("%i", l);
-return (0);
+return (l);
 }
