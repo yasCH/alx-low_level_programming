@@ -17,7 +17,7 @@ int l = strlen(s);
 int i;
 for (i = l - 1 ; i >= l / 2; i--)
 {
-s[i] = s[(l - 1) - i];
+s[(l - 1) - i] = s[i];
 
 }
 }
