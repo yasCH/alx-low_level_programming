@@ -15,7 +15,10 @@
 */
 void print_array(int *a, int n)
 {
-printf("%ls[]", a);
-printf("%d, ", n);
+int array;
+for (i = 0; i < n ; i++)
+{
+printf("%d, ", a[i]);
+}
 _putchar('\n');
 }
