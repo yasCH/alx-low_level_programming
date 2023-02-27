@@ -13,5 +13,5 @@
 */
 void reset_to_98(int *n)
 {
-n = 402;
+int *n = 402;
 }
