@@ -14,10 +14,10 @@ Return value: the pointer to dest
 * @dest: character to check
 * @src: character to check
 *
-* Return: dest
+* Return: (dest)
 */
 char *_strcpy(char *dest, char *src)
 {
 strcpy(dest, src);
-return(&dest);
+return(dest);
 }
