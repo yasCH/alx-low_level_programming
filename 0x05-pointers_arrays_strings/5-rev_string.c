@@ -14,7 +14,10 @@
 */
 void rev_string(char *s)
 {
-if (*s != '\0')
-print_rev((s + 1));
-printf("%c", *s);
+int length = strlen(s);
+int i;
+for (i = length - 1 ; i >= 0; i--)
+{
+return;
+}
 }
