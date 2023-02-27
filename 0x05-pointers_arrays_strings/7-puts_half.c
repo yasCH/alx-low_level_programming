@@ -21,7 +21,7 @@ if (length % 2 = 0)
 {
 j = length / 2
 }
-else if  (length % 2 §= 0)
+else if  (length % 2 != 0)
 {
 j = (length - 1) / 2
 }
