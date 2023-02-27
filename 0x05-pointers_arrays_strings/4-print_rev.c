@@ -18,7 +18,8 @@ int length = strlen(s);
 int i;
 for (i = length ; i >= 0; i--)
 {
-printf("%s", &(s[i]));
+s = &(s[i]);
 }
+printf("%s",s);
 _putchar('\n');
 }
