@@ -15,7 +15,7 @@
 */
 void print_array(int *a, int n)
 {
-printf("%i[]", a);
+printf("%ls[]", a);
 printf("%d, ", n);
 _putchar('\n');
 }
