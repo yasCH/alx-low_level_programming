@@ -17,10 +17,6 @@ int l = strlen(s);
 int i;
 for (i = l - 1 ; i >= 0; i--)
 {
-while (i <= l / 2)
-{
 s[i] = s[i - (l - 1)];
-i++;
-}
 }
 }
