@@ -14,10 +14,7 @@
 */
 void rev_string(char *s)
 {
-int length = strlen(s);
-int i;
-for (i = length - 1 ; i >= 0; i--)
-{
-s = (s[i]);
-}
+if (*s != '\0')
+reverse((s + 1));
+printf("%c", *s);
 }
