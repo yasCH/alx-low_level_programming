@@ -10,10 +10,10 @@
 *
 * @s: character to check
 *
-* Return: (int)
+* Return: (0)
 */
 int _atoi(char *s)
 {
-int atoi(s);
-return (*s);
+int val = atoi(s);
+return (0);
 }
