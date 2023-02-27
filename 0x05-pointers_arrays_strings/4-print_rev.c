@@ -18,7 +18,7 @@ int length = strlen(s);
 int i;
 for (i = length - 1; i >= 0; i--)
 {
-if (s[i] == ' ')
+if (s[i] == " ")
 {
 s[i] = '\0';
 printf("%s ", &(s[i]) + 1);
