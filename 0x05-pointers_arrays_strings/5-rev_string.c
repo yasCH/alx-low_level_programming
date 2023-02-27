@@ -15,8 +15,9 @@ void rev_string(char *s)
 {
 int l = strlen(s);
 int i;
+int *p = &s;
 for (i = l - 1 ; i >= 0; i--)
 {
-*s[i] = &s[i];
+s[(l - 1) - i] = p;
 }
 }
