@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <string.h>
-#include "4-print_rev.c"
 #include "main.h"
 
 /**
@@ -16,7 +15,7 @@ void rev_string(char *s)
 {
 int length = strlen(s);
 int i;
-char n[length];
+char n[];
 for (i = length - 1 ; i >= 0; i--)
 {
 n[i] = s[i];
