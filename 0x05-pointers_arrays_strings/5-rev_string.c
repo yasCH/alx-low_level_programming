@@ -17,6 +17,6 @@ int l = strlen(s);
 int i;
 for (i = l - 1 ; i >= 0; i--)
 {
-char *s[i] = &s[i];
+s[i] = &s[i];
 }
 }
