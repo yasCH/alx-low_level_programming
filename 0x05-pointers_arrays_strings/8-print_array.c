@@ -5,7 +5,7 @@
 #include "main.h"
 
 /**
-* print_array - Write a function that prints n elements of an array 
+* print_array - Write a function that prints n elements of an array
 * of integers, followed by a new line.
 *
 * @a: character to check
@@ -22,9 +22,10 @@ if (i == n - 1)
 {
 printf("%d\n", a[i]);
 }
-else 
+else
 {
 printf("%d, ", a[i]);
 }
 }
+_putchar('\n');
 }
