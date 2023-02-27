@@ -8,8 +8,8 @@
 * _strcpy - Write a function that copies the string pointed
 * to by src, including the terminating null byte (\0),
 * to the buffer pointed to by dest.
-
-Return value: the pointer to dest
+*
+* Return value: the pointer to dest
 *
 * @dest: character to check
 * @src: character to check
@@ -19,5 +19,5 @@ Return value: the pointer to dest
 char *_strcpy(char *dest, char *src)
 {
 strcpy(dest, src);
-return(dest);
+return (dest);
 }
