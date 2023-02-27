@@ -15,6 +15,6 @@ int _strlen(char *s)
 {
 int l;
 l = strlen(s);
-printf("%d\n", l);
+printf("%d", l);
 return (0);
 }
