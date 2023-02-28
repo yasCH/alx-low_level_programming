@@ -1,9 +1,10 @@
 #include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 #include <unistd.h>
 #include <math.h>
 #include <string.h>
+#include "main.h"
+
 
 /**
 * main - Entry point
@@ -24,6 +25,5 @@ if (n % i == 0)
 n = n / i;
 }
 }
-printf("%lli", n);
-printf("\n");
+printf("%lli\n", n);
 }
