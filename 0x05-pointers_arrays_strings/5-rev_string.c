@@ -1,4 +1,4 @@
-#include <stdlib.h>
+A#include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
 #include <string.h>
@@ -15,8 +15,12 @@ void rev_string(char *s)
 {
 int l = strlen(s);
 int i;
-for (i = l - 1 ; i >= 0; i--)
+for (i = l - 1 ; i >= l / 2; i--)
 {
-s[(l - 1) - i] = s[i];
+char a = s[(l - 1) - i];
+char b = s[i];
+
+s[(l - 1) - i] = b;
+s[i] = a;
 }
 }
