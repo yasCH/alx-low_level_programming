@@ -16,5 +16,5 @@ int main(void)
 {
 int m = 50829599;
 printf("%i\n", m);
-return(0);
+return (0);
 }
