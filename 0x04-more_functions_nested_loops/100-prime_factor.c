@@ -25,4 +25,6 @@ n = n / i;
 }
 }
 printf("%lli\n", n);
+
+return (0);
 }
