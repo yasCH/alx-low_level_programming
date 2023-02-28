@@ -5,7 +5,6 @@
 #include <string.h>
 #include "main.h"
 
-
 /**
 * main - Entry point
 *
@@ -14,9 +13,9 @@
 *
 * Return: Always 0 (success)
 */
-int main(void)
+int main(n)
 {
-long long int  n = 612852475143;
+long long int  n;
 int i;
 for (i = 3; i <=sqrt(n); i++)
 {
