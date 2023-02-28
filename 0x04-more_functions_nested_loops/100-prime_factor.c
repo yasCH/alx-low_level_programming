@@ -20,10 +20,9 @@ for (i = 1; i <= n; i++)
 {
 if ( n % i != 0)
 {
-n = pow(n,2) / i;
+n = pow(n, 2) / i;
 }
 }
-printf("%i\n", n);
-
+printf("%i\n",n);
 return (0);
 }
