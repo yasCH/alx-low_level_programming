@@ -17,7 +17,7 @@ int main(void)
 {
 long long int  n;
 int i;
-for (i = 3; i <=sqrt(n); i++)
+for (i = 3; i <= sqrt(n); i++)
 {
 if (n % i == 0)
 {
