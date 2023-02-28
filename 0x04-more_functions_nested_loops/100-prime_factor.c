@@ -13,7 +13,7 @@
 *
 * Return: Always 0 (success)
 */
-int main(n)
+int main(void)
 {
 long long int  n;
 int i;
