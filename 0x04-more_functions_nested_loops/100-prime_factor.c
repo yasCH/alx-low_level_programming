@@ -15,7 +15,7 @@
 */
 int main(void)
 {
-long long int  n;
+int n = 612852475143;
 int i;
 for (i = 3; i <= sqrt(n); i++)
 {
@@ -24,7 +24,7 @@ if (n % i == 0)
 n = n / i;
 }
 }
-printf("%lli\n", n);
+printf("%i\n", n);
 
 return (0);
 }
