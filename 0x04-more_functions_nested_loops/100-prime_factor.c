@@ -17,15 +17,13 @@ int main(void)
 {
 int n = 612852475143;
 int i;
-{
 for (i = 2; i <= n; i++)
 {
 if (n % i == 0)
 {
 printf("%i, ", i);
+}
 printf("\n");
-}
-}
 }
 return (0);
 }
