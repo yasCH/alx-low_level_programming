@@ -3,7 +3,6 @@
 #include <unistd.h>
 #include <math.h>
 #include <string.h>
-#include "main.h"
 
 /**
 * main - Entry point
@@ -17,11 +16,11 @@ int main(void)
 {
 int n = sqrt(612852475143);
 int i;
-for (i = 3; i <= n; i++)
+for (i = 1; i <= n; i++)
 {
-if (n**2 % i == 0)
+if ( n % i != 0)
 {
-n = n / i;
+n = pow(n,2) / i;
 }
 }
 printf("%i\n", n);
