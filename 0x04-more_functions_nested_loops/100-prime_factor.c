@@ -1,6 +1,9 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+#include <unistd.h>
+#include <string.h>
+#include "main.h"
 
 /**
 **main - Entry point
@@ -21,4 +24,5 @@ for (i = 2 ; i <= n; i++)
 printf("%i/n", i);
 }
 }
+return (0);
 }
