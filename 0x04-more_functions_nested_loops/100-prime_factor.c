@@ -14,17 +14,7 @@
 */
 int main(void)
 {
-int n = 612852475143/50829599;
 int m = 50829599;
-int i;
-for (i = 3; i <= sqrt(n*50829599); i++)
-{
-if ( n % i != 0)
-{
-n = n / i;
-}
-}
 printf("%i\n", (m));
-
-return (0);
+return(0);
 }
