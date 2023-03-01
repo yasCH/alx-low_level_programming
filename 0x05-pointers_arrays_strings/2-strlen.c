@@ -5,15 +5,15 @@
 #include "main.h"
 
 /**
-* _strcat - Write a function that concatenates two strings.
+* _strlen - Write a function that returns the length of a string.
 *
-*@dest to check
-*@src to check
+* @s: character to check
 *
-* Return: (dest);
+* Return: (0)
 */
-char *_strcat(char *dest, char *src)
+int _strlen(char *s)
 {
-strcat(dest, src);
-return (dest);
+int l;
+l = strlen(s);
+return (l);
 }
