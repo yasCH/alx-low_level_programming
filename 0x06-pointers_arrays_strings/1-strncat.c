@@ -6,16 +6,16 @@
 #include "main.h"
 
 /**
-
-* _strncat - Write a function that concatenates two strings.
+* strncat - Write a function that concatenates two strings.
 *
 *@dest to check
 *@src to check
 *@n to check
 *
-* Returns a pointer to the resulting string dest
+* Returns: dest.
 */
 char *_strncat(char *dest, char *src, int n)
 {
-
+strncat(dest, src, n)
+return (dest);
 }
