@@ -8,8 +8,8 @@
 /**
 * _strcat - Write a function that concatenates two strings.
 *
-*@*dest to check
-*@*src to check
+*@dest to check
+*@src to check
 *
 * Returns a pointer to the resulting string dest
 */
