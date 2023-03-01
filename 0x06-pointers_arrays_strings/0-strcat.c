@@ -4,8 +4,8 @@
 /**
 * _strcat - Write a function that concatenates two strings.
 *
-* @dest to check
-* @src to check
+* @dest: to check
+* @src: to check
 *
 * Return: dest.
 */
