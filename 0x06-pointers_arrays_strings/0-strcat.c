@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
-#include <string.h>
 #include "main.h"
 
 /**
@@ -14,6 +13,22 @@
 */
 char *_strcat(char *dest, char *src)
 {
-char result[100] = strcat(dest, src);
-return (result);
+char result[100];
+int i = 0;
+int j = 0;
+while (dest[i] != '\0')
+{
+result[j] = dest[i];
+i++;
+j++;
+}
+i = 0;
+while (src[i] != '\0')
+{
+result[j] = src[i];
+i++;
+j++;
+}
+result[j] = '\0';
+return (0);
 }
