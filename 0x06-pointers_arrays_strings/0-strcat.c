@@ -10,7 +10,7 @@
 *@dest to check
 *@src to check
 *
-* Return: (dest);
+* Return: dest.
 */
 char *_strcat(char *dest, char *src)
 {
