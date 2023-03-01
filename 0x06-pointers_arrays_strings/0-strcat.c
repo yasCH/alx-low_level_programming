@@ -6,19 +6,27 @@
 /**
 * _strcat - Write a function that concatenates two strings.
 *
+*@dest to check
+*@src to check
+*
 * Return: dest.
 */
 char *_strcat(char *dest, char *src)
 {
-char *result = dest;
-while (*result != '\0')
+int i = 0;
+while (dest[i] != '\0')
 {
-result++;
+dest[i];
+i++;
 }
-while (*src != '\0')
+int j = i;
+i = 0;
+while (src[i] != '\0')
 {
-*result++ = *src++;
+dest[j] = src[i];
+i++;
+j++;
 }
-*result = '\0';
+dest[j] = '\0';
 return (dest);
 }
