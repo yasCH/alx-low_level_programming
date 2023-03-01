@@ -1,13 +1,11 @@
-#include <stdlib.h>
 #include <stdio.h>
-#include <unistd.h>
 #include "main.h"
 
 /**
 * _strcat - Write a function that concatenates two strings.
 *
-*@dest to check
-*@src to check
+* @dest to check
+* @src to check
 *
 * Return: dest.
 */
@@ -28,5 +26,5 @@ i++;
 j++;
 }
 dest[j] = '\0';
-return (dest);
+return dest;
 }
