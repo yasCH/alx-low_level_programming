@@ -14,6 +14,6 @@
 */
 char *_strcat(char *dest, char *src)
 {
-strcat(dest, src);
-return (dest);
+char result[100] = strcat(dest, src);
+return (result);
 }
