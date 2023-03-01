@@ -6,15 +6,15 @@
 #include "main.h"
 
 /**
-* _strcat - Write a function that concatenates two strings.
+* *_strcat - Write a function that concatenates two strings.
 *
 *@dest to check
 *@src to check
 *
-* Returns a pointer to the resulting string dest
+* Returns dest
 */
 char *_strcat(char *dest, char *src)
 {
 strcat(dest, src);
-return (0);
+return (dest);
 }
