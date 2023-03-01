@@ -23,5 +23,5 @@ while (*src != '\0')
 *result++ = *src++;
 }
 *result = '\0';
-return (dest);
+return (result);
 }
