@@ -6,7 +6,6 @@
 #include "main.h"
 
 /**
-
 * _strncpy - Write a function that copies a string.
 *
 *@dest to check
@@ -17,5 +16,6 @@
 */
 char *_strncpy(char *dest, char *src, int n)
 {
-
+strncpy(dest, src, n);
+return (dest);
 }
