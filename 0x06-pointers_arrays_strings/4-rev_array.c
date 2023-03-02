@@ -13,7 +13,7 @@
 * @a: to check
 * @n: to check
 *
-* Return: void
+* Return: nothing.
 */
 void reverse_array(int *a, int n)
 {
