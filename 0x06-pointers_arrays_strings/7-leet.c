@@ -14,24 +14,27 @@
 */
 char *leet(char *s)
 {
-for (i = s[0], i < sizeof(s), i++)
+int i;
+for (i = 0; s[i] != '\0'; i++)
 {
-if (i = 'e' || 'E')
+if (s[i] =='e' || s[i] == 'E')
 {
-s[i] = '3'
+s[i] = '3';
 }
-else if (i = 'o' || 'O')
+else if (s[i] == 'o' || s[i] == 'O')
 {
-s[i] = '0'
+s[i] = '0';
 }
-else if (i = 't' || 'T')
+else if (s[i] == 't' || s[i] == 'T')
 {
-s[i] = '7'
+s[i] = '7';
 }
-esle (i = 'l' || 'L')
+else if (s[i] == 'l' || s[i] == 'L')
 {
-s[i] = '1'
+s[i] = '1';
 }
+}
+return (s);
 }
 return (s);
 }
