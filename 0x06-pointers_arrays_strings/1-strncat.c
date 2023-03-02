@@ -6,7 +6,7 @@
 #include "main.h"
 
 /**
-* strncat - Write a function that concatenates two strings.
+* _strncat - Write a function that concatenates two strings.
 *
 *@dest: to check
 *@src: to check
