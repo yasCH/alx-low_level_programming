@@ -36,5 +36,3 @@ s[i] = '1';
 }
 return (s);
 }
-return (s);
-}
