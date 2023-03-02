@@ -9,9 +9,9 @@
 * string_toupper - Write a function that changes all lowercase letters
 * of a string to uppercase.
 *
-* Returns 0
+* Return: 0
 */
 char *string_toupper(char *)
 {
-
+toupper();
 }
