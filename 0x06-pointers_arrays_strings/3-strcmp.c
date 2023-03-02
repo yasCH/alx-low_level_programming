@@ -8,8 +8,8 @@
 /**
 * _strcmp - Write a function that compares two strings.
 *
-*@s1 to check
-*@s2 to check
+*@s1: to check
+*@s2: to check
 *
 * Return 0
 */
