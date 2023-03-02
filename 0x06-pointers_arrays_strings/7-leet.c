@@ -10,7 +10,7 @@
 *
 * @s: to check
 *
-* Return: Always 0 (success)
+* Return: s
 */
 char *leet(char *s)
 {
