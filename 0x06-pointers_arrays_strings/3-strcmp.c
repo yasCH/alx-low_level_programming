@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <math.h>
-#include <string.h>
 #include "main.h"
 
 /**
@@ -13,7 +12,7 @@
 *
 * Return: n
 */
-int *_strcmp(char *s1, char *s2)
+int _strcmp(char *s1, char *s2)
 {
 int n = 0;
 while (*s1 != '\0' || *s2 != '\0')
