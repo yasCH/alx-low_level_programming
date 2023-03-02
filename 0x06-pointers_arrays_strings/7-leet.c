@@ -6,7 +6,7 @@
 #include "main.h"
 
 /**
-* leet: Write a function that encodes a string into 1337.
+* leet - Write a function that encodes a string into 1337.
 *
 * @s: to check
 *
