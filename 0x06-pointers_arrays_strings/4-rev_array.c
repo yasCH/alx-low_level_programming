@@ -13,9 +13,13 @@
 *@a to check
 *@n to check
 *
-* Returns a pointer to the resulting string dest
+* Return: void
 */
 void reverse_array(int *a, int n)
 {
-
+int i = n;
+for (i = n; i = 0; i--)
+{
+a[i];
+}
 }
