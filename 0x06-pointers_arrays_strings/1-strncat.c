@@ -12,7 +12,7 @@
 * @src: to check
 * @n: to check
 *
-* Returns: dest.
+* Return: dest.
 */
 char *_strncat(char *dest, char *src, int n)
 {
