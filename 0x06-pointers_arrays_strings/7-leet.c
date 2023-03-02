@@ -17,7 +17,7 @@ char *leet(char *s)
 int i;
 for (i = 0; s[i] != '\0'; i++)
 {
-if (s[i] =='e' || s[i] == 'E')
+if (s[i] == 'e' || s[i] == 'E')
 {
 s[i] = '3';
 }
