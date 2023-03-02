@@ -33,4 +33,5 @@ esle (i = 'l' || 'L')
 s[i] = '1'
 }
 }
+return (s);
 }
