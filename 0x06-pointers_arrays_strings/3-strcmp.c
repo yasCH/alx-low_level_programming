@@ -11,7 +11,7 @@
 *@s1: to check
 *@s2: to check
 *
-* Return 0
+* Return: 0
 */
 int *_strcmp(char *s1, char *s2)
 {
