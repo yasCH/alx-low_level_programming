@@ -8,10 +8,10 @@
 /**
 
 * reverse_array - Write a function that reverses the content
-*of an array of integers.
+* of an array of integers.
 *
-*@a to check
-*@n to check
+* @a: to check
+* @n: to check
 *
 * Return: void
 */
