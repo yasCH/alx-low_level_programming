@@ -12,6 +12,11 @@
 */
 char *_strchr(char *s, char c)
 {
-strchr(s, c);
-return (s);
+while (*s != (char) c)
+{
+if (!*s++) {
+return NULL;
+}
+}
+return (char *)s;
 }
