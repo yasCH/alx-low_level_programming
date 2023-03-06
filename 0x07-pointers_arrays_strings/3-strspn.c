@@ -13,6 +13,6 @@
 unsigned int _strspn(char *s, char *accept)
 {
 int m;
-m = strspn (s, accept);
-return(m);
+m = strspn(s, accept);
+return (m);
 }
