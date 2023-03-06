@@ -3,7 +3,8 @@
 #include <string.h>
 
 /**
-* print_chessboard - Write a function that prints the chessboard.
+* print_diagsums - Write a function that prints the sum
+* of the two diagonals of a square matrix of integers.
 *
 *@a: to check
 *@size: to check
