@@ -21,17 +21,17 @@ for (i = 0; i < 1; i++)
 {
 for (k = size - 1; k <= (size * size) - size; k = k + (size - 1))
 {
-int* c = &(a[i]);
+int *c = &(a[i]);
 int p = c[k];
-summ = summ + p; 
+summ = summ + p;
 }
 for (j = 0; j < (size * size); j = j + size + 1)
 {
-int* c = &(a[i]);
+int *c = &(a[i]);
 int p = c[j];
 sum = sum + p;
 }
 }
-printf("%d, %d", sum , summ);
+printf("%d, %d", sum, summ);
 printf("\n");
 }
