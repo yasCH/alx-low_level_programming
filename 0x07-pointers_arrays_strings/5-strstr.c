@@ -13,8 +13,8 @@
 char *_strstr(char *haystack, char *needle);
 {
 char *p;
-p= strstr(haystack, needle);
-if (p != 0)
+p = strstr(haystack, needle);
+if (p)
 {
 return (p);
 }
