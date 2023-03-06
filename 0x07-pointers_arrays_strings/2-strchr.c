@@ -8,10 +8,10 @@
 *@s: to check
 *@c: to check
 *
-* Return: c
+* Return: s
 */
 char *_strchr(char *s, char c)
 {
 strchr(s, c);
-return (c);
+return (s);
 }
