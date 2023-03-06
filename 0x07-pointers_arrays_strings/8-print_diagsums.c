@@ -12,19 +12,26 @@
 */
 void print_diagsums(int *a, int size)
 {
-int r = 0;
+int sum = 0;
+int summ = 0;
 int i;
 int j;
-for(i=0; i<size; i++)
+int k;
+for (i = 0; i < 1; i++)
 {
-for(j=0; j<size; j++)
+for (k = size - 1; k <= (size * size) - size; k = k + (size - 1))
 {
-if (i==j)
+int* c = &(a[i]);
+int p = c[k];
+summ = summ + p; 
+}
+for (j = 0; j < (size * size); j = j + size + 1)
 {
-int rij=a[i][j];
-r= r + rij;
-printf ("%d ",r);
+int* c = &(a[i]);
+int p = c[j];
+sum = sum + p;
 }
 }
-}
+printf("%d, %d", sum , summ);
+printf("\n");
 }
