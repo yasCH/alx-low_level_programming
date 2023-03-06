@@ -10,7 +10,7 @@
 *
 * Return: p
 */
-char *_strstr(char *haystack, char *needle);
+char *_strstr(char *haystack, char *needle)
 {
 char *p;
 p = strstr(haystack, needle);
