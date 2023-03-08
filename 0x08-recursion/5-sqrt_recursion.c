@@ -16,7 +16,7 @@ int _sqrt_recursion(int n)
 int i;
 for (i = 1; i < n; i++)
 {
-if ((n / i) = i)
+if (n / i == i)
 {
 return (i);
 }
