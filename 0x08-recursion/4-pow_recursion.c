@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <math.h>
 #include "main.h"
 
 /**
@@ -14,10 +15,11 @@
 */
 int _pow_recursion(int x, int y)
 {
+int n;
 if (y < 0)
 {
 return (-1);
 }
-int n = pow(x, y);
+n = pow(x, y);
 return (n);
 }
