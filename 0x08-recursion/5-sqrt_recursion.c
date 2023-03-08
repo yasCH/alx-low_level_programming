@@ -1,6 +1,6 @@
 #include "main.h"
+#include <stdio.h>
 #include <math.h>
-
 
 /**
 * _sqrt_recursion - Write a function that returns the natural square
