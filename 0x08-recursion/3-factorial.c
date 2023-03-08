@@ -7,18 +7,14 @@
 *
 * @n: to check
 *
-* Return: v
+* Return: factorial
 */
 int factorial(int n)
 {
-int v;
+
 if (n < 0)
 {
 return (-1);
 }
-else
-{
-v =  n * factorial(n - 1);
-return (v);
-}
+return ( n * factorial(n - 1));
 }
