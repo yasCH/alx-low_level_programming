@@ -18,7 +18,7 @@ return (-1);
 }
 else
 {
-v =  n * !(n - 1);
+v =  n * (n - 1);
 return (v);
 }
 }
