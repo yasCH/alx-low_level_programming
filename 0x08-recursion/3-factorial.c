@@ -11,11 +11,11 @@
 */
 int factorial(int n)
 {
+int v;
 if (n < 0)
 {
 return (-1);
 }
-int v;
 v=  n * !(n - 1);
 return (v);
 }
