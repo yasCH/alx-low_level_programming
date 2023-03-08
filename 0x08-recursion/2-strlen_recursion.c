@@ -7,7 +7,7 @@
 *
 * @s: to check
 *
-* return: n
+* Return: n
 */
 
 int _strlen_recursion(char *s)
