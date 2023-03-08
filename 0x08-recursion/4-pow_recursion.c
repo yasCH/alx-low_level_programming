@@ -15,11 +15,18 @@
 */
 int _pow_recursion(int x, int y)
 {
-int n;
 if (y < 0)
 {
 return (-1);
 }
-n = pow(x, y);
-return (n);
+if (y == 0) 
+{
+return (1);
+}
+else
+{
+int pow;
+pow = x * _pow_recursion(x, y - 1);
+return (pow);
+}
 }
