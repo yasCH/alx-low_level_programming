@@ -20,9 +20,6 @@ if (n%i == n/i)
 {
 return (i);
 }
-else 
-{
+}
 return (-1);
-}
-}
 }
