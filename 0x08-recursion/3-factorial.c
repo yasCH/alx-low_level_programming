@@ -16,6 +16,9 @@ if (n < 0)
 {
 return (-1);
 }
+else
+{
 v =  n * !(n - 1);
 return (v);
+}
 }
