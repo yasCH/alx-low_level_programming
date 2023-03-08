@@ -15,6 +15,7 @@ if (n < 0)
 {
 return (-1);
 }
-int v =  n * !(n - 1);
+int v;
+v=  n * !(n - 1);
 return (v);
 }
