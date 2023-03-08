@@ -11,14 +11,10 @@
 */
 void _print_rev_recursion(char *s)
 {
-int l = strlen(s);
-int i;
-for (i = l - 1 ; i >= l / 2; i--)
+if (s[0] != '\0')
 {
-char a = s[(l - 1) - i];
-char b = s[i];
-
-s[(l - 1) - i] = b;
-s[i] = a;
+int l = strlen(s);
+_print_rev_recursion(s + 1);
+_putchar(s[0]);
 }
 }
