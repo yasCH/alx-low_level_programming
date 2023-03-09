@@ -13,13 +13,16 @@
 */
 int _sqrt_recursion(int n)
 {
-int i;
-for (i = 1; i < n; i++)
+if (n <= 0)
 {
-if (n / i == i)
-{
-return (i);
-}
-}
 return (-1);
+}
+if (n == 1)
+{
+return (1);
+}
+if (n > 1);
+{
+return (sqrt(n));
+}
 }
