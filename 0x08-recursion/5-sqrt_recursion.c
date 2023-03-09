@@ -6,7 +6,10 @@
 * _sqrt_recursion - Write a function that returns the natural square
 * root of a number.
 *
+* _sqrt_helper - function is a recursive helper function
+*
 * @n: to check
+* @i: to check
 *
 * Return: -1 fail
 *
@@ -23,7 +26,7 @@ return (-1);
 }
 else
 {
-return (_sqrt_helper(n, i+1));
+return (_sqrt_helper(n, i + 1));
 }
 }
 int _sqrt_recursion(int n)
