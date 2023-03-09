@@ -11,20 +11,29 @@
 * Return: -1 fail
 *
 */
+int _sqrt_helper(int n, int i) 
+{
+if (i * i == n)
+{
+return i;
+} 
+else if (i * i > n)
+{
+return -1;
+}
+else
+{
+return _sqrt_helper(n, i+1);
+}
+}
 int _sqrt_recursion(int n)
 {
-int s;
-if (n <= 0)
+if (n < 0)
 {
-return (-1);
+return -1;
 }
-if (n == 1)
+else
 {
-return (1);
+return _sqrt_helper(n, 0);
 }
-if (n > 1)
-{
-s = (sqrt(n));
-}
-return (s);
 }
