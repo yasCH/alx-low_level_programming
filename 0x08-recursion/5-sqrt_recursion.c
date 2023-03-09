@@ -3,10 +3,9 @@
 #include <math.h>
 
 /**
+* _sqrt_helper - function is a recursive helper function
 * _sqrt_recursion - Write a function that returns the natural square
 * root of a number.
-*
-* _sqrt_helper - function is a recursive helper function
 *
 * @n: to check
 * @i: to check
