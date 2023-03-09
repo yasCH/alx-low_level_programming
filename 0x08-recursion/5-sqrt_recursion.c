@@ -25,4 +25,5 @@ if (n > 1)
 {
 return (sqrt(n));
 }
+return;
 }
