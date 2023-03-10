@@ -26,13 +26,14 @@ for (i = 0; i < argc; i++)
 if (i >= 48 && i <= 57)
 {
 int n = atoi(argv[i]);
-printf("%i\n", n);
-}
+int m = atoi(arg[i+1]);
 else
 {
 printf("Error\n");
 return (1);
 }
+}
+printf("%i\n", n + m);
 }
 }
 return (0);
