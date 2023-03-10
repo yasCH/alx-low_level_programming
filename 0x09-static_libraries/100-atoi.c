@@ -13,6 +13,7 @@
 */
 int _atoi(char *s)
 {
-atoi(s);
-return (0);
+int a;
+a = atoi(s);
+return (a);
 }
