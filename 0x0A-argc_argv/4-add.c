@@ -14,12 +14,19 @@
 */
 int main(int argc, char *argv[])
 {
+if (argc < 2)
+{
+printf("0\n");
+}
+else
+{
 int i;
 for (i = 0; i < argc; i++)
 {
 int n = *argv[1];
 n = n + *argv[i];
 printf("%i\n", n);
+}
 }
 return (0);
 }
