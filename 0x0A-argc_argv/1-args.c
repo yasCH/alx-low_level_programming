@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 {
 if (argv == argv)
 {
-printf("%li\n", argc);
+printf("%i\n", argc);
 }
 else
 {
