@@ -14,8 +14,8 @@ int main(int argc, char *argv[])
 {
 if (argc > 2)
 {
-long int a = atoi(*argv[1]);
-long int b = atoi(*argv[2]);
+long int a = atoi(argv[1]);
+long int b = atoi(argv[2]);
 printf("%li\n", a * b);
 }
 else
