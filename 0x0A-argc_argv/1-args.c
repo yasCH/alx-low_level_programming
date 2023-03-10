@@ -14,9 +14,9 @@
 */
 int main(int argc, char *argv[])
 {
-if (argc > 1)
+if (argv == argv)
 {
-printf("%li\n", sizeof(*argv) - 1);
+printf("%li\n", argc);
 }
 else
 {
