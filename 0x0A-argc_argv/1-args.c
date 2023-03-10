@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 {
 if (argc > 1)
 {
-printf("%li\n", sizeof(&argv) - 1);
+printf("%li\n", sizeof(**argv) - 1);
 }
 else
 {
