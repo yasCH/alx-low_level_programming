@@ -22,10 +22,17 @@ else
 {
 int i;
 for (i = 0; i < argc; i++)
+{ 
+if (i >= 48 && i <= 57)
 {
 int n = *argv[1];
 n = n + *argv[i];
 printf("%i\n", n);
+}
+else
+{
+printf("Error");
+}
 }
 }
 return (0);
