@@ -4,7 +4,7 @@
 #include "main.h"
 
 /**
-* main - Write a program that prints its name, followed by a new line.
+* main - Write a program that prints the number of arguments passed into it.
 *
 * @argc: to check
 * @argv: to check
@@ -13,6 +13,12 @@
 */
 int main(int argc, char *argv[])
 {
-printf("%i\n", argc);
+if (argc > 1)
+{
+printf("%i\n", sizeof(argv) - 1);
+else
+{
+printf("0\n");
+}
 return (0);
 }
