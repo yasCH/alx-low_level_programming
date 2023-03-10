@@ -13,5 +13,6 @@
 */
 int _atoi(char *s)
 {
+atoi(s);
 return (0);
 }
