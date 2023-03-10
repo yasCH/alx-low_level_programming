@@ -25,7 +25,7 @@ for (i = 0; i < argc; i++)
 { 
 if (i >= 48 && i <= 57)
 {
-int n = *argv[i];
+int n = atoi(argv[i]);
 printf("%i\n", n);
 }
 else
