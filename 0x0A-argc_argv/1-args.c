@@ -18,9 +18,5 @@ if (argv == argv)
 {
 printf("%i\n", argc);
 }
-else
-{
-printf("0\n");
-}
 return (0);
 }
