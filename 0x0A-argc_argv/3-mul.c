@@ -14,9 +14,9 @@ int main(int argc, char *argv[])
 {
 if (argc > 2)
 {
-int a = (&argv[1] - 48);
-int b = (&argv[2] - 48);
-printf("%d\n", (a * b));
+int a = (*argv[1] - 48);
+int b = (*argv[2] - 48);
+printf("%li\n", (a * b));
 }
 else
 {
