@@ -1,2 +1,2 @@
 #!/bin/bash
-ar rc libmy.a _putchar.o
+ar rc libmy.a
