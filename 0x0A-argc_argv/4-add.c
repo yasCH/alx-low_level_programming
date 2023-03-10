@@ -27,13 +27,13 @@ if (i >= 48 && i <= 57)
 {
 int n = atoi(argv[i]);
 int m = atoi(arg[i+1]);
+printf("%i\n", n + m);
+}
 else
 {
 printf("Error\n");
 return (1);
 }
-}
-printf("%i\n", n + m);
 }
 }
 return (0);
