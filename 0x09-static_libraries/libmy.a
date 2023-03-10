@@ -1,3 +1,3 @@
 #!/bin/bash
-ar libmy.a
+ar rc libmy.a
 
