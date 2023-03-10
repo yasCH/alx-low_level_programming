@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 {
 if (argv == argv)
 {
-printf("%i\n", argc);
+printf("%i\n", (argc - 1));
 }
 return (0);
 }
