@@ -4,7 +4,8 @@
 #include "main.h"
 
 /**
-* main - Write a program that prints the number of arguments passed into it.
+* main - Write a program that prints the number of arguments
+* passed into it.
 *
 * @argc: to check
 * @argv: to check
