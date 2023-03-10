@@ -19,7 +19,7 @@ for (i = 0; i < argc; i++)
 {
 int n = *argv[1];
 n = n + *argv[i];
-printf("%i\n",n );
+printf("%i\n", n);
 }
 return (0);
 }
