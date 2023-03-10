@@ -9,7 +9,7 @@
 *
 * Return: 0
 */
-int main(int argc, char *argv[0]);
+int main(int argc, char *argv[2]);
 {
 return (0);
 }
