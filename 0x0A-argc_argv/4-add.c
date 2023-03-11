@@ -9,7 +9,7 @@
 * @argc: to check
 * @argv: to check
 *
-* Return: 0
+* Return: 0(success) 1(fail)
 */
 int main(int argc, char *argv[])
 {
