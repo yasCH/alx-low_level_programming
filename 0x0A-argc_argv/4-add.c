@@ -26,8 +26,8 @@ for (i = 1; i < argc; i++)
 {
 int a = atoi(argv[i]);
 int l = strlen(argv[i]);
-int p = _pow_recursion(10, l-1);
-if (a <= 0 && a < p)
+int p = _pow_recursion(10, l - 1);
+if (a <= 0 || a < p)
 {
 printf("Error\n");
 return (1);
