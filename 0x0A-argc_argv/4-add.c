@@ -2,7 +2,6 @@
 #include <time.h>
 #include <stdio.h>
 #include <string.h>
-#include <math.h> 
 #include "main.h"
 
 /**
@@ -27,7 +26,7 @@ for (i = 1; i < argc; i++)
 {
 int a = atoi(argv[i]);
 int l = strlen(argv[i]);
-int p = pow(10, l);
+int p = _pow_recursion(10, l);
 if (a <= 0 && a < p)
 {
 printf("Error\n");
@@ -41,4 +40,32 @@ m = m + a;
 printf("%i\n", m);
 }
 return (0);
+}
+
+/**
+* _pow_recursion - Write a function that returns the value of x
+* raised to the power of y.
+*
+*@x: to check
+*@y: to check
+*
+*Return: n
+*
+*/
+int _pow_recursion(int x, int y)
+{
+if (y < 0)
+{
+return (-1);
+}
+if (y == 0)
+{
+return (1);
+}
+else
+{
+int pow;
+pow = x * _pow_recursion(x, y - 1);
+return (pow);
+}
 }
