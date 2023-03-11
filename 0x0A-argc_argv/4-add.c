@@ -22,11 +22,11 @@ else
 {
 int i;
 for (i = 0; i < argc; i++)
-{ 
+{
 if (i >= 48 && i <= 57)
 {
 int n = atoi(argv[i]);
-int m = atoi(argv[i+1]);
+int m = atoi(argv[i + 1]);
 printf("%i\n", n + m);
 }
 else
