@@ -24,7 +24,9 @@ int i;
 for (i = 1; i < argc; i++)
 {
 int a = atoi(argv[i]);
-if (a <= 0)
+int l = strlen(argv[i]);
+int p = pow(10, l);
+if (a <= 0 && a < p)
 {
 printf("Error\n");
 return (1);
