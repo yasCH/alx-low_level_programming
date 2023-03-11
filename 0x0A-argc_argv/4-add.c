@@ -21,10 +21,13 @@ printf("0\n");
 else
 {
 int i;
+int j;
 for (i = 0; i < argc; i++)
 {
-for (j = 1;i < argc; j++)
+for (j = 1; i < argc; j++)
+{
 int m = atoi(argv[i + j]);
+}
 printf("%i\n", m);
 if (i >= 48 && i <= 57)
 {
