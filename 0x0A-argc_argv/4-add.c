@@ -23,10 +23,9 @@ else
 int i;
 for (i = 0; i < argc; i++)
 {
-int n = atoi(argv[i]);
-int m = atoi(argv[i + 1]);
-printf("%i\n", n + m);
-
+for (j = 1;i < argc; j++)
+int m = atoi(argv[i + j]);
+printf("%i\n", m);
 if (i >= 48 && i <= 57)
 {
 printf("Error\n");
