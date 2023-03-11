@@ -21,7 +21,6 @@ printf("0\n");
 else
 {
 int i;
-int j;
 for (i = 0; i < argc; i++)
 {
 int m = atoi(argv[i]);
