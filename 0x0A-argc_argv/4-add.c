@@ -14,6 +14,7 @@
 */
 int main(int argc, char *argv[])
 {
+int m = 0;
 if (argc < 2)
 {
 printf("0\n");
@@ -21,16 +22,19 @@ printf("0\n");
 else
 {
 int i;
-for (i = 0; i < argc; i++)
+for (i = 1; i < argc; i++)
 {
-int m = atoi(argv[i]);
-printf("%i\n", m);
-if (i >= 48 && i <= 57)
+if (argv[i] >= 48 && argv[i] <= 57)
 {
 printf("Error\n");
 return (1);
 }
+else
+{
+m = m + atoi(argv[i]);
 }
+}
+printf("%i\n", m);
 }
 return (0);
 }
