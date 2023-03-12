@@ -15,14 +15,14 @@
 */
 int main(int argc, char *argv[])
 {
-if (argc != 1)
+if (argc != 2)
 {
 printf("Error\n");
 return (1);
 }
 else
 {
-int a = atoi(argv[0]);
+int a = atoi(argv[1]);
 if (a < 0)
 {
 printf("0\n"); 
@@ -38,6 +38,7 @@ return (0);
 
 int cents(int a)
 {
-int value[4] = {1; 2; 5; 10; 25};
+int value[5] = {1, 2, 5, 10, 25};
 
+return(0);
 }
