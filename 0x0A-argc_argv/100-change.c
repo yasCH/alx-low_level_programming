@@ -1,5 +1,7 @@
 #include <stdlib.h>
-#include <time.h>
+
+
+
 #include <stdio.h>
 #include <string.h>
 #include "main.h"
@@ -36,6 +38,13 @@ printf("%i\n", r);
 return (0);
 }
 
+/**
+* cents - Write the amount of cents you need to give back.
+*
+* @a: to check
+*
+* Return: 0(success) 
+*/
 int cents(int a)
 {
 int value[5] = {1, 2, 5, 10, 25};
