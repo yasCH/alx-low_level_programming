@@ -24,7 +24,7 @@ else
 int a = atoi(argv[1]);
 if (a < 0)
 {
-printf("0\n"); 
+printf("0\n");
 }
 else
 {
@@ -40,7 +40,7 @@ return (0);
 *
 * @a: to check
 *
-* Return: 0(success) 
+* Return: 0(success)
 */
 int cents(int a)
 {
@@ -49,10 +49,10 @@ int value[5] = {25, 10, 5, 2, 1};
 int r = a / value[i];
 for (i = 0; i < 5; i++)
 {
-if (a >= value[i] && r == 0 )
+if (a >= value[i] && r == 0)
 {
 printf("%i/n", r);
 }
 }
-return(0);
+return (0);
 }
