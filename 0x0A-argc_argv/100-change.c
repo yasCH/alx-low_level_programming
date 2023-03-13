@@ -51,7 +51,7 @@ for (i = 0; i < 5; i++)
 int r = a / value[i];
 if (a >= value[i] && r == 0)
 {
-printf("%i\n", r);
+return(r);
 }
 }
 return (0);
