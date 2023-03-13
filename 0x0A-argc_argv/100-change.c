@@ -54,11 +54,6 @@ if (r == 0)
 {
 return (s);
 }
-else
-{
-int t = r / value[i];
-return (s + t);
-}
 }
 return (0);
 }
