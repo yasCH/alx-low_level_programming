@@ -58,7 +58,7 @@ if (r == 0)
 {
 return (s);
 }
-else 
+else
 {
 int t = s + cents(r);
 return (t);
