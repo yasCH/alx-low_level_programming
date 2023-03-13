@@ -46,9 +46,9 @@ int cents(int a)
 {
 int i = 0;
 int value[5] = {25, 10, 5, 2, 1};
-int r = a / value[i];
 for (i = 0; i < 5; i++)
 {
+int r = a / value[i];
 if (a >= value[i] && r == 0)
 {
 printf("%i\n", r);
