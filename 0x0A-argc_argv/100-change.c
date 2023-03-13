@@ -51,7 +51,7 @@ for (i = 0; i < 5; i++)
 {
 if (a >= value[i] && r == 0)
 {
-printf("%i/n", r);
+printf("%i\n", r);
 }
 }
 return (0);
