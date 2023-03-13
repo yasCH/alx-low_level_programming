@@ -21,14 +21,14 @@ return (1);
 }
 else
 {
-int amount = atoi(argv[1]);
+int a = atoi(argv[1]);
 if (a < 0)
 {
 printf("0\n"); 
 }
 else
 {
-int r = cents(amount);
+int r = cents(a);
 printf("%i\n", r);
 }
 }
@@ -44,14 +44,16 @@ return (0);
 */
 int cents(int a)
 {
+int i = 0;
 int value[5] = {25, 10, 5, 2, 1};
-inr r = a / value[i];
+int r = a / value[i];
 for (i = 0; i < 5; i++)
 {
 if (a >= value[i] && r == 0 )
 {
 printf("%i/n", r);
 }
+else if 
 }
 return(0);
 }
