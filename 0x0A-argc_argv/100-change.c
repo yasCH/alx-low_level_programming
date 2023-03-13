@@ -53,7 +53,6 @@ if (a >= value[i] && r == 0 )
 {
 printf("%i/n", r);
 }
-else if 
 }
 return(0);
 }
