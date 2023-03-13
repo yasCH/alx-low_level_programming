@@ -56,7 +56,7 @@ return (s);
 }
 else 
 {
-int t = r + count(r);
+int t = r + cents(r);
 return (t);
 }
 }
