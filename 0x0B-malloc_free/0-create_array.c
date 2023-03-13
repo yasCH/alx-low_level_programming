@@ -19,6 +19,6 @@ return (NULL);
 }
 else
 {
-return (size[c]);
+return (*size[c]);
 }
 }
