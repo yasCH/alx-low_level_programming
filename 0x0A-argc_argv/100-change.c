@@ -50,13 +50,17 @@ for (i = 0; i < 5; i++)
 {
 int r = a % value[i];
 int s = a / value[i];
+if (a < value[i])
+{
+continue;
+}
 if (r == 0)
 {
 return (s);
 }
 else 
 {
-int t = r + cents(r);
+int t = s + cents(r);
 return (t);
 }
 }
