@@ -52,7 +52,7 @@ int r = a % value[i];
 int s = a / value[i];
 if (r == 0)
 {
-return(s);
+return (s);
 }
 }
 return (0);
