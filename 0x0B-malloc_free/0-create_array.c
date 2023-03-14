@@ -26,6 +26,6 @@ for (i = 0; i < size ; i++)
 {
 creat[i] = c;
 }
-return (creat);
+return (0);
 }
 }
