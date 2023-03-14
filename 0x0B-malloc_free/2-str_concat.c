@@ -21,6 +21,8 @@ return (NULL);
 } 
 else
 {
-return (concat);
+concat[0] = s1;
+concat[1] = s2;
+return (creat);
 }
 }
