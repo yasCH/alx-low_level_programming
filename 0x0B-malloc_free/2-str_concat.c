@@ -21,8 +21,7 @@ return (NULL);
 } 
 else
 {
-concat[0] = *s1;
-concat[1] = *s2;
+concat[2] = {*s1, *s2};
 return (concat);
 }
 }
