@@ -19,7 +19,7 @@ return (NULL);
 }
 else
 {
-char *creat = (char *c) malloc(sizeof(c) * size);
+char *creat = (char c) malloc(sizeof(c) * size);
 return (creat);
 }
 }
