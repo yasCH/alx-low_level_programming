@@ -24,7 +24,7 @@ else
 {
 if (s1 == NULL && s2 == NULL)
 {
-return ("");
+return ("\n");
 }
 else if (s1 == NULL)
 {
