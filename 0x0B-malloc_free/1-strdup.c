@@ -13,6 +13,13 @@
 */
 char *_strdup(char *str)
 {
+if (str == NULL)
+{
+return (NULL);
+}
+else
+{
 char *to = strdup(str);
 return (to);
+}
 }
