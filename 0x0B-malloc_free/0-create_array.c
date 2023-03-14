@@ -22,7 +22,7 @@ creat[i] = c;
 }
 if (size != 0)
 {
-return (creat);
+return (&creat);
 }
 return (NULL);
 }
