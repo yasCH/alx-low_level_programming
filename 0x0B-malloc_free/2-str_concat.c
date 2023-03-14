@@ -18,13 +18,13 @@ char *concat;
 concat = malloc(sizeof(*s1) + sizeof(*s2) + 1);
 if (concat == NULL)
 {
-return ("");
+return (NULL);
 } 
 else
 {
 if (s1 == NULL && s2 == NULL)
 {
-return (NULL);
+return ("");
 }
 else if (s1 == NULL)
 {
