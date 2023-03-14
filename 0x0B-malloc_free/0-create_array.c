@@ -21,11 +21,11 @@ return (NULL);
 }
 else
 {
-creat = malloc(sizeof(char) * size);
 for (i = 0; i < size ; i++)
 {
 creat[i] = c;
 }
+creat = malloc(sizeof(char) * size);
 return (creat);
 }
 }
