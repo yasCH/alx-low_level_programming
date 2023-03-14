@@ -30,7 +30,7 @@ for (j = 0; j < height ; j++)
 creat[j] = 0;
 }
 creat[i] = 0;
-return(creat);
+return(creat[i][j]);
 }
 }
 
