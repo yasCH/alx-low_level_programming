@@ -14,15 +14,14 @@
 char *str_concat(char *s1, char *s2)
 {
 char *concat;
-concat = malloc(sizeof(*s1 + *s2) + 8);
+concat = malloc(sizeof(*s1);
 if (concat == NULL)
 {
 return (NULL);
 } 
 else
 {
-concat[0] = s1[@]
-concat[1] = s2[0]
+concat = realloc (concat, sizeof(*s2) + "\0"))
 return (concat);
 }
 }
