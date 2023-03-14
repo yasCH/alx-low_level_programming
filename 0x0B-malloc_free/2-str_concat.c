@@ -22,8 +22,19 @@ return (NULL);
 } 
 else
 {
+if (s1 == NULL)
+{
+strcpy(concat, s2);
+}
+else if (s2 == NULL)
+{
+strcpy(concat, s1);
+}
+else
+{
 strcpy(concat, s1);
 strcat(concat, s2);
+}
 return (concat);
 }
 }
