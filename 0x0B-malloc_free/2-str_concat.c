@@ -22,7 +22,7 @@ return (NULL);
 else
 {
 concat = realloc (concat, sizeof(*s2 + "\0"));
-concat[] = { s1, s2};
+concat[concat] = { s1, s2};
 return (concat);
 }
 }
