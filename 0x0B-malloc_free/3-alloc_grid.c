@@ -27,10 +27,10 @@ for (i = 0; i < width ; i++)
 {
 for (j = 0; j < height ; j++)
 {
-creat[j] = 0;
+*creat[j] = 0;
 }
-creat[i] = 0;
-return(creat)
+*creat[i] = 0;
+return(*creat);
 }
 }
 
