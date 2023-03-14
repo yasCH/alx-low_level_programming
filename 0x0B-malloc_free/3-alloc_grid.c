@@ -30,7 +30,7 @@ creat[i] = malloc((width) * sizeof(int));
 if (creat[i] == NULL)
 {
 return (NULL);
-free(creat);
+free(creat[i]);
 }
 else
 {
