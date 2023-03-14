@@ -24,9 +24,9 @@ free(creat);
 }
 else
 {
-for (i = 0; i < width; i++)
+for (i = 0; i < height; i++)
 {
-creat[i] = malloc((height) * sizeof(int));
+creat[i] = malloc((width) * sizeof(int));
 if (creat[i] == NULL)
 {
 return (NULL);
@@ -34,7 +34,7 @@ free(creat);
 }
 else
 {
-for (j = 0; j < height; j++)
+for (j = 0; j < width; j++)
 {
 creat[i][j] = 0;
 }
