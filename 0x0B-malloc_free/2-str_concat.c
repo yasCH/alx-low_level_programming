@@ -21,7 +21,8 @@ return (NULL);
 } 
 else
 {
-concat[0] = *s1 + *s2;
+strcpy(concat, s1);
+strcat(concat, s2);
 return (concat);
 }
 }
