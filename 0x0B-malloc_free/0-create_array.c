@@ -24,5 +24,8 @@ if (creat == NULL || size == 0)
 {
 return (NULL);
 }
+else
+{
 return (creat);
+}
 }
