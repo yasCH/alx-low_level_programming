@@ -21,6 +21,11 @@ else
 {
 char *creat;
 creat = malloc(sizeof(c) * size);
+int i;
+for (i = 0; i < size ; i++)
+{
+creat[i] = c;
+}
 return (creat);
 }
 }
