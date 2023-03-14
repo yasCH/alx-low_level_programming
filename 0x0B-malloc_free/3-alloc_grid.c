@@ -31,6 +31,7 @@ creat[j] = 0;
 }
 creat[i] = 0;
 }
+creat = malloc(sizeof(width) * sizeof(height));
 return(creat);
 }
 }
