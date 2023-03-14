@@ -27,9 +27,9 @@ for (i = 0; i < width ; i++)
 {
 for (j = 0; j < height ; j++)
 {
-creat[j] = 0;
+creat[0][j] = 0;
 }
-creat[i] = 0;
+creat[i][0] = 0;
 }
 return(creat);
 }
