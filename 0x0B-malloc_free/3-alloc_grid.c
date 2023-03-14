@@ -24,14 +24,18 @@ free(creat);
 }
 else
 {
-for (i = 0; i < height; i++)
+i = 0;
+while (i < height)
 {
-for (j = 0; j < width ; j++)
+j = 0;
+while (j < width)
 {
-creat[0][j] = 0;
+creat[j][j] = 0;
+j++;
 }
-creat[i][0] = 0;
-}
+return (creat);
+i++;
+}     
 return (creat);
 }
 }
