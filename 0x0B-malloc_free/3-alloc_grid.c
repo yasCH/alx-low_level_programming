@@ -16,7 +16,7 @@ int **alloc_grid(int width, int height)
 int i;
 int j;
 int **creat;
-creat = malloc(sizeof(int[width][height]));
+creat = malloc((width * height) * sizeof(int));
 if (creat == NULL || width <= 0 || height <= 0)
 {
 return (NULL);
@@ -24,11 +24,15 @@ free(creat);
 }
 else
 {
+for (i = 0; i < width * height ; i++)
+{
+creat[i] = i + 1;
 for (i = 0; i < width; i++)
 {
-for (j = 0; j < height; j++)
+for (int j = 0; j < height; j++)
 {
-creat[i][j] = 0;
+creat = creat[width * height + j];
+}
 }
 }
 return (creat);
