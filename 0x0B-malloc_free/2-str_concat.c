@@ -22,6 +22,7 @@ return (NULL);
 else
 {
 concat = realloc (concat, sizeof(*s2 + "\0"));
+concat[2] ={s1, s2};
 return (concat);
 }
 }
