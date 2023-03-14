@@ -29,8 +29,8 @@ for (i = 0; i < height; i++)
 creat[i] = malloc((width) * sizeof(int));
 if (creat[i] == NULL)
 {
-return (NULL);
 free(creat[i]);
+return (NULL);
 }
 else
 {
