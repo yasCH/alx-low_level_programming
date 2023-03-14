@@ -18,7 +18,7 @@ char *concat;
 concat = malloc(sizeof(*s1) + sizeof(*s2) + 1);
 if (concat == NULL)
 {
-return (NULL);
+return ("");
 } 
 else
 {
