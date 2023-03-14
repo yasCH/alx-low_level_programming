@@ -24,17 +24,6 @@ free(creat);
 }
 else
 {
-for (i = 0; i < width * height ; i++)
-{
-creat[i] = i + 1;
-for (i = 0; i < width; i++)
-{
-for (int j = 0; j < height; j++)
-{
-creat = creat[width * height + j];
-}
-}
-}
 return (creat);
 }
 }
