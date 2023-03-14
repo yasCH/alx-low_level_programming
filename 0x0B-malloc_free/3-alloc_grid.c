@@ -20,6 +20,7 @@ creat = malloc(width * height);
 if (creat == NULL || width <= 0 || height <= 0)
 {
 return (NULL);
+free(creat);
 }
 else
 {
