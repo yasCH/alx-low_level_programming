@@ -21,7 +21,7 @@ return (NULL);
 else
 {
 char *creat;
-creat = malloc(sizeof(c) * size);
+creat = malloc(sizeof(char) * size);
 for (i = 0; i < size ; i++)
 {
 creat[i] = c;
