@@ -20,9 +20,9 @@ for (i = 0; i < size ; i++)
 {
 creat[i] = c;
 }
-if (size == 0)
+if (size != 0)
 {
-return (NULL);
-}
 return (creat);
+}
+return (NULL);
 }
