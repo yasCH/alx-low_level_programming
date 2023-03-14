@@ -26,6 +26,7 @@ else
 {
 for (i = 0; i < width; i++)
 {
+creat[i] = malloc((height) * sizeof(int));
 for (j = 0; j < height; j++)
 {
 creat[i][j] = 0;
