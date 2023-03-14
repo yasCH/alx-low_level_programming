@@ -24,7 +24,7 @@ else
 {
 if (s1 == NULL && s2 == NULL)
 {
-return (0);
+return (concat);
 }
 else if (s1 == NULL)
 {
