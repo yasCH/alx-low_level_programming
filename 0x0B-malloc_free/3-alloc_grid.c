@@ -15,7 +15,7 @@ int **alloc_grid(int width, int height)
 {
 int i;
 int j;
-char **creat;
+int **creat;
 creat = malloc(sizeof(width) + sizeof(height));
 if (creat == NULL || width <= 0 || height <= 0)
 {
