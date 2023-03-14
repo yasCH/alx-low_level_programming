@@ -22,7 +22,11 @@ return (NULL);
 } 
 else
 {
-if (s1 == NULL)
+if (s1 == NULL && s2 == NULL)
+{
+return (NULL);
+}
+else if (s1 == NULL)
 {
 strcpy(concat, s2);
 }
