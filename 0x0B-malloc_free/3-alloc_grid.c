@@ -27,11 +27,19 @@ else
 for (i = 0; i < width; i++)
 {
 creat[i] = malloc((height) * sizeof(int));
+if (creat[i] == NULL)
+{
+return (NULL);
+free(creat);
+}
+else
+{
 for (j = 0; j < height; j++)
 {
 creat[i][j] = 0;
 }
 }
 return (creat);
+}
 }
 }
