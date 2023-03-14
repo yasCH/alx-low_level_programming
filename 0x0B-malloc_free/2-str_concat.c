@@ -4,7 +4,7 @@
 #include "main.h"
 
 /**
-* create_array - Write a function that creates an array of chars,
+* str_concat - Write a function that creates an array of chars,
 * and initializes it with a specific char.
 *
 * @s1: to check
@@ -15,11 +15,11 @@
 char *str_concat(char *s1, char *s2)
 {
 char *concat;
-concat = malloc(sizeof(*s1) + sizeof(*s2) + 1);
+concat = malloc(sizeof(*s1) + sizeof(*s2) + 10);
 if (concat == NULL)
 {
 return (NULL);
-} 
+}
 else
 {
 if (s1 == NULL && s2 == NULL)
