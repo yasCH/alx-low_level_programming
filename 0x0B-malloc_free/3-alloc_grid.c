@@ -25,7 +25,7 @@ else
 {
 for (i = 0; i < height; i++)
 {
-creat[i] = malloc((width) * sizeof(int));
+/*creat[i] = malloc((width) * sizeof(int));*/
 if (creat[i] == NULL)
 {
 return (NULL);
