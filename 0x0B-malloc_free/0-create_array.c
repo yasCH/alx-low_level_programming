@@ -20,7 +20,7 @@ for (i = 0; i < size ; i++)
 {
 creat[i] = c;
 }
-if (creat == NULL && size == 0)
+if (creat == NULL || size == 0)
 {
 return (NULL);
 }
