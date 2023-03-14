@@ -19,7 +19,7 @@ int **creat;
 creat = malloc((width * height) * sizeof(int));
 if (creat == NULL || width <= 0 || height <= 0)
 {
-return (NULL);
+return (creat);
 }
 else
 {
@@ -29,8 +29,7 @@ creat[i] = malloc((width) * sizeof(int));
 if (creat[i] == NULL)
 {
 free(creat[i]);
-free(creat);
-return (NULL);
+return (creat);
 }
 else
 {
