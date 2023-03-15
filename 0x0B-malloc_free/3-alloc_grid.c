@@ -20,7 +20,7 @@ if (width <= 0 || height <= 0)
 {
 return (NULL);
 }
-creat[width] = (int*)malloc(width * sizeof(int));
+creat = (int*)malloc(width * sizeof(int));
 if (creat == NULL)
 {
 return (creat);
