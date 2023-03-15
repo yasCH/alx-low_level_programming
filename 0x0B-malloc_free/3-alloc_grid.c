@@ -32,6 +32,7 @@ for (i = 0; i < height; i++)
 {
 if (creat[i] == NULL)
 {
+free(creat)
 return (creat);
 }
 else
@@ -42,6 +43,7 @@ creat[i][j] = 0;
 }
 }
 }
+free(creat[i]);
 return (creat);
 }
 }
