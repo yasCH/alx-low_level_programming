@@ -33,10 +33,11 @@ for (i = 0; i < height; i++)
 creat[i] = malloc(width * sizeof(int));
 if (creat[i] == NULL)
 {
-for (k = 0; k <i; k++)
+for (k = 0; k < i; k++)
 {
 free(creat[k]);
 }
+free(creat);
 return (NULL);
 }
 else
