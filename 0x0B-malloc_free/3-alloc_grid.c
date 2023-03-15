@@ -30,7 +30,6 @@ else
 {
 for (i = 0; i < height; i++)
 {
-creat[i] = malloc((width) * sizeof(int));
 if (creat[i] == NULL)
 {
 return (creat);
@@ -43,7 +42,6 @@ creat[i][j] = 0;
 }
 }
 }
-free(creat[j]);
 return (creat);
 }
 }
