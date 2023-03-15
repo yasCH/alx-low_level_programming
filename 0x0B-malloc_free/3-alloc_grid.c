@@ -32,7 +32,7 @@ for (i = 0; i < height; i++)
 {
 if (creat[i] == NULL)
 {
-free(creat)
+free(creat);
 return (creat);
 }
 else
