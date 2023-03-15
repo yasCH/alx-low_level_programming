@@ -23,7 +23,6 @@ return (NULL);
 creat = malloc(height * sizeof(int *));
 if (creat == NULL)
 {
-free(creat);
 return (creat);
 }
 else
@@ -33,7 +32,6 @@ for (i = 0; i < height; i++)
 creat[i] = malloc((width) * sizeof(int));
 if (creat[i] == NULL)
 {
-free(creat[i]);
 return (creat);
 }
 else
