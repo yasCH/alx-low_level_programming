@@ -42,6 +42,7 @@ creat[i][j] = 0;
 }
 }
 }
+free(creat[i]);
 return (creat);
 }
 }
