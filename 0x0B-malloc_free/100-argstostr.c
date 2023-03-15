@@ -1,22 +1,27 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 #include "main.h"
 
 /**
 * argstostr - Write a function that concatenates all the
 * arguments of your program.
 *
-* @argc: to check
-* @argv: to check
+* @ac: to check
+* @av: to check
 *
 * Return: 0
 */
 char *argstostr(int ac, char **av)
 {
 int i;
-for (i = 0; i < argc; i++)
+char *new = "\n";
+char *creat;
+creat = malloc(ac * sizeof(char));
+for (i = 0; i < ac; i++)
 {
-printf("%s\n", argv[i]);
+creat = strcat(creat, av[i]);
+creat = strcat(creat, new);
 }
-return (0);
+return (creat);
 }
