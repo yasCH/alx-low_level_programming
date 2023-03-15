@@ -41,6 +41,7 @@ for (j = 0; j < width; j++)
 {
 creat[i][j] = 0;
 }
+free(creat[i]);
 }
 }
 return (creat);
