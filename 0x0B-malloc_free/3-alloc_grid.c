@@ -23,7 +23,7 @@ return (NULL);
 creat = malloc(height * sizeof(int *));
 if (creat == NULL)
 {
-free(creat)
+free(creat);
 return (creat);
 }
 else
