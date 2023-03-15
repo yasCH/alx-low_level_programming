@@ -17,8 +17,8 @@ char *argstostr(int ac, char **av)
 int i;
 char *new = "\n";
 char *creat;
-creat = malloc(ac * sizeof(char));
-for (i = 0; i < ac; i++)
+creat = malloc(sizeof(av) * sizeof(char));
+for (i = 1; i < ac; i++)
 {
 creat = strcat(creat, av[i]);
 creat = strcat(creat, new);
