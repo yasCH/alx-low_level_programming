@@ -23,6 +23,7 @@ return (NULL);
 creat = malloc(height * sizeof(int *));
 if (creat == NULL)
 {
+free(creat)
 return (creat);
 }
 else
@@ -42,7 +43,7 @@ creat[i][j] = 0;
 }
 }
 }
-free(creat[i]);
+free(creat[j]);
 return (creat);
 }
 }
