@@ -1,4 +1,5 @@
-#pragma once
+#ifndef _DOG_H_
+#define _DOG_H_
 
 /**
 * struct dog - dog informations
@@ -14,3 +15,4 @@ char *name;
 float age;
 char *owner;
 };
+#endif
