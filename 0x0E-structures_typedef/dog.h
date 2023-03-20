@@ -1,4 +1,5 @@
-struct dog 
+#pragma once
+struct dog
 {
 char *name;
 float age;
