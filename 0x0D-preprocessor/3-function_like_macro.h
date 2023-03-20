@@ -1,6 +1,1 @@
-#pragma once
-int _abs(int x)
-{
-x = abs(x);
-return (ax);
-};
+#pragma once ABS(x) ((x) < 0 ? -(x) : x)
