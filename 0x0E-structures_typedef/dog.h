@@ -1,4 +1,3 @@
-void init_dog(struct dog *d, char *name, float age, char *owner);
 #ifndef _DOG_H_
 #define _DOG_H_
 
@@ -15,5 +14,6 @@ typedef struct dog
 char *name;
 float age;
 char *owner;
-};
+} dog;
 #endif
+void init_dog(struct dog *d, char *name, float age, char *owner);
