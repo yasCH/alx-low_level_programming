@@ -1,3 +1,3 @@
-IFNDEF SUM
+#IFNDEF SUM
 SUM(x, y)(x + y)
 #ENDIF
