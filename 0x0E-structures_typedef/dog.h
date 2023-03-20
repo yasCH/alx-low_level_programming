@@ -1,3 +1,5 @@
+void init_dog(char *name, float age, char *owner);
+
 #ifndef _DOG_H_
 #define _DOG_H_
 
