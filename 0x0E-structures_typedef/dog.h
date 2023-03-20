@@ -9,7 +9,7 @@
 *
 * Description: My dog informations
 */
-typedef struct dog
+struct dog
 {
 char *name;
 float age;
