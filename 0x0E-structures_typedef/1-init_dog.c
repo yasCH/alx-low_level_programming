@@ -15,6 +15,6 @@
 */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-d = { .name, .age, .owner };
+my_dog = {dog.name, dog.age, dog.owner };
 return (0);
 }
