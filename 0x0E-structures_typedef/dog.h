@@ -1,3 +1,5 @@
+#pragma once
+
 /**
 * struct dog - dog informations
 * @name: of the dog
