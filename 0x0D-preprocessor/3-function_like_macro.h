@@ -1,3 +1,3 @@
 #ifndef ABS
-#define ABS(x)
+#define ABS(x) (sqrt(x * x))
 #endif
