@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <string.h>
-#include "main.h"
 
 /**
 * main - check the code
@@ -11,6 +10,6 @@
 */
 int main(void)
 {
-fprintf(__FILE__)
+fprintf("%s\",__FILE__);
 return (0);
 }
