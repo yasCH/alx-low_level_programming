@@ -6,7 +6,7 @@
 * init_dog - Write a function that initialize a variable
 * of type struct dog
 *
-* @dog: my dog
+* @d: pointer to my dog
 * @name: of the dog
 * @age: of the dog
 * @owner: of the dog
