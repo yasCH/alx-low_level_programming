@@ -1,1 +1,6 @@
-#define ABS(x) ((x) < 0 ? -(x) : x)
+#pragma once
+int _abs(int x)
+{
+x = abs(x);
+return (ax);
+};
