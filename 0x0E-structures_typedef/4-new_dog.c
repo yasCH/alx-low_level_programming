@@ -21,16 +21,18 @@ return (NULL);
 }
 else
 {
-if (name == NULL && owner == NULL)
-{
-return (t);
-}
 if (name != NULL)
-{t->name = name;}
+{
+t->name = name;
+}
 if (owner != NULL)
-{t->owner = owner;}
+{
+t->owner = owner;
+}
 if (age > 0)
-{t->age = age;}
+{
+t->age = age;
+}
 }
 return (t);
 }
