@@ -34,7 +34,6 @@ strcpy(t->owner, owner);
 }
 else
 {
-free(t->name);
 free(t);
 }
 t->age = age;
@@ -42,6 +41,7 @@ return(t);
 }
 else
 {
+free(t);
 return (NULL);
 }
 }
