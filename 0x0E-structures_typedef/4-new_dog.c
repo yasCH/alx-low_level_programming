@@ -23,18 +23,15 @@ else
 {
 if (name != NULL)
 {
-strcpy(t, name);
-t->name = name;
+strcpy(t, t->name);
 }
 if (owner != NULL)
 {
-strcpy(t, owner);
-t->owner = owner;
+strcpy(t, t->owner);
 }
 if (age > 0)
 {
-strcpy(t, age);
-t->age = age;
+strcpy(t, t->age);
 }
 }
 return (t);
