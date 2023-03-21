@@ -25,17 +25,17 @@ else
 if (name != NULL)
 {
 strcpy(name, t);
-t->name = name
+t->name = name;
 }
 if (owner != NULL)
 {
 strcpy(owner, t);
-t->owner = owner
+t->owner = owner;
 }
 if (age > 0)
 {
 strcpy(age, t);
-t->age = age
+t->age = age;
 }
 }
 return (t);
