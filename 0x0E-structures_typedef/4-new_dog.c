@@ -18,7 +18,6 @@ dog_t *t;
 t = malloc(sizeof(dog_t));
 if (t == NULL)
 {
-free(t);
 return (NULL);
 }
 t->name = malloc(strlen(name) + 1);
