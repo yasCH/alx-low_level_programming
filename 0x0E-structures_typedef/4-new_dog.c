@@ -26,10 +26,10 @@ if (name == NULL & owner == NULL)
 return (t);
 }
 else if (name == NULL)
-{d->name = name;}
+{t->name = name;}
 else if (owner == NULL)
-{d->owner = owner;}
+{t->owner = owner;}
 else if (age <= 0)
-{d->age = age;}
+{t->age = age;}
 }
 }
