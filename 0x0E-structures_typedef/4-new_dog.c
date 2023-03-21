@@ -32,4 +32,5 @@ else if (owner != NULL)
 else if (age > 0)
 {t->age = age;}
 }
+return (t);
 }
