@@ -25,7 +25,7 @@ strcpy(t->name, name);
 }
 else
 {
-free(t);
+free(t->name);
 }
 t->owner = malloc(strlen(owner) + 1);
 if (owner != NULL)
@@ -34,11 +34,11 @@ strcpy(t->owner, owner);
 }
 else
 {
-free(t);
+free(t->owner);
 }
 t->age = age;
-return(t);
 }
+return(t);
 else
 {
 free(t);
