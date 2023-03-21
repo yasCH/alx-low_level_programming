@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <string.h>
 #include "dog.h"
 
 /**
@@ -23,18 +24,15 @@ else
 {
 if (name != NULL)
 {
-strcpy(t, name);
-t->name = name;
+t->name = strcpy(t, name);
 }
 if (owner != NULL)
 {
-strcpy(t, owner);
-t->owner = owner;
+t->owner = strcpy(t, owner);
 }
 if (age > 0)
 {
-strcpy(t, age);
-t->age = age;
+t->age = strcpy(t, age);
 }
 }
 return (t);
