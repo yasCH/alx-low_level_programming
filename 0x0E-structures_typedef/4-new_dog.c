@@ -21,6 +21,15 @@ return (NULL);
 }
 else
 {
+if (name == NULL & owner == NULL)
+{
 return (t);
+}
+else if (name == NULL)
+{name = d->name;}
+else if (owner == NULL)
+{owner = d->owner;}
+else if (age >= 0)
+{age = d->age;}
 }
 }
