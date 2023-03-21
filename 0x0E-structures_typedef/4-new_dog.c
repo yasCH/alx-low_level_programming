@@ -40,6 +40,5 @@ else
 strcpy(t->owner, owner);
 }
 t->age = age;
-}
 return (t);
 }
