@@ -37,8 +37,8 @@ else
 free(t->owner);
 }
 t->age = age;
-}
 return(t);
+}
 else
 {
 free(t);
