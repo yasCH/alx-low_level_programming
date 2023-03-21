@@ -33,6 +33,8 @@ return (t);
 }
 else
 {
+free(t);
 return (NULL);
 }
+return(t);
 }
