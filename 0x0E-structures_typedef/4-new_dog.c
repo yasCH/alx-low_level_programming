@@ -29,14 +29,13 @@ if (owner != NULL)
 strcpy(t->owner, owner);
 }
 t->age = age;
+free(t->name);
+free(t->age);
+free(t->owner);
 return (t);
 }
 else
 {
-free(t->name);
-free(t->age);
-free(t->owner);
-free(t);
 return (NULL);
 }
 }
