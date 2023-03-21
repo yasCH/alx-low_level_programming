@@ -33,6 +33,7 @@ strcpy(t->name, name);
 t->owner = malloc(strlen(owner) + 1);
 if (owner == NULL)
 {
+free(t->name);
 free(t);
 }
 else
