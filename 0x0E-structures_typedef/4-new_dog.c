@@ -23,14 +23,17 @@ else
 {
 if (name != NULL)
 {
+strcpy(t, name);
 t->name = name;
 }
 if (owner != NULL)
 {
+strcpy(t, owner);
 t->owner = owner;
 }
 if (age > 0)
 {
+strcpy(t, age);
 t->age = age;
 }
 }
