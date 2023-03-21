@@ -21,7 +21,7 @@ return (NULL);
 }
 else
 {
-if (name == NULL & owner == NULL)
+if (name == NULL && owner == NULL)
 {
 return (t);
 }
