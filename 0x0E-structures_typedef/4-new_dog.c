@@ -33,9 +33,7 @@ return (t);
 }
 else
 {
-free(t->name);
-free(t->owner);
 free(t);
-return(NULL);
+return (NULL);
 }
 }
