@@ -10,25 +10,33 @@
 * @age: of the dog
 * @owner: of the dog
 *
-* Return: pointer to dig_t or NULL if it fails
+* Return: pointer to dog_t or NULL if it fails
 */
 dog_t *new_dog(char *name, float age, char *owner)
 {
 dog_t *t;
-t = malloc(sizeof(*name) + sizeof(age) + sizeof(*owner));
+t = malloc(sizeof(dog_t));
 if (t == NULL)
 {
 return (NULL);
 }
 else
 {
-if (name != NULL)
+if (name == NULL)
 {
-t->name = strcpy(name, t->name);
+t->name = malloc(strlen(name) + 1);
 }
-if (owner != NULL)
+else
 {
-t->owner = strcpy(owner, t->owner);
+strcpy(t->name, name);
+}
+if (owner == NULL)
+{
+t->owner = malloc(strlen(owner) + 1);
+}
+else
+{
+strcpy(t->owner, owner);
 }
 if (age > 0)
 {
