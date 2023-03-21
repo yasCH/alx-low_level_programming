@@ -33,10 +33,10 @@ return (t);
 }
 else
 {
-free(t);
-return (NULL);
-}
 free(t->name);
 free(t->age);
 free(t->owner);
+free(t);
+return (NULL);
+}
 }
