@@ -21,21 +21,12 @@ if (t == NULL)
 return (NULL);
 }
 t->name = malloc(strlen(name) + 1);
-if (name == NULL)
-{
-free(t);
-}
-else
+if (name != NULL)
 {
 strcpy(t->name, name);
 }
 t->owner = malloc(strlen(owner) + 1);
-if (owner == NULL)
-{
-free(t->name);
-free(t);
-}
-else
+if (owner != NULL)
 {
 strcpy(t->owner, owner);
 }
