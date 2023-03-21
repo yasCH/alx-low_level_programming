@@ -25,11 +25,11 @@ if (name == NULL && owner == NULL)
 {
 return (t);
 }
-else if (name != NULL)
+if (name != NULL)
 {t->name = name;}
-else if (owner != NULL)
+if (owner != NULL)
 {t->owner = owner;}
-else if (age > 0)
+if (age > 0)
 {t->age = age;}
 }
 return (t);
