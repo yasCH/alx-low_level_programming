@@ -6,7 +6,7 @@
 * print_name - Write a function that prints a name.
 *
 * @name: to check
-* @*f: to check
+* @f: to check
 *
 * Return void
 **/
