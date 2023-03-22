@@ -21,13 +21,10 @@ return (-1);
 }
 if((array != NULL) && (cmp != NULL))
 {
-if (compare != 0)
-{
-return (size);
+return (compare);
 }
 else
 {
 return (-1);
-}
 }
 }
