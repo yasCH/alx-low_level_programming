@@ -23,7 +23,7 @@ if((array != NULL) && (cmp != NULL))
 {
 if (compare != 0)
 {
-return (compare);
+return (size);
 }
 else
 {
