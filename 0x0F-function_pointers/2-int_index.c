@@ -18,12 +18,13 @@ if((array == NULL) || (cmp == NULL) || (size <= 0))
 {
 return (-1);
 }
+else
+{
 for (i = 0; i < size; i++)
 {
 if (cmp(array[i]) != 0)
 {
 return (i);
-}
 }
 else
 {
