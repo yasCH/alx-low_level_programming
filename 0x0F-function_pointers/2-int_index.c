@@ -14,7 +14,7 @@
 int int_index(int *array, int size, int (*cmp)(int))
 {
 int compare;
-compare = cmp(array[size];
+compare = cmp(array[size]);
 if(size <= 0)
 {
 return (-1);
