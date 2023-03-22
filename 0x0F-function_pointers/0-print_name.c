@@ -8,7 +8,7 @@
 * @name: to check
 * @f: to check
 *
-* Return void
+* Return: void
 */
 void print_name(char *name, void (*f)(char *))
 {
