@@ -26,3 +26,4 @@ printf("%d", "%c", number, separator");
 }
 printf("\n");
 }
+}
