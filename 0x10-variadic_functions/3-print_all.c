@@ -16,9 +16,9 @@ char c;
 int i;
 float f;
 char *s;
+int num_printed;
 va_list args;
 va_start(args, format);
-int num_printed = 0;
 while (*format != '\0')
 {
 if (num_printed > 0)
