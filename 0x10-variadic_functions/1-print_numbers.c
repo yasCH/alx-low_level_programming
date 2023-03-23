@@ -6,6 +6,7 @@
 /**
 * print_numbers - Function that  prints numbers, followed by a new line.
 *
+* @separator: to check
 * @n: to check
 *
 * Return: void
@@ -21,8 +22,8 @@ va_strat(ptr, n);
 for (i = 0; i < n; i++)
 {
 number += va_arg(ptr, unsigned int);
+printf("%d", "%c", number, separator")
 va_end(ptr);
-printf("%d", "%c", number, separator");
 }
 printf("\n");
 }
