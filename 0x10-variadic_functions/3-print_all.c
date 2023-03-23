@@ -53,8 +53,8 @@ break;
 default:
 break;
 }
-format++;
 num_printed++;
+format++;
 }
 va_end(args);
 printf("\n");
