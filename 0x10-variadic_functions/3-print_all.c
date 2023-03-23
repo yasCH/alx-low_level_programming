@@ -21,8 +21,10 @@ char *form;
 form = format;
 int num_printed; 
 num_printed = 0;
+int lenght;
+lenght = strlen(format);
 va_list args;
-va_start(args, strlen(format));
+va_start(args, lenght);
 while (*format != '\0')
 {
 if (num_printed > 0)
@@ -32,7 +34,7 @@ printf(", ");
 switch (*format)
 {
 case 'c':
-c = va_arg(args, char);
+c = va_arg(args, int);
 printf("%c", c);
 num_printed++;
 break;
@@ -42,7 +44,7 @@ printf("%d", i);
 num_printed++;
 break;
 case 'f':
-f = va_arg(args, float);
+f = va_arg(args, double);
 printf("%f", f);
 num_printed++;
 break;
