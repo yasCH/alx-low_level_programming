@@ -21,7 +21,7 @@ va_start(ptr, n);
 for (i = 0; i < n; i++)
 {
 printf("%d", va_arg(ptr, unsigned int));
-printf("%s, separator");
+printf("%s", separator);
 }
 }
 va_end(ptr);
