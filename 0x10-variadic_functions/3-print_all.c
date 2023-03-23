@@ -19,7 +19,7 @@ float f;
 char *s;
 int num_printed; 
 va_list args;
-va_start(args, strlen(format));
+va_start(args, format);
 num_printed = 0;
 while (format[num_printed] != '\0')
 {
