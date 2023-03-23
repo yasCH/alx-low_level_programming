@@ -19,7 +19,7 @@ if ((array != NULL) && (action != NULL) && (size > 0))
 {
 for (i = 0; i < size; i++)
 {
-action(array[size]);
+action(array[i]);
 }
 }
 }
