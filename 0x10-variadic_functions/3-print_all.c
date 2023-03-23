@@ -8,16 +8,16 @@
 *
 * @format: to check
 *
-* Return: int sum
+* Return: void
 */
 void print_all(const char * const format, ...)
 {
-va_list args;
-va_start(args, format);
 char c;
 int i;
 float f;
 char *s;
+va_list args;
+va_start(args, format);
 int num_printed = 0;
 while (*format != '\0')
 {
