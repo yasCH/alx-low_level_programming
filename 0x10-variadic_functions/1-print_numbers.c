@@ -16,14 +16,19 @@ unsigned int i;
 
 va_list ptr;
 va_start(ptr, n);
+
 if (separator != NULL && ptr != NULL)
 {
 for (i = 0; i < n; i++)
 {
-printf("%d", va_arg(ptr, unsigned int));
+unsigned int arg = va_arg(ptr, unsigned int);
+if (arg >= 0)
+{
+printf("%d", arg);
 if (i < n - 1)
 {
 printf("%s", separator);
+}
 }
 }
 }
