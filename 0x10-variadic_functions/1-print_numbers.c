@@ -14,7 +14,6 @@
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 unsigned int i;
-unsigned int number = 0;
 
 if (separator != NULL)
 {
@@ -22,10 +21,10 @@ va_list ptr;
 va_strat(ptr, n);
 for (i = 0; i < n; i++)
 {
-number += va_arg(ptr, unsigned int);
+printf("%d", va_arg(ptr, unsigned int);
+printf("%s, separator")
+}
+}
 va_end(ptr);
-printf("%d,%c", number, separator")
-}
 printf("\n");
-}
 }
