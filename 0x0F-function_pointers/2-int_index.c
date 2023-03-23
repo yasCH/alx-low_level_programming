@@ -6,7 +6,7 @@
 * int_index - Write a function that searches for an integer.
 *
 * @array: to creat
-* @size: is the number of elements in the array 
+* @size: is the number of elements in the array
 * @cmp: is a pointer to the function to be used to compare values
 *
 * Return: index or -1
