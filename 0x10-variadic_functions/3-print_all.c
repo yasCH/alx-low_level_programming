@@ -16,6 +16,7 @@ char c;
 int i;
 float f;
 char *s;
+char *form = format;
 int num_printed;
 va_list args;
 va_start(args, format);
@@ -25,7 +26,7 @@ if (num_printed > 0)
 {
 printf(", ");
 }
-switch (format)
+switch (*format)
 {
 case 'c':
 c = va_arg(args, int);
@@ -54,7 +55,7 @@ default:
 break;
 }
 num_printed++;
-format++;
+form++;
 }
 va_end(args);
 printf("\n");
