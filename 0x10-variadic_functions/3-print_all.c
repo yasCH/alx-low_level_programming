@@ -25,7 +25,7 @@ if (num_printed > 0)
 {
 printf(", ");
 }
-switch (*format)
+switch (format)
 {
 case 'c':
 c = va_arg(args, int);
