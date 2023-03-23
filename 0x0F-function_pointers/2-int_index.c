@@ -26,10 +26,7 @@ if (cmp(array[i]) != 0)
 {
 return (i);
 }
-else
-{
-return (-1);
 }
 }
-}
+return(-1);
 }
