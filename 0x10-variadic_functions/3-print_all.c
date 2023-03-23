@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdarg.h>
+#include <string.h>
 #include "variadic_functions.h"
 
 /**
@@ -17,9 +18,10 @@ int i;
 float f;
 char *s;
 char *form = format;
-int num_printed;
+int num_printed; 
+num_printed = 0;
 va_list args;
-va_start(args, format);
+va_start(args, strlen(format));
 while (*format != '\0')
 {
 if (num_printed > 0)
@@ -29,16 +31,19 @@ printf(", ");
 switch (*format)
 {
 case 'c':
-c = va_arg(args, int);
+c = va_arg(args, char);
 printf("%c", c);
+num_printed++;
 break;
 case 'i':
 i = va_arg(args, int);
 printf("%d", i);
+num_printed++;
 break;
 case 'f':
-f = va_arg(args, double);
+f = va_arg(args, float);
 printf("%f", f);
+num_printed++;
 break;
 case 's':
 s = va_arg(args, char*);
@@ -50,11 +55,11 @@ else
 {
 printf("%s", s);
 }
+num_printed++;
 break;
 default:
 break;
 }
-num_printed++;
 form++;
 }
 va_end(args);
