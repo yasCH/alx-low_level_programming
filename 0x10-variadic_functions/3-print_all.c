@@ -18,10 +18,9 @@ int i;
 float f;
 char *s;
 char *form;
-form = format;
 int num_printed; 
-num_printed = 0;
 int lenght;
+form = format;
 lenght = strlen(format);
 va_list args;
 va_start(args, lenght);
@@ -31,6 +30,7 @@ if (num_printed > 0)
 {
 printf(", ");
 }
+num_printed = 0;
 switch (*format)
 {
 case 'c':
