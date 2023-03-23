@@ -17,13 +17,11 @@ if(n == 0)
 {
 return (0);
 }
-int sum;
 va_list ptr;
 va_start(ptr, n);
 for (i = 0; i < n; i++)
 {
-sum + 1 = va_arg(ptr, i);
+va_arg(ptr, i);
 va_end(ptr);
 }
-return (sum);
 }
