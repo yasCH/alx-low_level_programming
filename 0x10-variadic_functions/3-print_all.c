@@ -17,21 +17,17 @@ char c;
 int i;
 float f;
 char *s;
-char *form;
 int num_printed; 
-int lenght;
-form = format;
-lenght = strlen(format);
 va_list args;
-va_start(args, lenght);
-while (*format != '\0')
+va_start(args, strlen(format));
+num_printed = 0;
+while (format[num_printed] != '\0')
 {
 if (num_printed > 0)
 {
 printf(", ");
 }
-num_printed = 0;
-switch (*format)
+switch (format[num_printed])
 {
 case 'c':
 c = va_arg(args, int);
@@ -63,7 +59,6 @@ break;
 default:
 break;
 }
-form++;
 }
 va_end(args);
 printf("\n");
