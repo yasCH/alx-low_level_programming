@@ -18,11 +18,7 @@ if (size <= 0)
 {
 return (-1);
 }
-if((array == NULL) || (cmp == NULL))
-{
-return (-1);
-}
-else
+if ((array != NULL) || (cmp != NULL))
 {
 for (i = 0; i < size; i++)
 {
@@ -30,10 +26,7 @@ if (cmp(array[i]) != 0)
 {
 return (i);
 }
-else
-{
 return (-1);
-}
 }
 }
 }
