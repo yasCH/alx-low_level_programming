@@ -19,8 +19,5 @@ va_start(ptr, n);
 va_arg(ptr, int);
 va_end(ptr);
 }
-else
-{
 return (0);
-}
 }
