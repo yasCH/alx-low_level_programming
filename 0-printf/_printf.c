@@ -13,7 +13,7 @@ int _printf(const char *format, ...)
 {
 int printed_chars = 0;
 char c;
-char *s);
+char *s;
 int d;
 
 va_list args;
