@@ -23,10 +23,6 @@ va_start(args, format);
 num_printed = 0;
 while (format[num_printed] != '\0')
 {
-if (num_printed > 0)
-{
-printf(", ");
-}
 switch (format[num_printed])
 {
 case 'c':
