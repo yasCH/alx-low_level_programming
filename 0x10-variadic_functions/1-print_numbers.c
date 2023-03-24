@@ -31,7 +31,7 @@ printf("%s", separator);
 }
 }
 
-if (ptr != NULL)
+if (separator == NULL && ptr != NULL)
 {
 for (i = 0; i < n; i++)
 {
