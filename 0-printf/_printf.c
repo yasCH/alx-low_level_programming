@@ -6,64 +6,54 @@
  *
  * @format: is a character string.
  *
- * Return: number of characters printed excluding "\0"for strings.
+ * Return:  total number of characters printed excluding "\0"for strings.
  */
 int _printf(const char *format, ...)
 {
-va_list args;
 int printed_chars = 0;
+const char c;
+const *char s;
+const int d;
 
+va_list args;
 va_start(args, format);
 
-while (*format != '\0') {
-if (*format == '%') {
-++format;
-switch (*format) {
-
-case 'c':
+while (*format != '\0') 
 {
-const char c = (char)va_arg(args, int);
-putchar(c);
-++printed_chars;
-}
-break;
+if (*format == '%') 
+{
+++format;
+switch (*format) 
+{
 
 case 's':
 {
-const char* s = va_arg(args, char*);
-while (*s != '\0') {
-putchar(*s++);
-++printed_chars;
-}
+s = (char*)va_arg(args, char*);
+puts(s);
+printed_chars = printed_char + strlen(s);
 }
 break;
 
-case '%':
-{
-putchar('%');
-++printed_chars;
-}
-break;
-
+case 'd':
 case 'i':
 {
-const int i = va_arg(args, int);
-putchar(i);
-++printed_chars;
+d = (int)va_arg(args, int);
+putchar(d + 48);
+printed_chars++;
 }
 break;
 
+case 'c':
 default:
-return (0);
+{
+c = (char)va_arg(args, int);
+putchar(c);
+printed_chars++;
+}
+break;
 }
 }
-else {
-putchar(*format);
-++printed_chars;
 }
-++format;
-}
-
 va_end(args);
 return printed_chars;
 }
