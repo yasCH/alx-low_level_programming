@@ -14,7 +14,7 @@ int _printf(const char *format, ...) {
     int printed_chars = 0;
     char c;
     char *s;
-    char *str;
+    char str[10];
     int d;
     int x;
 
@@ -35,8 +35,7 @@ int _printf(const char *format, ...) {
                 case 'd':
                 case 'i':
                     d = va_arg(arg, int);
-                    char str[10];
-                    int x = 0;
+                    x = 0;
                     while (d != 0) {
                         str[x++] = (d % 10) + '0';
                         d = d / 10;
