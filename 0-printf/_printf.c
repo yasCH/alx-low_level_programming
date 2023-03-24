@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #include <stdarg.h>
 
 /**
@@ -11,9 +12,9 @@
 int _printf(const char *format, ...)
 {
 int printed_chars = 0;
-const char c;
-const *char s;
-const int d;
+char c;
+char *s);
+int d;
 
 va_list args;
 va_start(args, format);
@@ -30,7 +31,7 @@ case 's':
 {
 s = (char*)va_arg(args, char*);
 puts(s);
-printed_chars = printed_char + strlen(s);
+printed_chars = printed_chars + strlen(s);
 }
 break;
 
