@@ -37,10 +37,6 @@ for (i = 0; i < n; i++)
 {
 arg = va_arg(ptr, unsigned int);
 printf("%d", arg);
-if (i < n - 1)
-{
-printf("%s", separator);
-}
 }
 }
 va_end(ptr);
