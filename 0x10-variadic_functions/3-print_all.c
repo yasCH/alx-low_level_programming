@@ -23,10 +23,7 @@ va_start(args, format);
 num_printed = 0;
 while (format[num_printed] != '\0')
 {
-if (num_printed > 0)
-{
-printf(", ");
-}
+num_printed > 0 ? printf(", ")
 switch (format[num_printed])
 {
 case 'c':
@@ -46,14 +43,7 @@ num_printed++;
 break;
 case 's':
 s = va_arg(args, char*);
-if (s == NULL)
-{
-printf("(nil)");
-}
-else
-{
-printf("%s", s);
-}
+s == NULL ? printf("(nil)") : printf("%s", s)
 num_printed++;
 break;
 default:
