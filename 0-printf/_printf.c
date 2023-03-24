@@ -23,7 +23,7 @@ switch (*format) {
 case 'c':
 {
 const char c = (char)va_arg(args, int);
-_putchar(c);
+putchar(c);
 ++printed_chars;
 }
 break;
@@ -32,7 +32,7 @@ case 's':
 {
 const char* s = va_arg(args, char*);
 while (*s != '\0') {
-_putchar(*s++);
+putchar(*s++);
 ++printed_chars;
 }
 }
@@ -40,7 +40,7 @@ break;
 
 case '%':
 {
-_putchar('%');
+putchar('%');
 ++printed_chars;
 }
 break;
@@ -48,7 +48,7 @@ break;
 case 'i':
 {
 const int i = va_arg(args, int);
-_putchar(i);
+putchar(i);
 ++printed_chars;
 }
 break;
@@ -58,7 +58,7 @@ return (0);
 }
 }
 else {
-_putchar(*format);
+putchar(*format);
 ++printed_chars;
 }
 ++format;
