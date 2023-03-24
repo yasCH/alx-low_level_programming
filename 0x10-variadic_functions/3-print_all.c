@@ -7,7 +7,7 @@
 /**
 * print_all - Function that prints anything.
 *
-* @format: to check
+* @format: list of types of arguments passed to the function
 *
 * Return: void
 */
@@ -23,7 +23,10 @@ va_start(args, format);
 num_printed = 0;
 while (format[num_printed] != '\0')
 {
-num_printed > 0 ? printf(", ")
+if (num_printed > 0)
+{
+printf(", ");
+}
 switch (format[num_printed])
 {
 case 'c':
@@ -43,7 +46,11 @@ num_printed++;
 break;
 case 's':
 s = va_arg(args, char*);
-s == NULL ? printf("(nil)") : printf("%s", s)
+if(s != NULL)
+{
+printf("%s", s);
+}
+printf("(nil)");
 num_printed++;
 break;
 default:
