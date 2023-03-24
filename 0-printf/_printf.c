@@ -17,45 +17,63 @@ char c;
 char *s;
 int d;
 
-va_list args;
-va_start(args, format);
+va_list arg;
+va_start(arg, format);
 
 while (*format != '\0') 
 {
 if (*format == '%') 
 {
-++format;
+format ++;
 switch (*format) 
 {
 
 case 's':
 {
-s = (char*)va_arg(args, char*);
+s = va_arg(arg, char*);
 puts(s);
-printed_chars = printed_chars + strlen(s);
+s++;
+printed_chars = printed_chars + (strlen(s));
 }
 break;
 
 case 'd':
 case 'i':
 {
-d = (int)va_arg(args, int);
-putchar(d + 48);
+d = va_arg(arg, int);
+putchar(d + 0);
 printed_chars++;
 }
 break;
 
 case 'c':
-default:
 {
-c = (char)va_arg(args, int);
+c = va_arg(arg, int);
 putchar(c);
 printed_chars++;
 }
 break;
+
+case '%': {
+putchar('%');
+printed_chars++;
+break;
+}
+
+default:
+{
+break;
 }
 }
+
 }
-va_end(args);
+else
+{
+putchar(*format);
+printed_chars++;
+}
+format++;
+}
+va_end(arg);
 return printed_chars;
 }
