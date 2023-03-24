@@ -18,7 +18,7 @@ unsigned int arg;
 va_list ptr;
 va_start(ptr, n);
 
-if (separator > 48 && ptr != NULL)
+if (separator > 0 && ptr != NULL)
 {
 for (i = 0; i < n; i++)
 {
