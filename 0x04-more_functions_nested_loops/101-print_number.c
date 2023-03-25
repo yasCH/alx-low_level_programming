@@ -8,7 +8,7 @@
 /**
 * print_number - Prototype practicing
 *
-* Description: void print_number(int n)
+* Description: Write a function that prints an integer.
 *
 * @n: to check
 *
