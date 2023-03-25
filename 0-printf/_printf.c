@@ -10,6 +10,8 @@
  *
  * Return:  total number of characters printed excluding "\0"for strings.
  */
+
+
 int _printf(const char *format, ...) {
     int printed_chars = 0;
     char c;
@@ -18,6 +20,7 @@ int _printf(const char *format, ...) {
     char str[10];
     int d;
     int x;
+    int len;
 
     va_list arg;
     va_start(arg, format);
@@ -37,13 +40,18 @@ int _printf(const char *format, ...) {
                 case 'i':
                     d = va_arg(arg, int);
                     x = 0;
-                    while (d != 0) {
+                    while (d != 0)
+                    {
                         str[x++] = (d % 10) + '0';
                         d = d / 10;
                     }
                     str[x] = '\0';
-                    fputs(str, stdout);
-                    printed_chars += strlen(str);
+                    len = strlen(str);
+                    for (int i = len - 1; i >= 0; i--)
+                        {
+                            putchar(str[i]);
+                            printed_chars++;
+                        }
                     break;
 
                 case 'c':
@@ -53,9 +61,9 @@ int _printf(const char *format, ...) {
                     break;
                     
                 case 'r':
-                    r = va_arg(arg, int);
-                    fputs("%r", stdout);
-                    break;
+                r = va_arg(arg, int);
+                fputs("%r", stdout);
+                break;
 
                 case '%':
                     putchar('%');
