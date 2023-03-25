@@ -5,9 +5,7 @@
 
 /**
 * _printf - Write a function that produces output according to a format.
-*
 * @format: is a character string.
-*
 * Return:  total number of characters printed excluding "\0"for strings.
 */
 
@@ -65,5 +63,5 @@ printed_chars++;
 format++;
 }
 va_end(arg);
-return printed_chars;
+return (printed_chars);
 }
