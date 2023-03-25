@@ -16,10 +16,7 @@ int _printf(const char *format, ...)
     int printed_chars = 0;
     char c;
     char *s;
-    char str[10];
     int d;
-    int i;
-    int len;
 
     va_list arg;
     va_start(arg, format);
