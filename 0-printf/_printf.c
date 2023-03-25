@@ -3,7 +3,7 @@
 #include <stdarg.h>
 #include "main.h"
 
-int switching_function (char *format, int printed_chars, va_list arg);
+int switching_function (const char *format, int printed_chars, va_list arg);
 
 /**
 * _printf - Write a function that produces output according to a format.
