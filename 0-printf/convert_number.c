@@ -28,7 +28,7 @@ putchar(n + 48);
 }
 else
 {
-print_number(d);
+convert_number(d);
 putchar(r + 48);
 }
 }
