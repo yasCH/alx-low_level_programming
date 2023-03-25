@@ -16,7 +16,6 @@ int _printf(const char *format, ...)
 {
     int printed_chars = 0;
     char c;
-    char r;
     char *s;
     char str[10];
     int d;
@@ -61,12 +60,7 @@ int _printf(const char *format, ...)
                     putchar(c);
                     printed_chars++;
                     break;
-                    
-                case 'r':
-                r = va_arg(arg, int);
-                fputs("%r", stdout);
-                break;
-
+              
                 case '%':
                     putchar('%');
                     printed_chars++;
