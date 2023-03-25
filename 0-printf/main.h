@@ -4,6 +4,6 @@
 int _putchar(char c);
 int _printf(const char *format, ...);
 void _print_rev_recursion(char *s);
-void covert_number(int n);
+void convert_number(int n);
 
 #endif /* _MAIN_H_ */
