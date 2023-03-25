@@ -20,6 +20,7 @@ int _printf(const char *format, ...) {
     char str[10];
     int d;
     int x;
+    int i;
     int len;
 
     va_list arg;
@@ -47,7 +48,7 @@ int _printf(const char *format, ...) {
                     }
                     str[x] = '\0';
                     len = strlen(str);
-                    for (int i = len - 1; i >= 0; i--)
+                    for (i = len - 1; i >= 0; i--)
                         {
                             putchar(str[i]);
                             printed_chars++;
