@@ -11,9 +11,6 @@
 int _printf(const char *format, ...)
 {
 int printed_chars = 0;
-char c;
-char *s;
-int d;
 va_list arg;
 va_start(arg, format);
 while (*format != '\0')
@@ -21,6 +18,24 @@ while (*format != '\0')
 if (*format == '%')
 {
 format++;
+printed_chars = switching_function(format, printed_chars, arg);
+}
+else
+{
+putchar(*format);
+printed_chars++;
+}
+format++;
+}
+va_end(arg);
+return (printed_chars);
+}
+
+int switching_function (char *format, int printed_chars, va_list arg)
+{
+char c;
+char *s;
+int d;
 switch (*format)
 {
 case 's':
@@ -36,7 +51,6 @@ printed_chars++;
 break;
 case 'c':
 c = va_arg(arg, int);
-putchar(c);
 printed_chars++;
 break;
 case '%':
@@ -44,14 +58,5 @@ putchar('%');
 printed_chars++;
 break;
 }
-}
-else
-{
-putchar(*format);
-printed_chars++;
-}
-format++;
-}
-va_end(arg);
-return (printed_chars);
+return(printed_chars);
 }
