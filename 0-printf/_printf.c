@@ -43,9 +43,6 @@ case '%':
 putchar('%');
 printed_chars++;
 break;
-default:
-fputs("Unsupported format specifier", stdout);
-break;
 }
 }
 else
