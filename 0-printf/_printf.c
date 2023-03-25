@@ -11,57 +11,55 @@
 
 int _printf(const char *format, ...)
 {
-int printed_chars = 0;
-char c;
-char *s;
-int d;
+  int printed_chars = 0;
+  char c;
+  char *s;
+  int d;
+  va_list arg;
+  va_start(arg, format);
+  while (*format != '\0')
+    {
+      if (*format == '%')
+      {
+        format++;
+          switch (*format)
+          {
+          case 's':
+          s = va_arg(arg, char*);
+          fputs(s, stdout);
+          printed_chars += strlen(s);
+          break;
 
-va_list arg;
-va_start(arg, format);
+          case 'd':
+          case 'i':
+          d = va_arg(arg, int);
+          convert_number(d);
+          printed_chars++;
+          break;
 
-while (*format != '\0')
-{
-if (*format == '%')
-{
-format++;
-switch (*format)
-{
-case 's':
-s = va_arg(arg, char*);
-fputs(s, stdout);
-printed_chars += strlen(s);
-break;
+          case 'c':
+          c = va_arg(arg, int);
+          putchar(c);
+          printed_chars++;
+          break;
 
-case 'd':
-case 'i':
-d = va_arg(arg, int);
-convert_number(d);
-printed_chars++;
-break;
+          case '%':
+          putchar('%');
+          printed_chars++;
+          break;
 
-case 'c':
-c = va_arg(arg, int);
-putchar(c);
-printed_chars++;
-break;
-
-case '%':
-putchar('%');
-printed_chars++;
-break;
-
-default:
-fputs("Unsupported format specifier", stdout);
-break;
-}
-}
-else
-{
-putchar(*format);
-printed_chars++;
-}
-format++;
-}
-va_end(arg);
-return (printed_chars);
+          default:
+          fputs("Unsupported format specifier", stdout);
+          break;
+          }
+      }
+        else
+        {
+        putchar(*format);
+        printed_chars++;
+        }
+    format++;
+    }
+  va_end(arg);
+  return (printed_chars);
 }
