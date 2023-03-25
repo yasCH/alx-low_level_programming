@@ -11,7 +11,6 @@
  * Return:  total number of characters printed excluding "\0"for strings.
  */
 
-
 int _printf(const char *format, ...)
 {
     int printed_chars = 0;
@@ -19,7 +18,6 @@ int _printf(const char *format, ...)
     char *s;
     char str[10];
     int d;
-    int x;
     int i;
     int len;
 
@@ -40,19 +38,9 @@ int _printf(const char *format, ...)
                 case 'd':
                 case 'i':
                     d = va_arg(arg, int);
-                    x = 0;
-                    while (d != 0)
-                    {
-                        str[x++] = (d % 10) + '0';
-                        d = d / 10;
-                    }
-                    str[x] = '\0';
-                    len = strlen(str);
-                    for (i = len - 1; i >= 0; i--)
-                        {
-                            putchar(str[i]);
-                            printed_chars++;
-                        }
+                    convert_number(d);
+                    printed_chars++;
+                        
                     break;
 
                 case 'c':
