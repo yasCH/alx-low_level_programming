@@ -3,6 +3,8 @@
 #include <stdarg.h>
 #include "main.h"
 
+int switching_function (char *format, int printed_chars, va_list arg);
+
 /**
 * _printf - Write a function that produces output according to a format.
 * @format: is a character string.
@@ -31,6 +33,13 @@ va_end(arg);
 return (printed_chars);
 }
 
+/**
+* switching_function - external swith fucnction
+* @format: an array 
+* @printed_chars: int
+* @arg: va_list
+* Return: printed_chars
+*/
 int switching_function (char *format, int printed_chars, va_list arg)
 {
 char c;
@@ -51,6 +60,7 @@ printed_chars++;
 break;
 case 'c':
 c = va_arg(arg, int);
+putchar(c);
 printed_chars++;
 break;
 case '%':
@@ -58,5 +68,5 @@ putchar('%');
 printed_chars++;
 break;
 }
-return(printed_chars);
+return (printed_chars);
 }
