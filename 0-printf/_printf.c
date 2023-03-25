@@ -31,7 +31,7 @@ s = va_arg(arg, char*);
 fputs(s, stdout);
 printed_chars += strlen(s);
 break;
-        
+
 case 'd':
 case 'i':
 d = va_arg(arg, int);
