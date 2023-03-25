@@ -40,7 +40,7 @@ return (printed_chars);
 * @arg: va_list
 * Return: printed_chars
 */
-int switching_function (char *format, int printed_chars, va_list arg)
+int switching_function (const char *format, int printed_chars, va_list arg)
 {
 char c;
 char *s;
