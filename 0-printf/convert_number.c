@@ -5,13 +5,13 @@
 #include "main.h"
 
 /**
-* covert_number: Write a function that converts an integer into char.
+* convert_number: Write a function that converts an integer into char.
 *
 * @n: integer to convert 
 *
 * Return: void
 */
-void covert_number(int n)
+void convert_number(int n)
 {
 int d;
 int r;
