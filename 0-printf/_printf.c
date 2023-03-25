@@ -12,7 +12,8 @@
  */
 
 
-int _printf(const char *format, ...) {
+int _printf(const char *format, ...)
+{
     int printed_chars = 0;
     char c;
     char r;
@@ -69,6 +70,10 @@ int _printf(const char *format, ...) {
                 case '%':
                     putchar('%');
                     printed_chars++;
+                    break;
+                    
+                default:
+                    fputs("Unsupported format specifier", stdout);
                     break;
             }
         } else {
