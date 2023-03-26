@@ -13,12 +13,11 @@ int convert_number(int n, int counter)
 {
 int d;
 int r;
-if (counter != NULL)
-{
+
 if (n < 0)
 {
 putchar(45);
-counter++;
+counter = counter + 1;
 }
 n = abs(n);
 
@@ -27,13 +26,13 @@ r = n % 10;
 if (n < 10)
 {
 putchar(n + 48);
-counter++;
+counter = counter + 1;
 }
 else
 {
-counter += convert_number(d, counter++);
+counter = counter + 1;
+counter += convert_number(d, counter);
 putchar(r + 48);
-}
 }
 return (counter);
 }
