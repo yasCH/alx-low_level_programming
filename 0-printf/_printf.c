@@ -14,12 +14,13 @@ int switching_function(const char *format, int printed_chars, va_list arg);
 */
 int _printf(const char *format, ...)
 {
-    if (format == NULL)
-    {
-        return (0);
-    }
-int printed_chars = 0;
+int printed_chars;
 va_list arg;
+if (format == NULL)
+{
+return (0);
+}
+printed_chars = 0;
 va_start(arg, format);
 while (*format != '\0')
 {
