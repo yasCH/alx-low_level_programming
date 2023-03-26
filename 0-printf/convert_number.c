@@ -13,6 +13,8 @@ int convert_number(int n, int counter)
 {
 int d;
 int r;
+if (counter != NULL)
+{
 if (n < 0)
 {
 putchar(45);
@@ -31,6 +33,7 @@ else
 {
 counter += convert_number(d, counter++);
 putchar(r + 48);
+}
 }
 return (counter);
 }
