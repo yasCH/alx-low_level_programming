@@ -3,27 +3,34 @@
 
 /**
 * convert_number - convert an integer into char.
+*
 * @n: integer to convert 
+* @counter: number of characters printed 
+*
 * Return: void
 */
-void convert_number(int n)
+int convert_number(int n, int counter)
 {
 int d;
 int r;
 if (n < 0)
 {
 putchar(45);
+counter++;
 }
 n = abs(n);
+
 d = n / 10;
 r = n % 10;
 if (n < 10)
 {
 putchar(n + 48);
+counter++;
 }
 else
 {
-convert_number(d);
+counter += convert_number(d, counter++);
 putchar(r + 48);
 }
+return (counter);
 }
