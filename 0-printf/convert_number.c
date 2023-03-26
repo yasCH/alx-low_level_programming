@@ -2,13 +2,11 @@
 #include <stdio.h>
 
 /**
-* convert_number: convert an integer into char.
-*
+* convert_number - convert an integer into char.
 * @n: integer to convert 
-*
 * Return: void
 */
-void  convert_number(int n)
+void convert_number(int n)
 {
 int d;
 int r;
