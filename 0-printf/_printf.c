@@ -63,10 +63,10 @@ case 's':
 s = va_arg(arg, char*);
 if (s == NULL)
 {
-    return(printed_chars);
+return(printed_chars);
 }
 printed_chars += strlen(s);
-fputs(s, stdout); 
+fputs(s, stdout);
 break;
 case '%':
 putchar('%');
@@ -75,7 +75,7 @@ break;
 case 'd':
 case 'i':
 d = va_arg(arg, int);
-printed_chars+= convert_number(d, 0);
+printed_chars += convert_number(d, 0);
 break;
 default:
 putchar('0');
