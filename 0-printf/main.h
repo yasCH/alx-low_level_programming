@@ -4,6 +4,6 @@
 int _putchar(char c);
 int _printf(const char *format, ...);
 void _print_rev_recursion(char *s);
-void convert_number(int n, int counter);
+int convert_number(int n, int counter);
 
 #endif /* _MAIN_H_ */
