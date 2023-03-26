@@ -54,23 +54,23 @@ char *s;
 int d;
 switch (*format)
 {
-case 's':
-s = va_arg(arg, char*);
-fputs(s, stdout);
-printed_chars += strlen(s);
-break;
-case 'd':
-case 'i':
-d = va_arg(arg, int);
-printed_chars += convert_number(d, printed_chars);
-break;
 case 'c':
 c = va_arg(arg, int);
 putchar(c);
 printed_chars++;
 break;
+case 's':
+s = va_arg(arg, char*);
+fputs(s, stdout);
+printed_chars += strlen(s);
+break;
 case '%':
 putchar('%');
+case 'd':
+case 'i':
+d = va_arg(arg, int);
+printed_chars += convert_number(d, printed_chars);
+break;
 printed_chars++;
 break;
 }
