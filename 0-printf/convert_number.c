@@ -1,9 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include <string.h>
-#include <stdarg.h>
-#include <math.h>
-#include "main.h"
+
 /**
 * convert_number: convert an integer into char.
 *
