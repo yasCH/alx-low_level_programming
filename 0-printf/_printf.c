@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdarg.h>
+#include <stdlib.h>
 #include "main.h"
+
 
 int switching_function(const char *format, int printed_chars, va_list arg);
 
@@ -55,8 +57,7 @@ break;
 case 'd':
 case 'i':
 d = va_arg(arg, int);
-convert_number(d);
-printed_chars++;
+printed_chars+= convert_number(d, 0);
 break;
 case 'c':
 c = va_arg(arg, int);
