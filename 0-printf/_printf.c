@@ -14,20 +14,24 @@ int switching_function(const char *format, int printed_chars, va_list arg);
 */
 int _printf(const char *format, ...)
 {
+    if (format == NULL)
+    {
+        return (0);
+    }
 int printed_chars = 0;
 va_list arg;
 va_start(arg, format);
 while (*format != '\0')
 {
-if (*format == '%')
-{
-format++;
-printed_chars = switching_function(format, printed_chars, arg);
-}
-else
+if (*format != '%')
 {
 putchar(*format);
 printed_chars++;
+}
+else
+{
+format++;
+printed_chars = switching_function(format, printed_chars, arg);
 }
 format++;
 }
