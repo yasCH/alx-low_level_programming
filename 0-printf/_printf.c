@@ -57,7 +57,7 @@ break;
 case 'd':
 case 'i':
 d = va_arg(arg, int);
-printed_chars+= convert_number(d, 0);
+printed_chars+= convert_number(d, printed_chars);
 break;
 case 'c':
 c = va_arg(arg, int);
