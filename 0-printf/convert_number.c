@@ -7,7 +7,7 @@
 * @n: integer to convert 
 * @counter: number of characters printed 
 *
-* Return: void
+* Return: counter
 */
 int convert_number(int n, int counter)
 {
