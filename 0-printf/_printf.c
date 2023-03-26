@@ -61,18 +61,24 @@ printed_chars++;
 break;
 case 's':
 s = va_arg(arg, char*);
-fputs(s, stdout);
+if (s == NULL)
+{
+    return(printed_chars);
+}
 printed_chars += strlen(s);
+fputs(s, stdout); 
 break;
 case '%':
 putchar('%');
+printed_chars++;
+break;
 case 'd':
 case 'i':
 d = va_arg(arg, int);
-printed_chars += convert_number(d, printed_chars);
+printed_chars+= convert_number(d, 0);
 break;
-printed_chars++;
-break;
+default:
+putchar('0');
 }
 return (printed_chars);
 }
