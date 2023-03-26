@@ -63,7 +63,7 @@ case 's':
 s = va_arg(arg, char*);
 if (s == NULL)
 {
-return(printed_chars);
+return (printed_chars);
 }
 printed_chars += strlen(s);
 fputs(s, stdout);
