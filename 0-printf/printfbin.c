@@ -22,7 +22,7 @@ int printfbin(unsigned int b)
 		if (flag)
 		{
 			n = p >> (31 - i);
-			_putchar(b + 48);
+			_putchar(n + 48);
 			cont++;
 		}
 	}
