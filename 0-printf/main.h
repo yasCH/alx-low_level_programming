@@ -4,11 +4,11 @@
 #define _MAIN_H_
 
 int _putchar(char c);
+int arg_counter(const char *format);
 int _printf(const char *format, ...);
 void _print_rev_recursion(char *s);
 int convert_number(int n, int counter);
 int printfbin(unsigned int b);
 int switching_function(const char *format, int printed_chars, va_list arg);
-int arg_counter(const char *format);
 
 #endif /* _MAIN_H_ */
