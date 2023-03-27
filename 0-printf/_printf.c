@@ -11,13 +11,19 @@
 */
 int _printf(const char *format, ...)
 {
-int printed_chars;
-va_list arg;
 if (format == NULL)
 {
 return (0);
 }
-printed_chars = 0;
+int argN;
+argN = arg_counter(format);
+if (argN == 0)
+{
+fputs(format, stdout);
+return(strlen(format));
+}
+int printed_chars = 0;
+va_list arg;
 va_start(arg, format);
 while (*format != '\0')
 {
@@ -32,6 +38,9 @@ format++;
 printed_chars = switching_function(format, printed_chars, arg);
 }
 format++;
+}
+va_end(arg);
+return (printed_chars);
 }
 va_end(arg);
 return (printed_chars);
