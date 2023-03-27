@@ -12,9 +12,9 @@
 int arg_counter(const char *format)
 {
 int l;
+int i;
 int counter;
 counter = 0;
-int i;
 l= strlen(format);
 for(i = 0; i < l; i++)
 {
