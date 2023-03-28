@@ -32,7 +32,7 @@ if (s == NULL)
 return (printed_chars);
 }
 printed_chars += strlen(s);
-_putchar(*s++);
+write(1, s, strlen(s));
 break;
 case '%':
 _putchar('%');
