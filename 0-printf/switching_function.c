@@ -41,7 +41,7 @@ break;
 case 'd':
 case 'i':
 d = va_arg(arg, int);
-_putchar(convert_number(d,0);
+_putchar(convert_number(d,0));
 printed_chars += convert_number(d, 0);
 break;
 case 'b':
