@@ -29,7 +29,8 @@ case 's':
 s = va_arg(arg, char*);
 if (s == NULL)
 {
-return (printed_chars);
+write(1, "(null)", 6); 
+return (printed_chars += 6);
 }
 printed_chars += strlen(s);
 write(1, s, strlen(s));
