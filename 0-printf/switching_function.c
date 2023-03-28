@@ -31,8 +31,8 @@ if (s == NULL)
 {
 return (printed_chars);
 }
-write(1, s, strlen(s));
 printed_chars += strlen(s);
+write(1, s, strlen(s));
 break;
 case '%':
 _putchar('%');
