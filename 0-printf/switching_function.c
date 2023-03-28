@@ -47,10 +47,9 @@ case 'b':
 b = va_arg(arg, int);
 printed_chars += convert_number(printfbin(b), 0);
 break;
-default:
-putchar('%');
-putchar((*format));
-printed_chars += 2;
+case 'r':
+putchar('r');
+printed_chars++;
 }
 return (printed_chars);
 }
