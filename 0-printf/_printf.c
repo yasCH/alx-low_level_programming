@@ -27,7 +27,7 @@ return(strlen(format));
 }
 printed_chars = 0;
 va_start(arg, format);
-while (*format != '\0')
+while (*format != '\0' && format != NULL)
 {
 if (*format != '%')
 {
