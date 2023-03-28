@@ -8,28 +8,15 @@
  */
 
 int printfbin(unsigned int b)
-{	
-int flag = 0;
-int cont = 0;
-int i, a = 1, n;
-unsigned int p;
+{
+    if (b == 0) 
+    {
+        return (0);
+    }
+   if (b == 1)
+    {
+        return (1);   
+    }
+     return (b % 2) + 10 * printfbin(b / 2);
 
-for (i = 0; i < 32; i++)
-{
-p = ((a << (31 - i)) & b);
-if (p >> (31 - i))
-flag = 1;
-if (flag)
-{
-n = p >> (31 - i);
-putchar(n + 48);
-cont++;
-}
-}
-if (cont == 0)
-{
-cont++;
-putchar('0');
-}
-return (cont);
 }
