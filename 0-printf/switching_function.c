@@ -18,7 +18,7 @@ char c;
 char *s;
 int d;
 unsigned int b;
-switch (*format)
+switch (*format++)
 {
 case 'c':
 c = va_arg(arg, int);
