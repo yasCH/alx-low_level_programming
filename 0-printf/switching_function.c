@@ -17,12 +17,12 @@ int switching_function(const char *format, int printed_chars, va_list arg)
 char c;
 char *s;
 int d;
-int b;
+unsigned int b;
 switch (*format)
 {
 case 'c':
 c = va_arg(arg, int);
-putchar(c);
+_putchar(c);
 printed_chars++;
 break;
 case 's':
@@ -35,7 +35,7 @@ printed_chars += strlen(s);
 write(1, s, strlen(s));
 break;
 case '%':
-putchar('%');
+_putchar('%');
 printed_chars++;
 break;
 case 'd':
