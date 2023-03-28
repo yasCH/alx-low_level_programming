@@ -31,7 +31,7 @@ while (*format != '\0')
 {
 if (*format != '%')
 {
-putchar(*format);
+_putchar(*format);
 printed_chars++;
 }
 else
