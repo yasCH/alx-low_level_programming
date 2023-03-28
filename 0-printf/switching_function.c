@@ -45,11 +45,12 @@ printed_chars += convert_number(d, 0);
 break;
 case 'b':
 b = va_arg(arg, int);
-printed_chars+= convert_number(printfbin(b), 0);
+printed_chars += convert_number(printfbin(b), 0);
 break;
 default:
 putchar('%');
 putchar((*format));
+printed_chars += 2;
 }
 return (printed_chars);
 }
