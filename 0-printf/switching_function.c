@@ -48,8 +48,8 @@ b = va_arg(arg, int);
 printed_chars += convert_number(printfbin(b), 0);
 break;
 case 'r':
-putchar('%');
-putchar('r');
+_putchar('%');
+_putchar('r');
 printed_chars+=2;
 break;
 }
