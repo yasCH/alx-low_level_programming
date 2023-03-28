@@ -2,6 +2,7 @@
 #include <string.h>
 #include <stdarg.h>
 #include <stdlib.h>
+#include <unistd.h>
 #include "main.h"
 
 /**
@@ -21,7 +22,7 @@ return (0);
 argN = arg_counter(format);
 if (argN == 0)
 {
-fputs(format, stdout);
+write(1, format, strlen(format));
 return(strlen(format));
 }
 printed_chars = 0;
