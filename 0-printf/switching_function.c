@@ -16,6 +16,7 @@ int switching_function(const char *format, int printed_chars, va_list arg)
 char c;
 char *s;
 int d;
+int b;
 switch (*format)
 {
 case 'c':
