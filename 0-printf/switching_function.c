@@ -31,7 +31,7 @@ if (s == NULL)
 return (printed_chars);
 }
 printed_chars += strlen(s);
-fputs(s, stdout);
+write(stdout, s, strlen(s));
 break;
 case '%':
 putchar('%');
