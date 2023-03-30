@@ -11,8 +11,11 @@
  */
  size_t print_list(const list_t *h)
 {
-if (str == NULL)
+if (str != NULL)
 {
-printf("[0] (nil)\n");
+printf("%lu", str);
+ return(0);
 }
+printf("[0] (nil)\n");
+  return(h);
 }
