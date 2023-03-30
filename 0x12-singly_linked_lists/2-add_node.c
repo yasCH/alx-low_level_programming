@@ -29,6 +29,7 @@ new_str = strdup(str);
 if (new_str != NULL)
 {
 new_node->str = new_str;
+new_node->len = strlen(str);
 new_node->next = *head;
 *head = new_node;
 return (new_node);
