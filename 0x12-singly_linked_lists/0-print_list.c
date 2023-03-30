@@ -16,7 +16,7 @@ while (h != NULL)
 {
 if (h->str != NULL)
 {
-printf("[%lu] %s\n", h->len, h->str);
+printf("[%u] %s\n", h->len, h->str);
 }
 else
 {
