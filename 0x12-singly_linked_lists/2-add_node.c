@@ -19,6 +19,8 @@ if (str == NULL)
 {
 return (NULL);
 }
+else
+{
 new_node = malloc(sizeof(struct(list_t)));
 if (new_node == NULL)
 {
@@ -34,4 +36,5 @@ new_node->str = new_str;
 new_node->next = *head;
 *head = new_node;
 return (new_node);
+}
 }
