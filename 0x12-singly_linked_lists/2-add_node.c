@@ -21,7 +21,7 @@ return (NULL);
 }
 else
 {
-new_node = malloc(sizeof(struct(list_t)));
+new_node = malloc(sizeof(struct list_t));
 if (new_node == NULL)
 {
 return (NULL);
