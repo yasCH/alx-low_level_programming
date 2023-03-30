@@ -18,6 +18,8 @@ if (str == NULL)
 {
 return (NULL);
 }
+else
+{
 if (new_node == NULL)
 {
 return (NULL);
