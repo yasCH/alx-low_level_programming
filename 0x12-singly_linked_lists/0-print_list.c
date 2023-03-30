@@ -14,16 +14,16 @@ size_t number;
 number = 0;
 while (h != NULL)
 {
-if (h -> str != NULL)
+if (h->str != NULL)
 {
-printf("[%lu] %s\n", h-> len, h-> str);
+printf("[%lu] %s\n", h->len, h->str);
 }
 else
 {
 printf("[0] (nil)\n");
 }
 number++;
-h = h-> next;
+h = h->next;
 }
 return (number);
 }
