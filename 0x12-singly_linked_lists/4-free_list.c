@@ -12,15 +12,11 @@
 */
 void free_list(list_t *head)
 {
-next_node = current_node->next,
 list_t *current_node;
-list_t *next_node;
-
 current_node = head;
 while(current_node != NULL)
 {
 free(current_node->str);
 free(current_node);
-current_node = next_node;
 }
 }
