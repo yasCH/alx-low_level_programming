@@ -2,7 +2,6 @@
 #include <stdio.h>
 
 /**
-* __attribute__ - function
 * calledFirst - function
 * Return: void
 **/
