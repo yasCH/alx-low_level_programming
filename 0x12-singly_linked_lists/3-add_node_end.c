@@ -33,6 +33,7 @@ if (new_str == NULL)
 free(new_node);
 return (NULL);
 }
+new_node->str = new_str;
 new_node->len = strlen(str);
 new_node->next = NULL;
 if (*head == NULL)
