@@ -27,7 +27,6 @@ if (new_node == NULL)
 {
 return (NULL);
 }
-new_str = strdup(str);
 if (new_str == NULL)
 {
 free(new_node);
