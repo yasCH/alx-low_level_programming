@@ -28,6 +28,7 @@ return (NULL);
 }
 
 new_str = strdup(str);
+new_node->len = strlen(str);
 if (new_str == NULL)
 {
 free(new_node);
