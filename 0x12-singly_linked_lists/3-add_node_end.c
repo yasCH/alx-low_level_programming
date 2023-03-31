@@ -2,6 +2,7 @@
 #include <string.h>
 #include <stdio.h>
 #include "lists.h"
+
 /**
 * add_node_end - add a new node at the end of a list_t list.
 *
@@ -26,9 +27,7 @@ if (new_node == NULL)
 {
 return (NULL);
 }
-
 new_str = strdup(str);
-new_node->len = strlen(str);
 if (new_str == NULL)
 {
 free(new_node);
@@ -46,6 +45,7 @@ while (last_node->next != NULL)
 {
 last_node = last_node->next;
 }
+last_node->len = strlen(str);
 last_node->next = new_node;
 }
 return (new_node);
