@@ -12,8 +12,13 @@
 */
 void free_list(list_t *head)
 {
-free(head->str);
-free(head->len);
-free(head->next);
-free(head);
+list_t *actual;
+list_t *free;
+
+while (actual != NULL)
+{
+actual = actual->next;
+free(free->str);
+free(free);
+}
 }
