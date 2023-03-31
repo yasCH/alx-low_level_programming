@@ -3,7 +3,7 @@
 
 /**
 * __attribute__ - function
-* callFirst - function
+* calledFirst - function
 * Return: void
 **/
 void __attribute__((constructor)) calledFirst()
