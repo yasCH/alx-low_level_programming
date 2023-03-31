@@ -32,6 +32,7 @@ if (new_str == NULL)
 free(new_node);
 return (NULL);
 }
+new_node->len = strlen(str);
 new_node->next = NULL;
 if (*head == NULL)
 {
@@ -44,7 +45,6 @@ while (last_node->next != NULL)
 {
 last_node = last_node->next;
 }
-last_node->len = strlen(str);
 last_node->next = new_node;
 }
 return (new_node);
