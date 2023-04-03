@@ -12,7 +12,7 @@
 */
 listint_t *add_nodeint(listint_t **head, const int n)
 {
-list_t *first_node;
+listint_t *first_node;
 if (head == NULL)
 {
 return (NULL);
@@ -27,8 +27,8 @@ return (NULL);
 }
 else
 {
-firt_node->n = strdup(n);
-firt_node->next = *head;
+first_node->n = n;
+first_node->next = *head;
 *head = first_node;
 return (first_node);
 }
