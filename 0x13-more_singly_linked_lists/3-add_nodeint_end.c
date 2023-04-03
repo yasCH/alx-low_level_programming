@@ -23,7 +23,7 @@ else
 new_node = malloc(sizeof(new_node));
 if (new_node == NULL)
 {
-free(new_node)
+free(new_node);
 return (NULL);
 }
 else
