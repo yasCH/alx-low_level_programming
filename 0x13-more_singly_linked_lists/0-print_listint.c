@@ -14,7 +14,14 @@ size_t number;
 number = 0;
 while(h != NULL)
 {
-printf("%i", h->n);
+if (h->n != NULL)
+{
+printf("%i\n", h->n);
+}
+else
+{
+printf("(nil)\n");
+}
 number ++;
 h = h->next;
 }
