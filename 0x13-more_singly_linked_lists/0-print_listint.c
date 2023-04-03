@@ -14,7 +14,7 @@ size_t number;
 number = 0;
 while(h != NULL)
 {
-printf("%s", h->n);
+printf("%i", h->n);
 number ++;
 h = h->next;
 }
