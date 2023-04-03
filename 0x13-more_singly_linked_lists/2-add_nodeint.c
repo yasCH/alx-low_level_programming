@@ -34,4 +34,3 @@ return (first_node);
 }
 }
 }
-}
