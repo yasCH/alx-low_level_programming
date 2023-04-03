@@ -22,7 +22,7 @@ else
 {
 printf("(nil)\n");
 }
-number ++;
+number++;
 h = h->next;
 }
 return (number);
