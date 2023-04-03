@@ -8,7 +8,7 @@
  * @h: pointer to the list head
  * Return: The number of nodes
  */
-size_t print_listint(const listint_t *h);
+size_t print_listint(const listint_t *h)
 {
 size_t number;
 number = 0;
