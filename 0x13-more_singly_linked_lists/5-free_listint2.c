@@ -13,10 +13,8 @@
 void free_listint2(listint_t **head)
 {
 listint_t *test;
-if (head == NULL)
+if (head != NULL)
 {
-return;
-}
 while (*head != NULL)
 {
 test = *head;
@@ -24,4 +22,5 @@ test = *head;
 free(test);
 }
 *head = NULL;
+}
 }
