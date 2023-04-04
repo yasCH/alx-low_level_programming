@@ -21,6 +21,6 @@ test = *head;
 *head = *head->next;
 free(test);
 }
-*head = NULL;
 }
+*head = NULL;
 }
