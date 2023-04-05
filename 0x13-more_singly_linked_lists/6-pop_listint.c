@@ -24,4 +24,5 @@ new_n = test->n;
 *head = test->next;
 free(test);
 }
+return (new_n);
 }
