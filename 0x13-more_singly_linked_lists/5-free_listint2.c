@@ -20,5 +20,5 @@ test = *head;
 free(test);
 }
 }
-*head = NULL;
+head = NULL;
 }
