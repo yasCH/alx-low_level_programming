@@ -30,5 +30,5 @@ head = head->next;
 compute(head, index);
 return (index);
 }
-return (0);
+return (-1);
 }
