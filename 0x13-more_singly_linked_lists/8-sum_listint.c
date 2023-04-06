@@ -27,7 +27,7 @@ if (head != NULL)
 {
 index += head->n;
 head = head->next;
-compute(head, index);
+index = compute(head, index);
 }
 return (index);
 }
