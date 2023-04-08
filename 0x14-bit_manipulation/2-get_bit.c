@@ -11,13 +11,12 @@ int printfbin(unsigned int b);
 */
 int get_bit(unsigned long int n, unsigned int index)
 {
-int binary;
-int i;
-binary = printfbin(n);
-for (i = 0; i <index; i++)
+unsigned long int i;
+for (i = 0; i < index; i++)
 {
 return (0);
 }
+return (-1);
 }
 
 
