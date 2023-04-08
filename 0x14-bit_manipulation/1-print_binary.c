@@ -10,19 +10,21 @@ void print_binary(unsigned long int n)
 {
 int i;
 unsigned long int bit;
+int print;
 if (n == 0)
 {
 _putchar('0');
 return;
 }
-bit = 1LU << 10;
-for (i = 0; i < 11; i++)
+bit = 1LU << (sizeof(unsigned long int) * 8 -1);
+for (i = 0; i < sizeof(unsigned long int) * 8; i++)
 {
 if (n & bit)
 {
 _putchar('1');
+print = 1;
 }
-else
+else if (print)
 {
 _putchar('0');
 }
