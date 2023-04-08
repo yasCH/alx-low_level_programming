@@ -16,7 +16,8 @@ if (n == 0)
 _putchar('0');
 return;
 }
-bit = 1LU << (sizeof(unsigned long int) * 8 -1);
+print = 0;
+bit = 1LU << (sizeof(unsigned long int) * 8 - 1);
 for (i = 0; i < sizeof(unsigned long int) * 8; i++)
 {
 if (n & bit)
