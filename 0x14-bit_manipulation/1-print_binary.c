@@ -16,7 +16,7 @@ _putchar('0');
 _putchar('\n');
 return;
 }
-bit = 1UL << 31;
+bit = 1 << 31;
 for (i = 0; i < 32; i++)
 {
 if (n & bit)
