@@ -15,9 +15,9 @@ if (n == 0)
 _putchar("0");
 _putchar("\n");
 return;
-} 
+}
 bit = 1UL << 63;
-for (i = 0;i < 64; i++)
+for (i = 0; i < 64; i++)
 {
 if (n & bit)
 {
