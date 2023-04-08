@@ -13,7 +13,6 @@ unsigned long int bit;
 if (n == 0)
 {
 _putchar('0');
-_putchar('\n');
 return;
 }
 bit = 1LU << 10;
@@ -29,5 +28,4 @@ _putchar('0');
 }
 bit >>= 1;
 }
-_putchar('\n');
 }
