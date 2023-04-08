@@ -10,10 +10,10 @@ void print_binary(unsigned long int n)
 {
 int i;
 unsigned long int bit;
-
 if (n == 0)
 {
-printf("0\n");
+_putchar("0");
+_putchar("\n");
 return;
 } 
 bit = 1UL << 63;
@@ -21,13 +21,13 @@ for (i = 0;i < 64; i++)
 {
 if (n & bit)
 {
-printf("1");
+_putchar("1");
 }
 else
 {
-printf("0");
+_putchar("0");
 }
 bit >>= 1;
 }
-printf("\n");
+_putchar("\n");
 }
