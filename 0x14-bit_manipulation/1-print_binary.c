@@ -16,8 +16,8 @@ _putchar('0');
 _putchar('\n');
 return;
 }
-bit = 1LU << 15;
-for (i = 0; i < 16; i++)
+bit = 1LU << 10;
+for (i = 0; i < 11; i++)
 {
 if (n & bit)
 {
