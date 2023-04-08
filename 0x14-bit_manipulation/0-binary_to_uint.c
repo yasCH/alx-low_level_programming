@@ -24,14 +24,14 @@ for (i = l; i >= 0; i--)
 if (b[i] == '0' || b[i] == '1')
 {
 r = b[i] - 48;
-sum += r * _pow_recursion(2,(l - i));
+sum += r *_pow_recursion(2, (l - i));
 }
 else
 {
 return (0);
 }
 }
-return(sum);
+return (sum);
 }
 return (0);
 }
