@@ -9,17 +9,25 @@
 void print_binary(unsigned long int n)
 {
 int i;
-unsigned int binary;
-unsigned int bit;
-for (i = 0; i < 32; i++)
+unsigned long int bit;
+
+if (n == 0)
 {
-binary = 0;
-bit = 1;
-if (n != 0)
+printf("0\n");
+return;
+} 
+bit = 1UL << 63;
+for (i = 0;i < 64; i++)
 {
-binary |= (1 <<=1);
+if (n & bit)
+{
+printf("1");
 }
-bit <<= 1;
+else
+{
+printf("0");
 }
-printf("%u\n", binary);
+bit >>= 1;
+}
+printf("\n");
 }
