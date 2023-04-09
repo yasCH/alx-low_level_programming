@@ -17,7 +17,7 @@ if (1)
 {
 bit = 1LU << (index);
 r = bit & n;
-r <<= index;
+r >>= index;
 return (r);
 }
 else 
