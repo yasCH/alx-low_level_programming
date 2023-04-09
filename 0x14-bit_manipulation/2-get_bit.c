@@ -20,10 +20,11 @@ if (n == 0)
 {
 return (0);
 }
-else if (n >= bit)
+if (n >= bit)
 {
 r = bit & n;
 r >>= index;
 return (r);
 }
+return (-1);
 }
