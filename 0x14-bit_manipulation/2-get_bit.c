@@ -11,31 +11,7 @@ int printfbin(unsigned int b);
 */
 int get_bit(unsigned long int n, unsigned int index)
 {
-unsigned long int i;
-for (i = 0; i < index; i++)
-{
-return (0);
-}
-return (-1);
-}
-
-
-
-
-/**
-* printfbin - convert int to binary.
-* @b: number to convert.
-* Return: number of printed caracters
-*/
-int printfbin(unsigned int b)
-{
-if (b == 0) 
-{
-return (0);
-}
-if (b == 1)
-{
-return (1);   
-}
-return (b % 2) + 10 * printfbin(b / 2);
+unsigned long int bit;
+bit = 1LU << index - 1;
+return (bit & n);
 }
