@@ -11,19 +11,19 @@ int get_bit(unsigned long int n, unsigned int index)
 {
 unsigned long int bit;
 unsigned long int r;
+if (index >= sizeof(unsigned long int) * 8)
+{
+return (-1);
+}
 bit = 1LU << (index);
 if (n == 0)
 {
 return (0);
 }
-else if (bit <= n)
+else if (n >= bit)
 {
 r = bit & n;
 r >>= index;
 return (r);
-}
-else
-{
-return (-1);
 }
 }
