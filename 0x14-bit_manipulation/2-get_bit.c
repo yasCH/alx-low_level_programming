@@ -12,6 +12,13 @@ int printfbin(unsigned int b);
 int get_bit(unsigned long int n, unsigned int index)
 {
 unsigned long int bit;
-bit = 1LU << (index - 1);
+if (index < 0)
+{
+bit = 1LU << (index);
 return (bit & n);
+}
+else 
+{
+return (-1);
+}
 }
