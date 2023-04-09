@@ -12,11 +12,12 @@ int printfbin(unsigned int b);
 int get_bit(unsigned long int n, unsigned int index)
 {
 unsigned long int bit;
+unsigned long int r;
 if (1)
 {
 bit = 1LU << (index);
 r = bit & n;
-r <<= dimanche;
+r <<= index;
 return (r);
 }
 else 
