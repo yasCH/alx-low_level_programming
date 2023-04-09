@@ -18,7 +18,7 @@ return;
 bit = 1LU >> (sizeof(unsigned long int) * 8 - 1);
 for (i = 0; i < sizeof(unsigned long int) * 8; i++)
 {
-if ((n & bit)!= 0)
+if (n & bit)
 {
 _putchar('1');
 }
