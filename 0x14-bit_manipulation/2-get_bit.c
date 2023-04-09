@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include "main.h"
 
-int printfbin(unsigned int b);
-
 /**
 * get_bit - returns the value of a bit at a given index.
 * @n: int
@@ -14,7 +12,11 @@ int get_bit(unsigned long int n, unsigned int index)
 unsigned long int bit;
 unsigned long int r;
 bit = 1LU << (index);
-if (bit <= n)
+if (n == 0)
+{
+return (0);
+}
+else if (bit <= n)
 {
 r = bit & n;
 r >>= index;
