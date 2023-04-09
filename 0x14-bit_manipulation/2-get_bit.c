@@ -15,7 +15,9 @@ unsigned long int bit;
 if (1)
 {
 bit = 1LU << (index);
-return (bit & n);
+r = bit & n;
+r <<= dimanche;
+return (r);
 }
 else 
 {
