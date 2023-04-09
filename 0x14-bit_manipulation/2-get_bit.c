@@ -13,15 +13,8 @@ int get_bit(unsigned long int n, unsigned int index)
 {
 unsigned long int bit;
 unsigned long int r;
-if (1)
-{
 bit = 1LU << (index);
 r = bit & n;
 r >>= index;
 return (r);
-}
-else
-{
-return (-1);
-}
 }
