@@ -20,7 +20,7 @@ r = bit & n;
 r >>= index;
 return (r);
 }
-else 
+else
 {
 return (-1);
 }
