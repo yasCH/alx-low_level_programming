@@ -16,15 +16,7 @@ if (index >= sizeof(unsigned long int) * 8)
 return (-1);
 }
 bit = 1LU << (index);
-if (n == 0)
-{
-return (0);
-}
-if (n >= bit)
-{
 r = bit & n;
 r >>= index;
 return (r);
-}
-return (-1);
 }
