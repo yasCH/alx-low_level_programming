@@ -10,25 +10,22 @@ void print_binary(unsigned long int n)
 {
 unsigned long int i;
 unsigned long int bit;
-int print;
 if (n == 0)
 {
 _putchar('0');
 return;
 }
-print = 0;
-bit = 1LU << (sizeof(unsigned long int) * 8 - 1);
+bit = 1LU >> (sizeof(unsigned long int) * 8 - 1);
 for (i = 0; i < sizeof(unsigned long int) * 8; i++)
 {
-if (n & bit)
+if ((n & bit)!= 0)
 {
 _putchar('1');
-print = 1;
 }
-else if (print)
+else
 {
 _putchar('0');
 }
-bit >>= 1;
+bit <<= 1;
 }
 }
