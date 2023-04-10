@@ -17,7 +17,6 @@ ssize_t read_textfile(const char *filename, size_t letters)
 int fd;
 char *buffer;
 ssize_t reader;
-ssize_t writer;
 if (filename == NULL)
 {
 return (0);
@@ -30,6 +29,6 @@ close(fd);
 return (0);
 }
 reader = read(fd, buffer, letters);
-writer = write(1,buffer,reader);
+write(1, buffer, reader);
 return (letters);
 }
