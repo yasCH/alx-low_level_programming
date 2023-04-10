@@ -20,6 +20,6 @@ return (0);
 }
 fd = open(filename, O_RDONLY);
 buffer = (char *) malloc(letters);
-fread(fd,buffer,letters);
+read(fd,buffer,letters);
 return (letters);
 }
