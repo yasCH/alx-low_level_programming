@@ -30,5 +30,5 @@ return (0);
 }
 reader = read(fd, buffer, letters);
 write(1, buffer, reader);
-return (letters);
+return (reader);
 }
