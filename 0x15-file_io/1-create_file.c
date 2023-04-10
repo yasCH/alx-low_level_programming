@@ -6,7 +6,6 @@
 #include <unistd.h>
 #include <string.h>
 #include "main.h"
-
 /**
  * create_file - Create a function that creates a file.
  * @filename: the file name
@@ -22,17 +21,17 @@ if (filename == NULL || text_content == NULL)
 {
 return (-1);
 }
-fd = open(filename, O_RDWR);
-if (fd < 0)
-{
-return (-1);
 creator = creat(filename, S_IRWXG);
 if (creator < 0)
 {
 return (-1);
 }
+fd = open(filename, O_RDWR);
+if (fd < 0)
+{
+return (-1);
 }
-writer = write(STDOUT_FILENO, text_content, strlen(text_content));
+writer = write(fd, text_content, strlen(text_content));
 if (writer < 0 || writer != sizeof(text_content))
 {
 close(fd);
