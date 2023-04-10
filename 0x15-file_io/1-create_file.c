@@ -17,12 +17,17 @@ int create_file(const char *filename, char *text_content)
 {
 int fd;
 ssize_t writer;
+int creator;
 if (filename == NULL && text_content == NULL)
 {
 return (-1);
 }
-creat(filename,S_IRWXG);
-fd = open(filename,O_RDWR);
+creator = creat(filename, S_IRWXG);
+if (creator < 0)
+{
+return (-1);
+}
+fd = open(filename, O_RDWR);
 if (fd < 0)
 {
 return (-1);
