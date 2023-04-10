@@ -17,11 +17,16 @@ ssize_t read_textfile(const char *filename, size_t letters)
 int fd;
 char *buffer;
 ssize_t reader;
+ssize_t writer;
 if (filename == NULL)
 {
 return (0);
 }
 fd = open(filename, O_RDONLY);
+if (fd < 0)
+{
+return (0);
+}
 buffer = (char *) malloc(letters);
 if (buffer == NULL)
 {
@@ -29,6 +34,20 @@ close(fd);
 return (0);
 }
 reader = read(fd, buffer, letters);
-write(1, buffer, reader);
+if (reader < 0)
+{
+free(buffer);
+close(fd);
+return (0);
+}
+writer =write(1, buffer, reader);
+if (writer < 0 || writer !=reader)
+{
+free(buffer);
+close(fd);
+return (0);
+}
+free(buffer);
+close(fd);
 return (reader);
 }
