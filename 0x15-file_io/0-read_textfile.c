@@ -40,8 +40,8 @@ free(buffer);
 close(fd);
 return (0);
 }
-writer =write(1, buffer, reader);
-if (writer < 0 || writer !=reader)
+writer = write(1, buffer, reader);
+if (writer < 0 || writer != reader)
 {
 free(buffer);
 close(fd);
