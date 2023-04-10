@@ -16,7 +16,7 @@
 int create_file(const char *filename, char *text_content)
 {
 int fd;
-int writer;
+size_t writer;
 int creator;
 if (filename == NULL || text_content == NULL)
 {
@@ -33,7 +33,7 @@ if (fd < 0)
 return (-1);
 }
 writer = write(fd, text_content, strlen(text_content));
-if (writer != strlen(text_content))
+if (writer != sizeof(text_content))
 {
 close(fd);
 return (-1);
