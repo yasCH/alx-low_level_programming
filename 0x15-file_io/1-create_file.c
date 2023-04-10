@@ -33,7 +33,7 @@ if (fd < 0)
 return (-1);
 }
 writer = write(fd, text_content, strlen(text_content));
-if (writer != sizeof(text_content))
+if (writer < 0 || writer != sizeof(text_content))
 {
 close(fd);
 return (-1);
