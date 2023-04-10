@@ -17,4 +17,5 @@ if (filename == NULL)
 return (0);
 }
 fd = open(filename; O_RDONLY);
+return (letters);
 }
