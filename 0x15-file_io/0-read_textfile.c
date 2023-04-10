@@ -27,7 +27,7 @@ if (fd < 0)
 {
 return (0);
 }
-buffer = (char *) malloc(letters);
+buffer = malloc(letters);
 if (buffer == NULL)
 {
 close(fd);
