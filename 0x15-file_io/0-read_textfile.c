@@ -41,7 +41,7 @@ free(buffer);
 close(fd);
 return (0);
 }
-writer = write(1, buffer, reader);
+writer = write(STDOUT_FILENO, buffer, reader);
 if (writer < 0 || writer != reader)
 {
 free(buffer);
