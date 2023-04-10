@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <stdlib.h>
 #include<sys/types.h>
@@ -20,5 +19,7 @@ if (filename == NULL && text_content == NULL)
 return (-1);
 }
 creat(filename,S_IRWXG);
+open(filename,O_RDWR);
+write(1, text_content, sizeof(text_content));
 return (1);
 }
