@@ -21,7 +21,7 @@ if (filename == NULL)
 {
 return (-1);
 }
-fd = open (filename, O_WRONLY | O_CREAT | O_EXCL, S_IRWXU);
+fd = open(filename, O_WRONLY | O_CREAT | O_EXCL, S_IRUSR || S_IWUSR);
 if (fd < 0)
 {
 return (-1);
