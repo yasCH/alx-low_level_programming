@@ -22,7 +22,7 @@ if (filename == NULL)
 {
 return (-1);
 }
-fd = open(filename,O_RDWR);
+fd = open(filename,O_WRONLY | O_APPEND);
 if (fd < 0)
 {
 return (-1);
@@ -30,10 +30,11 @@ return (-1);
 if (text_content != NULL)
 {
 writer = write(fd, text_content, strlen(text_content));
-}
-else
+if (writer < 0)
 {
+close(fd);
 return (-1);
+}
 }
 close(fd);
 return (1);
