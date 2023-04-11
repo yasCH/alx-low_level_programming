@@ -14,6 +14,6 @@ if (index >= sizeof(unsigned long int) * 8)
 {
 return (-1);
 }
-*n |= 0 << index;
+*n &= 0 << index;
 return (1);
 }
