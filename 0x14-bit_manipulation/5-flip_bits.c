@@ -19,8 +19,8 @@ while (r > 0)
 if (r & 1)
 {
 counter++;
-r >>= 1;
 }
+r >>= 1;
 }
 return (counter);
 }
