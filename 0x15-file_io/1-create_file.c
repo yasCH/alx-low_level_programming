@@ -28,9 +28,9 @@ return (-1);
 }
 if (text_content != NULL)
 {
-writer = write(fd, text_content, sizeof(text_content));
+writer = write(fd, text_content, strlen(text_content));
 }
-if (writer != sizeof(text_content))
+if (writer < 0)
 {
 close(fd);
 return (-1);
