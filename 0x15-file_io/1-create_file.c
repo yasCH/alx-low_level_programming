@@ -23,7 +23,7 @@ return (-1);
 }
 if (text_content == NULL)
 {
-creat(filename, O_CREAT);
+creat(filename, O_RDWR);
 }
 creator = creat(filename, S_IRWXG);
 if (creator < 0)
@@ -31,7 +31,7 @@ if (creator < 0)
 return (-1);
 }
 writer = write(STDOUT_FILENO, text_content, strlen(text_content));
-if (writer < 0 || writer != strlen(text_content))
+if (writer < 0 || writer != sizeof(text_content))
 {
 return (-1);
 }
