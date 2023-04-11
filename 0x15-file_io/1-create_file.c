@@ -6,6 +6,7 @@
 #include <unistd.h>
 #include <string.h>
 #include "main.h"
+
 /**
  * create_file - Create a function that creates a file.
  * @filename: the file name
@@ -19,6 +20,10 @@ int creator;
 if (filename == NULL)
 {
 return (-1);
+}
+if (text_content == NULL)
+{
+creat(filename, O_CREAT);
 }
 creator = creat(filename, S_IRWXG);
 if (creator < 0)
