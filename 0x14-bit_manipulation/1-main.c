@@ -8,15 +8,15 @@
  */
 int main(void)
 {
-    print_binary(0);
-    printf("\n");
-    print_binary(1);
-    printf("\n");
-    print_binary(98);
-    printf("\n");
-    print_binary(1024);
-    printf("\n");
-    print_binary((1 << 10) + 1);
-    printf("\n");
+    unsigned int n;
+
+    n = flip_bits(1024, 1);
+    printf("%u\n", n);
+    n = flip_bits(402, 98);
+    printf("%u\n", n);
+    n = flip_bits(1024, 3);
+    printf("%u\n", n);
+    n = flip_bits(1024, 1025);
+    printf("%u\n", n);
     return (0);
 }
