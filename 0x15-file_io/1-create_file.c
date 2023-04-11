@@ -14,7 +14,6 @@
  */
 int create_file(const char *filename, char *text_content)
 {
-int fd;
 ssize_t writer;
 int creator;
 if (filename == NULL || text_content == NULL)
@@ -26,17 +25,10 @@ if (creator < 0)
 {
 return (-1);
 }
-fd = open(filename, O_RDWR);
-if (fd < 0)
-{
-return (-1);
-}
-writer = write(fd, text_content, strlen(text_content));
+writer = write(STDOUT_FILENO, text_content, strlen(text_content));
 if (writer < 0 || writer != sizeof(text_content))
 {
-close(fd);
 return (-1);
 }
-close(fd);
 return (1);
 }
