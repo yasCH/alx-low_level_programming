@@ -21,7 +21,7 @@ if (filename == NULL)
 {
 return (-1);
 }
-fd = open(filename, O_WRONLY | O_CREAT | O_EXCL, S_IRUSR || S_IWUSR);
+fd = open(filename, O_WRONLY | O_CREAT | O_EXCL, S_IRUSR | S_IWUSR);
 if (fd < 0)
 {
 return (-1);
@@ -30,7 +30,7 @@ if (text_content != NULL)
 {
 writer = write(fd, text_content, strlen(text_content));
 }
-if (writer < 0 || writer != sizeof(text_content))
+if ( writer != sizeof(text_content))
 {
 close(fd);
 return (-1);
