@@ -31,6 +31,10 @@ if (text_content != NULL)
 {
 writer = write(fd, text_content, strlen(text_content));
 }
+else
+{
+return (-1);
+}
 close(fd);
 return (1);
 }
